@@ -36,34 +36,72 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-  
-
-function Play() {
+function Template({route}) {
   
   const classes = useStyles(); 
 
-
+  const [textString, setTextString] = useState("")
   
+  function setText(word){
+    var newString = textString
+    setTextString(newString + " " + word)
+  }
+
+  function tokenDelete(word){
+    var str = word
+    const myArr = str.split(" ")
+    var newStr = ""
+    for(let x = 0; x < myArr.length-1; x++ ){
+      newStr +=  " " + myArr[x]
+    }
+
+    setTextString(newStr)
+  }
+
+  function buttonSpeak(word) {
+    speech.speak({
+      text: word,
+  }).then(() => {
+      console.log("Success !")
+  }).catch(e => {
+      console.error("An error occurred :", e)
+  })
+
+    setText(word)
+  }
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        PLAY
+        Template
       </Typography>
       <div>
         <Grid container>
           <form className={classes.root} noValidate autoComplete="off">
-          <TextField xs={11} id="outlined-basic" label="Outlined" variant="outlined" />
+          <TextField xs={11} id="outlined-basic" label={textString} variant="outlined"/>
           <Button 
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
             startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-            onClick={()=> speech.cancel()}
-            >Delete 
+            onClick={()=> {speech.cancel(); tokenDelete(textString);}}
+            >Delete
+            </Button>
+            <Button 
+            className={classes.buttonStyles} 
+            variant="outlined" 
+            color="primary"
+            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            onClick={()=> speech.speak({
+              text: textString,
+          }).then(() => {
+              console.log("Success !")
+          }).catch(e => {
+              console.error("An error occurred :", e)
+          })}
+            >Replay
             </Button>
           </form>
         </Grid>
-
       </div>
       <Grid container>
         <Grid xs={1}>
@@ -74,6 +112,18 @@ function Play() {
           startIcon={<Avatar src={"/Assets/back.png"}/>}
           component={RouterLink} 
           to="/"
+          >BACKxx
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          onClick={()=>
+            setText("one two three")
+          }
           >
           </Button>
         </Grid>
@@ -83,19 +133,6 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/Two" 
-          >
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Three"
           >003
           </Button>
         </Grid>
@@ -105,13 +142,6 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>speech.speak({
-            text: 'Hello, how are you today ?',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
           >004
           </Button>
         </Grid>
@@ -194,8 +224,8 @@ function Play() {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >013
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >13
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -204,7 +234,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >014
+          >14
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -305,7 +335,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >025
+          >25
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -314,7 +344,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >026
+          >26
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -415,7 +445,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >037
+          >37
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -424,7 +454,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >038
+          >38
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -451,7 +481,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >041
+          >41
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -543,16 +573,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Play',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAY
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -561,16 +582,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Plays',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAYS
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -579,16 +591,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Playing',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAYING
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -597,16 +600,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Played',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAYED
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -615,8 +609,6 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
           >055
           </Button>
         </Grid>
@@ -626,16 +618,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'To play',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >To PLAY
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -810,9 +793,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to={"/Slide"}
-          >SLIDE
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -830,9 +811,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Swing"
-          >SWING
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -850,9 +829,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Skip"
-          >SKIP
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -870,9 +847,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to={"/Win"}
-          >WIN
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -890,9 +865,7 @@ function Play() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to={"/Lose"}
-          >LOSE
+          >083
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1130,4 +1103,4 @@ function Play() {
   );
 }
 
-export default Play;
+export default Template;

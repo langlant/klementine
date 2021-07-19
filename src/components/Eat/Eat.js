@@ -627,7 +627,7 @@ function Eat() {
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink} 
           to="/"
-          onClick={()=>speech.speak({
+          onClick={()=> speech.speak({
             text: 'to eat',
         }).then(() => {
             console.log("Success !")

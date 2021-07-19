@@ -17,6 +17,19 @@ import We from "./Pronouns/We"
 import You from "./Pronouns/You"
 import Verb from "./Verb/Verb"
 import Nt from "./Verb/Nt"
+import Drink from "./Drink/Drink"
+import Want from "./Want/Want"
+import Time from "./Time/Time"
+import Good from "./Good/Good"
+import Bad from "./Bad/Bad"
+import In from "./In/In"
+import Out from "./Out/Out"
+import Up from "./Up/Up"
+import Down from "./Down/Down"
+import Not from "./Not/Not"
+import Done from "./Done/Done"
+import End from "./End/End"
+import Work from "./Work/Work"
 
 function App() {
 
@@ -39,8 +52,19 @@ function App() {
           <Route exact path="/Us" component={Us}/>
           <Route exact path="/We" component={We}/>
           <Route exact path="/You" component={You}/>
-          <Route exact path="/Verb" component={Verb}/>
-          <Route exact path="/Nt" component={Nt}/>
+          <Route exact path="/Drink" component={Drink}/>
+          <Route exact path="/Want" component={Want}/>
+          <Route exact path="/Time" component={Time}/>
+          <Route exact path="/Good" component={Good}/>
+          <Route exact path="/Bad" component={Bad}/>
+          <Route exact path="/Up" component={Up}/>
+          <Route exact path="/Down" component={Down}/>
+          <Route exact path="/Not" component={Not}/>
+          <Route exact path="/Done" component={Done}/>
+          <Route exact path="/Time" component={Time}/>
+          <Route exact path="/End" component={End}/>
+          <Route exact path="/Work" component={Work}/>
+          <Route exact path="/Want" component={Want}/>
         </Switch>
       </Router>
     </div>
