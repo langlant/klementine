@@ -30,6 +30,15 @@ import Not from "./Not/Not"
 import Done from "./Done/Done"
 import End from "./End/End"
 import Work from "./Work/Work"
+import W from "./W/W"
+import And from "./And/And"
+import That from "./That/That"
+import There from "./There/There"
+import Spell from "./Spell/Spell"
+import Am from "./Am/Am"
+import Watch from "./Watch/Watch"
+import Read from "./Read/Read"
+import Like from "./Like/Like"
 
 function App() {
 
@@ -65,6 +74,15 @@ function App() {
           <Route exact path="/End" component={End}/>
           <Route exact path="/Work" component={Work}/>
           <Route exact path="/Want" component={Want}/>
+          <Route exact path="/W" component={W}/>
+          <Route exact path="/And" component={And}/>
+          <Route exact path="/That" component={That}/>
+          <Route exact path="/There" component={There}/>
+          <Route exact path="/Spell" component={Spell}/>
+          <Route exact path="/Am" component={Am}/>
+          <Route exact path="/Watch" component={Watch}/>
+          <Route exact path="/Read" component={Read}/>
+          <Route exact path="/Like" component={Like}/>
         </Switch>
       </Router>
     </div>
