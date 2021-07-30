@@ -36,43 +36,61 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
-  
-  const classes = useStyles(); 
 
-  const [textString, setTextString] = useState("")
+function Good({route}) {
   
-  function setText(word){
-    var newString = textString
-    setTextString(newString + " " + word)
-  }
+    const classes = useStyles(); 
 
-  function tokenDelete(word){
-    var str = word
-    const myArr = str.split(" ")
-    var newStr = ""
-    for(let x = 0; x < myArr.length-1; x++ ){
-      newStr +=  " " + myArr[x]
+    const [textString, setTextString] = useState("")
+    
+    function setText(word){
+      var newString = textString
+      setTextString(newString + " " + word)
     }
-
-    setTextString(newStr)
-  }
-
-  function buttonSpeak(word) {
-    speech.speak({
-      text: word,
-  }).then(() => {
-      console.log("Success !")
-  }).catch(e => {
-      console.error("An error occurred :", e)
-  })
-
-    setText(word)
-  }
+  
+    function setLText(word){
+      var newString = textString
+      setTextString(newString + word)
+    }
+  
+    function tokenDelete(word){
+      var str = word
+      const myArr = str.split(" ")
+      var newStr = ""
+      for(let x = 0; x < myArr.length-1; x++ ){
+        newStr +=  " " + myArr[x]
+      }
+  
+      setTextString(newStr)
+    }
+  
+    function buttonSpeak(word) {
+      speech.speak({
+        text: word,
+    }).then(() => {
+        console.log("Success !")
+    }).catch(e => {
+        console.error("An error occurred :", e)
+    })
+  
+      setText(word)
+    }
+  
+    function buttonSpeakL(word) {
+      speech.speak({
+        text: word,
+    }).then(() => {
+        console.log("Success !")
+    }).catch(e => {
+        console.error("An error occurred :", e)
+    })
+  
+      setLText(word)
+    }
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Good
       </Typography>
       <div>
         <Grid container>
@@ -261,7 +279,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          component={RouterLink}
+          to="/Good/Great"
+          >Great
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -270,7 +290,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          to="/Good/Wonderful"
+          >Wonderful
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -481,7 +503,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >41
+          component={RouterLink} 
+          to="/"
+          onClick={()=> buttonSpeak("Good")}
+          >Good
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -490,7 +515,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >042
+          component={RouterLink} 
+          to="/"
+          onClick={()=> buttonSpeak("Better")}
+          >Better
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -499,7 +527,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >043
+          component={RouterLink} 
+          to="/"
+          onClick={()=> buttonSpeak("Best")}
+          >Best
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1103,4 +1134,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Good;

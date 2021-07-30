@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Wonderful({route}) {
   
   const classes = useStyles(); 
 
@@ -69,10 +69,28 @@ function Template({route}) {
 
     setText(word)
   }
+
+  function setLText(word){
+    var newString = textString
+    setTextString(newString + word)
+  }
+  
+  function buttonSpeakL(word) {
+    speech.speak({
+      text: word,
+  }).then(() => {
+      console.log("Success !")
+  }).catch(e => {
+      console.error("An error occurred :", e)
+  })
+
+    setLText(word)
+  }
+  
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Wonderful
       </Typography>
       <div>
         <Grid container>
@@ -279,9 +297,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/And"
-          >And
+          >019
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -483,7 +499,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >41
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wonderful")}
+          to="/"
+          >Wonderful
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -492,7 +511,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >042
+          component={RouterLink}
+          onClick={()=> buttonSpeak("More Wonderful")}
+          to="/"
+          >More Wonderful
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -501,7 +523,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >043
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Most Wonderful")}
+          to="/"
+          >Most Wonderful
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -510,7 +535,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >044
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wonderfully")}
+          to="/"
+          >Wonderfully
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1105,4 +1133,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Wonderful;

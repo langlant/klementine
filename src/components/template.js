@@ -69,6 +69,24 @@ function Template({route}) {
 
     setText(word)
   }
+
+  function setLText(word){
+    var newString = textString
+    setTextString(newString + word)
+  }
+  
+  function buttonSpeakL(word) {
+    speech.speak({
+      text: word,
+  }).then(() => {
+      console.log("Success !")
+  }).catch(e => {
+      console.error("An error occurred :", e)
+  })
+
+    setLText(word)
+  }
+  
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>

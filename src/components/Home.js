@@ -171,8 +171,7 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Up"
+          onClick={()=> buttonSpeak("Up")}
           >UP
           </Button>
         </Grid>
@@ -194,8 +193,8 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/W"
-          >W
+          to="/Ask"
+          >Ask
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -357,7 +356,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          to="/Please"
+          >Please
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -366,7 +367,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          component={RouterLink}
+          to="/Left"
+          >Left
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -375,7 +378,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          to="/Right"
+          >Right
           </Button>
         </Grid>
       </Grid>
@@ -479,7 +484,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Off")}
+          >Off
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -488,7 +495,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          to="/Body"
+          >Body
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -497,7 +506,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          component={RouterLink}
+          to="/When"
+          >When
           </Button>
         </Grid>
       </Grid>
@@ -530,7 +541,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >039
+          component={RouterLink}
+          to="/Wear"
+          >Wear
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -539,7 +552,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >040
+          component={RouterLink}
+          to="/Follow"
+          >Follow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -559,7 +574,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >042
+          component={RouterLink}
+          to="/Do"
+          >Do
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -568,7 +585,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >043
+          component={RouterLink}
+          to="/Find"
+          >Find
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +607,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >045
+          component={RouterLink}
+          to="/Have"
+          >Have
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +618,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >046
+          component={RouterLink}
+          to="/Count"
+          >Count
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +629,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >047
+          component={RouterLink}
+          to="/Who"
+          >Who
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -615,7 +640,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >048
+          component={RouterLink}
+          to="/Where"
+          >Where
           </Button>
         </Grid>
       </Grid>
@@ -648,7 +675,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          to="/Weather"
+          >Weather
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -657,7 +686,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          to="/Stop"
+          >Stop
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -677,7 +708,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          to="/Go"
+          >GO
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -708,7 +741,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          to="/All"
+          >All
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -717,7 +752,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          to="/Numbers"
+          >Numbers
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -726,7 +763,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          to="/What"
+          >What
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -735,7 +774,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >060
+          component={RouterLink}
+          to="/Why"
+          >Why
           </Button>
         </Grid>
       </Grid>
@@ -768,7 +809,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >063
+          component={RouterLink}
+          to="/Animal"
+          >Animal
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -777,7 +820,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >064
+          component={RouterLink}
+          to="/Ride"
+          >Ride
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -797,7 +842,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >066
+          component={RouterLink}
+          to="/Get"
+          >Get
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -806,7 +853,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >067
+          component={RouterLink}
+          to="/Help"
+          >Help
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -826,7 +875,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >069
+          component={RouterLink}
+          to="/Come"
+          >Come
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -835,7 +886,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >070
+          component={RouterLink}
+          to="/Letters"
+          >Letters
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -844,7 +897,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >071
+          component={RouterLink}
+          to="/Said"
+          >Said
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -853,7 +908,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >072
+          component={RouterLink}
+          to="/New"
+          >New
           </Button>
         </Grid>
       </Grid>
@@ -864,7 +921,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >073
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Mine")}
+          >Mine
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -873,7 +932,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >074
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hello")}
+          >Hello
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -882,7 +943,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          to="/Sit"
+          >Sit
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -891,7 +954,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >076
+          component={RouterLink}
+          to="/Put"
+          >Put
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -900,7 +965,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          to="/Slow"
+          >Slow
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -931,7 +998,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >080
+          component={RouterLink}
+          to="/Fast"
+          >Fast
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -940,7 +1009,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          to="/Color"
+          >Color
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -949,7 +1020,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >082
+          component={RouterLink}
+          to="/Feel"
+          >Feel
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -958,7 +1031,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          to="/Love"
+          >Love
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -967,117 +1042,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >084
-          </Button>
-        </Grid>
-      </Grid>
-      <Grid container>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >085
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >086
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >087
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >088
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >089
-          </Button>
-        </Grid>
-        <Grid xs={1}> 
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >090
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >091
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >092
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >093
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >094
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >095
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >096
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Goodbye")}
+          >Goodbye
           </Button>
         </Grid>
       </Grid>
@@ -1109,7 +1076,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >099
+          component={RouterLink}
+          to="/Turn"
+          >Turn
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1118,7 +1087,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >100
+          component={RouterLink}
+          to="/Need"
+          >Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1127,7 +1098,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >101
+          component={RouterLink}
+          to="/Look"
+          >Look
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1136,7 +1109,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >102
+          component={RouterLink}
+          to="/Hear"
+          >Hear
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1145,7 +1120,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >103
+          component={RouterLink}
+          to="/Think"
+          >Think
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1154,7 +1131,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >104
+          component={RouterLink}
+          to="/Talk"
+          >Talk
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1163,7 +1142,9 @@ function Home() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >105
+          component={RouterLink}
+          to="/Make"
+          >Make
           </Button>
         </Grid>
         <Grid xs={1}>
