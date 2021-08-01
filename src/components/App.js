@@ -83,6 +83,16 @@ import Letters from "./Letters/Letters"
 import Weather from "./Weather/Weather"
 import Animal from "./Animal/Animal"
 import Template from "./template"
+import Big from "./Big/Big"
+import Strong from "./Big/Strong"
+import Thick from "./Big/Thick"
+import Heavy from "./Big/Heavy"
+import Lift from "./Big/Lift"
+import Drop from "./Big/Drop"
+import Fat from "./Big/Fat"
+import Powerful from "./Big/Powerful"
+import BigNt from "./Big/Nt"
+import Ask from "./Ask/Ask"
 
 function App() {
 
@@ -95,6 +105,16 @@ function App() {
           <Route path="/Template" component={Template}/>
           <Route exact path="/" component={Home}/>
           <Route exact path="/In" component={In}/>
+          <Route exact path="/Big" component={Big}/>
+          <Route exact path="/Big/Strong" component={Strong}/>
+          <Route exact path="/Big/Thick" component={Thick}/>
+          <Route exact path="/Big/Heavy" component={Heavy}/>
+          <Route exact path="/Big/Lift" component={Lift}/>
+          <Route exact path="/Big/Drop" component={Drop}/>
+          <Route exact path="/Big/Fat" component={Fat}/>
+          <Route exact path="/Big/Powerful" component={Powerful}/>
+          <Route exact path="/Big/Nt" component={BigNt}/>
+          <Route exact path="/Ask" component={Ask}/>
           <Route exact path="/Eat" component={Eat}/>
           <Route exact path="/Play" component={Play}/>
           <Route exact path="/He" component={He}/>

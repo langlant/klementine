@@ -380,10 +380,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Question")}
-          to="/"
-          >Question
+          >028
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -392,10 +389,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Questions")}
-          to="/"
-          >Questions
+          >029
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -413,10 +407,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Whom")}
-          to="/"
-          >Whom
+          >031
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -425,10 +416,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Whose")}
-          to="/"
-          >Whose
+          >032
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -604,9 +592,9 @@ function Template({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Ask")}
+          onClick={()=> buttonSpeak("Heavy")}
           to="/"
-          >Ask
+          >Heavy
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -616,9 +604,9 @@ function Template({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Asks")}
+          onClick={()=> buttonSpeak("Heavier")}
           to="/"
-          >Asks
+          >Heavier
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -628,9 +616,9 @@ function Template({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Asking")}
+          onClick={()=> buttonSpeak("Heaviest")}
           to="/"
-          >Asking
+          >Heaviest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -640,9 +628,9 @@ function Template({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Asked")}
+          onClick={()=> buttonSpeak("Heavily")}
           to="/"
-          >Asked
+          >Heavily
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -651,10 +639,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Ask")}
-          to="/"
-          >To Ask
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
