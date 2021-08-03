@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Bad({route}) {
   
   const classes = useStyles(); 
 
@@ -72,7 +72,7 @@ function Template({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Bad
       </Typography>
       <div>
         <Grid container>
@@ -133,7 +133,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Problem")}
+          to="/"
+          >Problem
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -151,7 +154,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Accident")}
+          to="/"
+          >Accident
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -169,7 +175,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Error")}
+          to="/"
+          >Error
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -187,7 +196,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Negative")}
+          to="/"
+          >Negative
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -196,7 +208,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >010
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Negatives")}
+          to="/"
+          >Negatives
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -353,7 +368,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          to="/Bad/Divorce"
+          >Divorce
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -371,7 +388,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          to="/Bad/Mistake"
+          >Mistake
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -389,7 +408,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          to="/Bad/Trouble"
+          >Trouble
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -407,7 +428,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          to="/Bad/Fight"
+          >Fight
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -425,7 +448,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          to="/Bad/Awful"
+          >Awful
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -573,7 +598,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bad")}
+          to="/"
+          >Bad
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -582,7 +610,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Badly")}
+          to="/"
+          >Badly
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -600,7 +631,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Worse")}
+          to="/"
+          >Worse
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -609,7 +643,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Worst")}
+          to="/"
+          >Worst
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -627,7 +664,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          to="/Terrible"
+          >Terrible
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1103,4 +1142,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Bad;

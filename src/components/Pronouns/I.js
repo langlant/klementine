@@ -542,16 +542,7 @@ function I() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Play',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAY
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -560,16 +551,7 @@ function I() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Plays',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAYS
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -578,16 +560,7 @@ function I() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Playing',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAYING
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -596,16 +569,7 @@ function I() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'Played',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >PLAYED
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -614,8 +578,6 @@ function I() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
           >055
           </Button>
         </Grid>
@@ -625,16 +587,7 @@ function I() {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink} 
-          to="/"
-          onClick={()=>speech.speak({
-            text: 'To play',
-        }).then(() => {
-            console.log("Success !")
-        }).catch(e => {
-            console.error("An error occurred :", e)
-        })}
-          >To PLAY
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>

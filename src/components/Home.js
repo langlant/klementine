@@ -215,7 +215,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Down"
+          onClick={()=> buttonSpeak("Down")}
           >Down
           </Button>
         </Grid>
@@ -226,7 +226,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Out"
+          onClick={()=> buttonSpeak("Out")}
           >Out
           </Button>
         </Grid>
@@ -238,7 +238,7 @@ function Home() {
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
           to="/Bad"
-          >BAD
+          >Bad
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -507,7 +507,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/When"
+          onClick={()=> buttonSpeak("When")}
           >When
           </Button>
         </Grid>
@@ -630,7 +630,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Who"
+          onClick={()=> buttonSpeak("Who")}
           >Who
           </Button>
         </Grid>
@@ -641,7 +641,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Where"
+          onClick={()=> buttonSpeak("Where")}
           >Where
           </Button>
         </Grid>
@@ -764,7 +764,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/What"
+          onClick={()=> buttonSpeak("What")}
           >What
           </Button>
         </Grid>
@@ -775,7 +775,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Why"
+          onClick={()=> buttonSpeak("Why")}
           >Why
           </Button>
         </Grid>

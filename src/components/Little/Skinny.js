@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Thick({route}) {
+function Skinny({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Thick({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Thick
+        Skinny
       </Typography>
       <div>
         <Grid container>
@@ -591,10 +591,10 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thick")}
+          componet={RouterLink}
+          onClick={()=> buttonSpeak("Skinny")}
           to="/"
-          >Thick
+          >Skinny
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -603,10 +603,10 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thicker")}
+          componet={RouterLink}
+          onClick={()=> buttonSpeak("Skinnier")}
           to="/"
-          >Thicker
+          >Skinnier
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -615,10 +615,10 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thickest")}
+          componet={RouterLink}
+          onClick={()=> buttonSpeak("Skinniest")}
           to="/"
-          >Thickest
+          >Skinniest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -636,10 +636,7 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thickly")}
-          to="/"
-          >Thickly
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1133,4 +1130,4 @@ function Thick({route}) {
   );
 }
 
-export default Thick;
+export default Skinny;

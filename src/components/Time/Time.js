@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Time({route}) {
   
   const classes = useStyles(); 
 
@@ -72,7 +72,7 @@ function Template({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Time
       </Typography>
       <div>
         <Grid container>
@@ -121,9 +121,6 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>
-            setText("one two three")
-          }
           >
           </Button>
         </Grid>
@@ -133,7 +130,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Yesterday")}
+          to="/"
+          >Yesterday
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -142,7 +142,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Today")}
+          to="/"
+          >Today
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -151,7 +154,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tomorrow")}
+          to="/"
+          >Tomorrow
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -160,7 +166,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >006
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tonight")}
+          to="/"
+          >Tonight
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -178,7 +187,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >008
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Start")}
+          to="/"
+          >Start
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -187,7 +199,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Starts")}
+          to="/"
+          >Starts
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -196,7 +211,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >010
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Starting")}
+          to="/"
+          >Starting
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -205,7 +223,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Started")}
+          to="/"
+          >Started
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -214,7 +235,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >012
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Start")}
+          to="/"
+          >To Start
           </Button>
         </Grid>
       </Grid>
@@ -225,7 +249,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Was I")}
+          to="/"
+          >Was I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -234,7 +261,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Were You")}
+          to="/"
+          >Were You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -252,7 +282,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Old")}
+          to="/"
+          >Old
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -261,7 +294,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Older")}
+          to="/"
+          >Older
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -270,7 +306,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Oldest")}
+          to="/"
+          >Oldest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -288,7 +327,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Exact")}
+          to="/"
+          >Exact
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -297,7 +339,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >021
+          component={RouterLink}
+          onClick={()=> buttonSpeak("More Exact")}
+          to="/"
+          >More Exact
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -306,7 +351,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Most Exact")}
+          to="/"
+          >Most Exact
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -315,7 +363,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Exactly")}
+          to="/"
+          >Exactly
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -344,7 +395,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >26
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Were We")}
+          to="/"
+          >Were We
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -353,7 +407,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Early")}
+          to="/"
+          >Early
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -362,7 +419,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >028
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Earlier")}
+          to="/"
+          >Earlier
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -371,7 +431,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Earliest")}
+          to="/"
+          >Earliest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -389,7 +452,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Begin")}
+          to="/"
+          >Begin
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -398,7 +464,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >032
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Begins")}
+          to="/"
+          >Begins
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -407,7 +476,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Beginning")}
+          to="/"
+          >Beginning
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -416,7 +488,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Began")}
+          to="/"
+          >Began
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -425,7 +500,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Begun")}
+          to="/"
+          >Begun
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -434,7 +512,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Begin")}
+          to="/"
+          >To Begin
           </Button>
         </Grid>
       </Grid>
@@ -463,7 +544,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >039
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Late")}
+          to="/"
+          >Late
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -472,7 +556,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >040
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Later")}
+          to="/"
+          >Later
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -481,7 +568,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >41
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Latest")}
+          to="/"
+          >Latest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -555,7 +645,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Was It")}
+          to="/"
+          >Was It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -564,7 +657,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >050
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Were They")}
+          to="/"
+          >Were They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -573,7 +669,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          to="/Time/TimeTime"
+          >Time
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -591,7 +689,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          to="/Time/Calendar"
+          >Calendar
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -609,7 +709,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          to="/Time/TDate"
+          >Date
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -665,7 +767,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >061
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Was She")}
+          to="/"
+          >Was She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -674,7 +779,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Was He")}
+          to="/"
+          >Was He
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1004,7 +1112,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >098
+          component={RouterLink}
+          to="/Time/TimeNt"
+          >N't
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1103,4 +1213,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Time;

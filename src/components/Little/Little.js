@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Little({route}) {
   
   const classes = useStyles(); 
 
@@ -72,7 +72,7 @@ function Template({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Little
       </Typography>
       <div>
         <Grid container>
@@ -573,7 +573,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Little")}
+          to="/"
+          >Litte
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -582,7 +585,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Littler")}
+          to="/"
+          >Littler
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -591,7 +597,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Littlest")}
+          to="/"
+          >Littlest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -683,7 +692,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >063
+          component={RouterLink}
+          to="/Little/Weak"
+          >Weak
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -701,7 +712,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >065
+          component={RouterLink}
+          to="/Little/Thin"
+          >Thin
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -719,7 +732,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >067
+          component={RouterLink}
+          to="/Little/Skinny"
+          >Skinny
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1103,4 +1118,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Little;

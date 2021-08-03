@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Powerful({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Template({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Powerful
       </Typography>
       <div>
         <Grid container>
@@ -1136,4 +1136,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Powerful;

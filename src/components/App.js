@@ -20,13 +20,15 @@ import Nt from "./Verb/Nt"
 import Drink from "./Drink/Drink"
 import Want from "./Want/Want"
 import Time from "./Time/Time"
+import TimeTime from "./Time/TimeTime"
+import Calendar from "./Time/Calendar"
+import TDate from "./Time/TDate"
+import TimeNt from "./Time/TimeNt"
 import Good from "./Good/Good"
 import Great from "./Good/Great"
 import Wonderful from "./Good/Wonderful"
 import Bad from "./Bad/Bad"
 import In from "./In/In"
-import Out from "./Out/Out"
-import Down from "./Down/Down"
 import Not from "./Not/Not"
 import Done from "./Done/Done"
 import End from "./End/End"
@@ -93,6 +95,12 @@ import Fat from "./Big/Fat"
 import Powerful from "./Big/Powerful"
 import BigNt from "./Big/Nt"
 import Ask from "./Ask/Ask"
+import Little from "./Little/Little"
+import Weak from "./Little/Weak"
+import Skinny from "./Little/Skinny"
+import Thin from "./Little/Thin"
+
+
 
 function App() {
 
@@ -114,6 +122,10 @@ function App() {
           <Route exact path="/Big/Fat" component={Fat}/>
           <Route exact path="/Big/Powerful" component={Powerful}/>
           <Route exact path="/Big/Nt" component={BigNt}/>
+          <Route exact path="/Little" component={Little}/>
+          <Route exact path="/Little/Weak" component={Weak}/>
+          <Route exact path="/Little/Skinny" component={Skinny}/>
+          <Route exact path="/Little/Thin" component={Thin}/>
           <Route exact path="/Ask" component={Ask}/>
           <Route exact path="/Eat" component={Eat}/>
           <Route exact path="/Play" component={Play}/>
@@ -130,14 +142,16 @@ function App() {
           <Route exact path="/Drink" component={Drink}/>
           <Route exact path="/Want" component={Want}/>
           <Route exact path="/Time" component={Time}/>
+          <Route exact path="/Time/TimeTime" component={TimeTime}/>
+          <Route exact path="/Time/Calendar" component={Calendar}/>
+          <Route exact path="/Time/TDate" component={TDate}/>
+          <Route exact path="/Time/TimeNt" component={TimeNt}/>
           <Route exact path="/Good" component={Good}/>
           <Route exact path="/Good/Great" component={Great}/>
           <Route exact path="/Good/Wonderful" component={Wonderful}/>
           <Route exact path="/Bad" component={Bad}/>
-          <Route exact path="/Down" component={Down}/>
           <Route exact path="/Not" component={Not}/>
           <Route exact path="/Done" component={Done}/>
-          <Route exact path="/Time" component={Time}/>
           <Route exact path="/End" component={End}/>
           <Route exact path="/Work" component={Work}/>
           <Route exact path="/Want" component={Want}/>

@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Thick({route}) {
+function Calendar({route}) {
   
   const classes = useStyles(); 
 
@@ -69,28 +69,10 @@ function Thick({route}) {
 
     setText(word)
   }
-
-  function setLText(word){
-    var newString = textString
-    setTextString(newString + word)
-  }
-  
-  function buttonSpeakL(word) {
-    speech.speak({
-      text: word,
-  }).then(() => {
-      console.log("Success !")
-  }).catch(e => {
-      console.error("An error occurred :", e)
-  })
-
-    setLText(word)
-  }
-  
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Thick
+        Calendar
       </Typography>
       <div>
         <Grid container>
@@ -591,10 +573,7 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thick")}
-          to="/"
-          >Thick
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -603,10 +582,7 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thicker")}
-          to="/"
-          >Thicker
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -615,10 +591,7 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thickest")}
-          to="/"
-          >Thickest
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -636,10 +609,7 @@ function Thick({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thickly")}
-          to="/"
-          >Thickly
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1133,4 +1103,4 @@ function Thick({route}) {
   );
 }
 
-export default Thick;
+export default Calendar;
