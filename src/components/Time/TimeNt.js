@@ -121,9 +121,6 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>
-            setText("one two three")
-          }
           >
           </Button>
         </Grid>
@@ -225,7 +222,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wasn't I")}
+          to="/"
+          >Wasn't I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -234,7 +234,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Weren't You")}
+          to="/"
+          >Weren't You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -344,7 +347,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >26
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Weren't We")}
+          to="/"
+          >Weren't We
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -555,7 +561,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wasn't It")}
+          to="/"
+          >Wasn't It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -564,7 +573,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >050
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Weren't They")}
+          to="/"
+          >Weren't They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -665,7 +677,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >061
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wasn't She")}
+          to="/"
+          >Wasn't She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -674,7 +689,10 @@ function TimeNt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wasn't He")}
+          to="/"
+          >Wasn't He
           </Button>
         </Grid>
         <Grid xs={1}>
