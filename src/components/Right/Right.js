@@ -240,7 +240,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May I")}
+          to="/"
+          >May I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -249,7 +252,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May You")}
+          to="/"
+          >May You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -359,7 +365,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >26
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May We")}
+          to="/"
+          >May We
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -570,7 +579,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May It")}
+          to="/"
+          >May It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -579,7 +591,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >050
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May They")}
+          to="/"
+          >May They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +603,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onSpeak={()=> buttonSpeak("Right")}
+          to="/"
+          >Right
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +615,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onSpeak={()=> buttonSpeak("Rightfully")}
+          to="/"
+          >Rightfully
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -615,7 +636,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onSpeak={()=> buttonSpeak("Way")}
+          to="/"
+          >Way
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +648,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onSpeak={()=> buttonSpeak("Ways")}
+          to="/"
+          >Ways
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -680,7 +707,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >061
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May She")}
+          to="/"
+          >May She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -689,7 +719,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("May He")}
+          to="/"
+          >May He
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1019,7 +1052,9 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >098
+          component={RouterLink}
+          to="/Right/Nt"
+          >Nt
           </Button>
         </Grid>
         <Grid xs={1}>

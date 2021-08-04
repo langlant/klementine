@@ -40,6 +40,7 @@ import That from "./That/That"
 import There from "./There/There"
 import Spell from "./Spell/Spell"
 import Am from "./Am/Am"
+import AmNt from "./Am/Nt"
 import Watch from "./Watch/Watch"
 import Read from "./Read/Read"
 import Like from "./Like/Like"
@@ -66,6 +67,7 @@ import All from "./All/All"
 import Come from "./Come/Come"
 import Color from "./Color/Color"
 import Right from "./Right/Right"
+import RightNt from "./Right/Nt"
 import Said from "./Said/Said"
 import Follow from "./Follow/Follow"
 import Ride from "./Ride/Ride"
@@ -164,6 +166,7 @@ function App() {
           <Route exact path="/There" component={There}/>
           <Route exact path="/Spell" component={Spell}/>
           <Route exact path="/Am" component={Am}/>
+          <Route exact path="/Am/Nt" component={AmNt}/>
           <Route exact path="/Watch" component={Watch}/>
           <Route exact path="/Read" component={Read}/>
           <Route exact path="/Like" component={Like}/>
@@ -190,6 +193,7 @@ function App() {
           <Route exact path="/Come" component={Come}/>
           <Route exact path="/Color" component={Color}/>
           <Route exact path="/Right" component={Right}/>
+          <Route exact path="/Right/Nt" component={RightNt}/>
           <Route exact path="/Said" component={Said}/>
           <Route exact path="/Ride" component={Ride}/>
           <Route exact path="/Put" component={Put}/>

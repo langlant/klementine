@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Am({route}) {
+function Nt({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Am({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Am
+        Nt
       </Typography>
       <div>
         <Grid container>
@@ -241,9 +241,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Am I")}
+          onClick={()=> buttonSpeak("May I Not")}
           to="/"
-          >Am I
+          >May I Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -253,9 +253,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Are You")}
+          onClick={()=> buttonSpeak("May You Not")}
           to="/"
-          >Are You
+          >May You Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -366,9 +366,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Are We")}
+          onClick={()=> buttonSpeak("May We Not")}
           to="/"
-          >Are We
+          >May We Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,10 +386,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Be")}
-          to="/"
-          >Be
+          >028
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -398,10 +395,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Being")}
-          to="/"
-          >Being
+          >029
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -410,10 +404,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Been")}
-          to="/"
-          >Been
+          >030
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,10 +413,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Be")}
-          to="/"
-          >To Be
+          >031
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -452,10 +440,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Must")}
-          to="/"
-          >Must
+          >034
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -473,10 +458,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Wil")}
-          to="/"
-          >Will
+          >036
           </Button>
         </Grid>
       </Grid>
@@ -598,9 +580,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Is It")}
+          onClick={()=> buttonSpeak("May It Not")}
           to="/"
-          >Is It
+          >May It Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -610,9 +592,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Are They")}
+          onClick={()=> buttonSpeak("May They Not")}
           to="/"
-          >Are They
+          >May They Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -621,10 +603,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Am")}
-          to="/"
-          >Am
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,10 +621,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Busy")}
-          to="/"
-          >Busy
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -654,10 +630,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Busier")}
-          to="/"
-          >Busier
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -666,10 +639,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Busiest")}
-          to="/"
-          >Busiest
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -678,10 +648,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Busily")}
-          to="/"
-          >Busily
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -699,10 +666,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Might")}
-          to="/"
-          >Might
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -720,10 +684,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Should")}
-          to="/"
-          >Should
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -735,9 +696,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Is She")}
+          onClick={()=> buttonSpeak("May She Not")}
           to="/"
-          >Is She
+          >May She Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -747,9 +708,9 @@ function Am({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Is He")}
+          onClick={()=> buttonSpeak("May He Not")}
           to="/"
-          >Is He
+          >May He Not
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -913,10 +874,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Would")}
-          to="/"
-          >Would
+          >080
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -934,10 +892,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can")}
-          to="/"
-          >Can
+          >082
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -955,10 +910,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Could")}
-          to="/"
-          >Could
+          >084
           </Button>
         </Grid>
       </Grid>
@@ -1088,9 +1040,7 @@ function Am({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Am/Nt"
-          >Nt
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1189,4 +1139,4 @@ function Am({route}) {
   );
 }
 
-export default Am;
+export default Nt;
