@@ -1085,7 +1085,10 @@ function TDate({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >097
+          component={RouterLink}
+          onClick={()=> setTextString("")}
+          to="/"
+          >CLEAR
           </Button>
         </Grid>
         <Grid xs={1}>

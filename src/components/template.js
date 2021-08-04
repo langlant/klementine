@@ -139,10 +139,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>
-            setText("one two three")
-          }
-          >
+          >002
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1013,7 +1010,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >097
+          component={RouterLink}
+          onClick={()=> setTextString("")}
+          to="/"
+          >CLEAR
           </Button>
         </Grid>
         <Grid xs={1}>

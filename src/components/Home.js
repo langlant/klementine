@@ -1056,6 +1056,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'}/>}
           onClick={()=> setTextString("")}
+          to="/"
           >CLEAR
           </Button>
         </Grid>

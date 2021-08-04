@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Left({route}) {
+function Direct({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Left({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Left
+        Direct
       </Typography>
       <div>
         <Grid container>
@@ -148,10 +148,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Arrive")}
-          to="/"
-          >Arrive
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -160,10 +157,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Arrives")}
-          to="/"
-          >Arrives
+          >004
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -172,10 +166,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Arriving")}
-          to="/"
-          >Arriving
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -185,9 +176,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Arrived")}
+          onClick={()=> buttonSpeak("North")}
           to="/"
-          >Arrived
+          >North
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -196,10 +187,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Arrive")}
-          to="/"
-          >To Arrive
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -208,10 +196,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Arrival")}
-          to="/"
-          >Arrival
+          >008
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -294,7 +279,10 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          component={RouterLink}
+          onClick={()=> buttonSpeak("East")}
+          to="/"
+          >East
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -312,7 +300,10 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          component={RouterLink}
+          onClick={()=> buttonSpeak("West")}
+          to="/"
+          >West
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,10 +377,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Send")}
-          to="/"
-          >Send
+          >027
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -398,10 +386,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sends")}
-          to="/"
-          >Sends
+          >028
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -410,10 +395,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sending")}
-          to="/"
-          >Sending
+          >029
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -423,9 +405,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Sent")}
+          onClick={()=> buttonSpeak("South")}
           to="/"
-          >Sent
+          >South
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -434,10 +416,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Send")}
-          to="/"
-          >To Send
+          >031
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -622,9 +601,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Leave")}
+          onClick={()=> buttonSpeak("Direct")}
           to="/"
-          >Leave
+          >Direct
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -634,9 +613,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Leaves")}
+          onClick={()=> buttonSpeak("Directs")}
           to="/"
-          >Leaves
+          >Directs
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -646,9 +625,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Leaving")}
+          onClick={()=> buttonSpeak("Directing")}
           to="/"
-          >Leaving
+          >Directing
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -658,9 +637,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Left")}
+          onClick={()=> buttonSpeak("Directed")}
           to="/"
-          >Left
+          >Directed
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -670,9 +649,9 @@ function Left({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Leave")}
+          onClick={()=> buttonSpeak("To Direct")}
           to="/"
-          >To Leave
+          >To Direct
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -690,7 +669,10 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Direction")}
+          to="/"
+          >Direction
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -699,7 +681,10 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Directions")}
+          to="/"
+          >Directions
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -856,10 +841,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Excuse")}
-          to="/"
-          >Excuse
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -868,10 +850,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Excuses")}
-          to="/"
-          >Excuses
+          >076
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,10 +859,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Excusing")}
-          to="/"
-          >Excusing
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -892,10 +868,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Excused")}
-          to="/"
-          >Excused
+          >078
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -904,10 +877,7 @@ function Left({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Excuse")}
-          to="/"
-          >To Excuse
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1184,4 +1154,4 @@ function Left({route}) {
   );
 }
 
-export default Left;
+export default Direct;

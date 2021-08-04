@@ -32,6 +32,8 @@ import In from "./In/In"
 import Not from "./Not/Not"
 import Done from "./Done/Done"
 import End from "./End/End"
+import Direct from "./End/Direct"
+import US from "./End/US"
 import Work from "./Work/Work"
 import And from "./And/And"
 import That from "./That/That"
@@ -153,6 +155,8 @@ function App() {
           <Route exact path="/Not" component={Not}/>
           <Route exact path="/Done" component={Done}/>
           <Route exact path="/End" component={End}/>
+          <Route exact path="/End/Direct" component={Direct}/>
+          <Route exact path="/End/US" component={US}/>
           <Route exact path="/Work" component={Work}/>
           <Route exact path="/Want" component={Want}/>
           <Route exact path="/And" component={And}/>
