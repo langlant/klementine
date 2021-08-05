@@ -588,7 +588,10 @@ function Rough({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rough")}
+          to="/"
+          >Rough
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Rough({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rougher")}
+          to="/"
+          >Rougher
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Rough({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Roughest")}
+          to="/"
+          >Roughest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Rough({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Roughly")}
+          to="/"
+          >Roughly
           </Button>
         </Grid>
         <Grid xs={1}>

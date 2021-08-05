@@ -588,7 +588,10 @@ function Dig({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dig")}
+          to="/"
+          >Dig
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Dig({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Digs")}
+          to="/"
+          >Digs
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Dig({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Digging")}
+          to="/"
+          >Digging
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Dig({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dug")}
+          to="/"
+          >Dug
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,10 @@ function Dig({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Dig")}
+          to="/"
+          >To Dig
           </Button>
         </Grid>
         <Grid xs={1}>

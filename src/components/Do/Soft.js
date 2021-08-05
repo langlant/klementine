@@ -588,7 +588,10 @@ function Soft({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Soft")}
+          to="/"
+          >Soft
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Soft({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Softer")}
+          to="/"
+          >Softer
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Soft({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Softest")}
+          to="/"
+          >Softest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Soft({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Softly")}
+          to="/"
+          >Softly
           </Button>
         </Grid>
         <Grid xs={1}>

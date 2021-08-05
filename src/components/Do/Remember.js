@@ -588,7 +588,10 @@ function Remember({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Remember")}
+          to="/"
+          >Remember
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Remember({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Remembers")}
+          to="/"
+          >Remembers
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Remember({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Remembering")}
+          to="/"
+          >Remembering
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Remember({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Remembered")}
+          to="/"
+          >Remembered
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,10 @@ function Remember({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Remember")}
+          to="/"
+          >To Remember
           </Button>
         </Grid>
         <Grid xs={1}>

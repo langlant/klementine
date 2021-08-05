@@ -588,7 +588,10 @@ function Hold({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hold")}
+          to="/"
+          >Hold
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Hold({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Holds")}
+          to="/"
+          >Holds
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Hold({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Holding")}
+          to="/"
+          >Holding
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Hold({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Held")}
+          to="/"
+          >Held
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,10 @@ function Hold({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Hold")}
+          to="/"
+          >To Hold
           </Button>
         </Grid>
         <Grid xs={1}>
