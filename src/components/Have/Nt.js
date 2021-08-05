@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Have({route}) {
+function Nt({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Have({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Have
+        Nt
       </Typography>
       <div>
         <Grid container>
@@ -148,10 +148,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Penny")}
-          to="/"
-          >Penny
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -160,10 +157,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Nickel")}
-          to="/"
-          >Nickel
+          >004
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -172,10 +166,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dime")}
-          to="/"
-          >Dime
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,10 +175,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quarter")}
-          to="/"
-          >Quarter
+          >006
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -196,10 +184,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Half Dollar")}
-          to="/"
-          >Half Dollar
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -208,10 +193,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dollar")}
-          to="/"
-          >Dollar
+          >008
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -229,10 +211,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Credit Card")}
-          to="/"
-          >Credit Card
+          >010
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -262,9 +241,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Have I")}
+          onClick={()=> buttonSpeak("Haven't I")}
           to="/"
-          >Have I
+          >Haven't I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -274,9 +253,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Have You")}
+          onClick={()=> buttonSpeak("Are You Not")}
           to="/"
-          >Have You
+          >Haven't You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -387,9 +366,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Have We")}
+          onClick={()=> buttonSpeak("Haven't We")}
           to="/"
-          >Have We
+          >Haven't We
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -398,10 +377,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Offering")}
-          to="/"
-          >Receipt
+          >027
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -419,10 +395,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Money")}
-          to="/"
-          >Money
+          >029
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -431,10 +404,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Monies")}
-          to="/"
-          >Monies
+          >030
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -452,9 +422,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Change"
-          >Change
+          >032
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,9 +580,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Has It")}
+          onClick={()=> buttonSpeak("Hasn't It")}
           to="/"
-          >Has It
+          >Hasn't It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,9 +592,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Have They")}
+          onClick={()=> buttonSpeak("Haven't They")}
           to="/"
-          >Have They
+          >Haven't They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -635,10 +603,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Have")}
-          to="/"
-          >Have
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -647,10 +612,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Has")}
-          to="/"
-          >Has
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -659,10 +621,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Having")}
-          to="/"
-          >Having
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -671,10 +630,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Had")}
-          to="/"
-          >Had
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -683,10 +639,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("")}
-          to="/"
-          >To Have
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -704,10 +657,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Real")}
-          to="/"
-          >Real
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -716,7 +666,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >More Real
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -725,10 +675,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Most Real")}
-          to="/"
-          >Most Real
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -737,10 +684,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Really")}
-          to="/"
-          >Really
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -752,9 +696,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Has She")}
+          onClick={()=> buttonSpeak("Hasn't She")}
           to="/"
-          >Has She
+          >Hasn't She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -764,9 +708,9 @@ function Have({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("May He Not")}
+          onClick={()=> buttonSpeak("Hasn't He")}
           to="/"
-          >Has He
+          >Hasn't He
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -885,9 +829,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Pay"
-          >Pay
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -905,9 +847,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Actual"
-          >Actual
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -925,9 +865,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Check"
-          >Check
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -945,9 +883,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Cheap"
-          >Cheap
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -965,9 +901,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Expensive"
-          >Expensive
+          >083
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1109,9 +1043,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Nt"
-          >Nt
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1120,9 +1052,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Own"
-          >Own
+          >099
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1140,9 +1070,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Buy"
-          >Buy
+          >101
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1160,9 +1088,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Shop"
-          >Shop
+          >103
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1180,9 +1106,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Cost"
-          >Cost
+          >105
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1200,9 +1124,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Have/Inexpensive"
-          >Inexpensive
+          >107
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1220,4 +1142,4 @@ function Have({route}) {
   );
 }
 
-export default Have;
+export default Nt;

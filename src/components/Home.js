@@ -90,7 +90,7 @@ function Home() {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Hello There!
+        Welcome to Klementine
       </Typography>
       <div>
         <Grid container>

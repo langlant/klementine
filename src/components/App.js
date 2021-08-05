@@ -99,6 +99,18 @@ import Slow from "./Slow/Slow"
 import Love from "./Love/Love"
 import New from "./New/New"
 import Have from "./Have/Have"
+import HaveNt from "./Have/Nt"
+import Pay from "./Have/Pay"
+import Actual from "./Have/Actual"
+import Check from "./Have/Check"
+import Cheap from "./Have/Cheap"
+import Expensive from "./Have/Expensive"
+import Own from "./Have/Own"
+import Buy from "./Have/Buy" 
+import Shop from "./Have/Shop"
+import Inexpensive from "./Have/Inexpensive"
+import Cost from "./Have/Cost"
+import Change from "./Have/Change"
 import Feel from "./Feel/Feel"
 import All from "./All/All"
 import Come from "./Come/Come"
@@ -130,6 +142,10 @@ import When from "./When/When"
 import Where from "./Where/Where"
 import Why from "./Why/Why"
 import Count from "./Count/Count"
+import Add from "./Count/Add"
+import Subtract from "./Count/Subtract"
+import Multiply from "./Count/Multiply"
+import Divide from "./Count/Divide"
 import Please from "./Please/Please"
 import Shapes from "./Shapes/Shapes"
 import Numbers from "./Numbers/Numbers"
@@ -274,6 +290,18 @@ function App() {
           <Route exact path="/Feel" component={Feel}/>
           <Route exact path="/New" component={New}/>
           <Route exact path="/Have" component={Have}/>
+          <Route exact path="/Have/Nt" component={HaveNt}/>
+          <Route exact path="/Have/Pay" component={Pay}/>
+          <Route exact path="/Have/Actual" component={Actual}/>
+          <Route exact path="/Have/Check" component={Check}/>
+          <Route exact path="/Have/Cheap" component={Cheap}/>
+          <Route exact path="/Have/Expensive" component={Expensive}/>
+          <Route exact path="/Have/Own" component={Own}/>
+          <Route exact path="/Have/Buy" component={Buy}/>
+          <Route exact path="/Have/Shop" component={Shop}/>
+          <Route exact path="/Have/Inexpensive" component={Inexpensive}/>
+          <Route exact path="/Have/Cost" component={Cost}/>
+          <Route exact path="/Have/Change" component={Change}/>
           <Route exact path="/All" component={All}/>
           <Route exact path="/Come" component={Come}/>
           <Route exact path="/Color" component={Color}/>
@@ -300,6 +328,10 @@ function App() {
           <Route exact path="/Where" component={Where}/>
           <Route exact path="/Why" component={Why}/>
           <Route exact path="/Count" component={Count}/>
+          <Route exact path="/Count/Add" component={Add}/>
+          <Route exact path="/Count/Subtract" component={Subtract}/>
+          <Route exact path="/Count/Multiply" component={Multiply}/>
+          <Route exact path="/Count/Divide" component={Divide}/>
           <Route exact path="/Please" component={Please}/>
           <Route exact path="/Shapes" component={Shapes}/>
           <Route exact path="/Numbers" component={Numbers}/>

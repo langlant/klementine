@@ -624,7 +624,10 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Game")}
+          to="/"
+          >Game
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -633,7 +636,10 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Games")}
+          to="/"
+          >Games
           </Button>
         </Grid>
         <Grid xs={1}>

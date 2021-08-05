@@ -148,7 +148,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Toy")}
+          to="/"
+          >Toy
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -157,7 +160,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Toys")}
+          to="/"
+          >Toys
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +374,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Trampoline")}
+          to="/"
+          >Trampoline
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +395,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Ball Pit")}
+          to="/"
+          >Ball Pit
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +416,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Puzzle")}
+          to="/"
+          >Puzzle
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +437,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Play-Doh")}
+          to="/"
+          >Play-Doh
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +458,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Kite")}
+          to="/"
+          >Kite
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +609,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Ball")}
+          to="/"
+          >Ball
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +630,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Block")}
+          to="/"
+          >Block
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,7 +651,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doll")}
+          to="/"
+          >Doll
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +672,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          >Balloon
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,7 +690,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Lego")}
+          to="/"
+          >Legos
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -808,7 +841,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bubbles")}
+          to="/"
+          >Bubbles
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -826,7 +862,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Toy Box")}
+          to="/"
+          >Toy Box
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -844,7 +883,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dress Up")}
+          to="/"
+          >Dress Up
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -862,7 +904,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          >Puppet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,7 +922,10 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sandbox")}
+          to="/"
+          >Sandbox
           </Button>
         </Grid>
         <Grid xs={1}>
