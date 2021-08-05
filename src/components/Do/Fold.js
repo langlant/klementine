@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Eat({route}) {
+function Fold({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Eat({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Eat
+        Fold
       </Typography>
       <div>
         <Grid container>
@@ -166,9 +166,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Condiment"
-          >Condiment
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -186,9 +184,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Dairy"
-          >Dairy
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -206,9 +202,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Fruit"
-          >Fruit
+          >009
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -226,9 +220,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Vegetables"
-          >Vegetables
+          >011
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -412,9 +404,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Meals"
-          >Meals
+          >031
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -432,9 +422,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Meat"
-          >Meat/Sea
+          >033
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -452,9 +440,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Eat/Snack"
-          >Snack/Dessert
+          >035
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -573,10 +559,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hungrily")}
-          to="/"
-          >Hungrily
+          >048
           </Button>
         </Grid>
       </Grid>
@@ -605,10 +588,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Eat")}
-          to="/"
-          >Eat
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -617,10 +597,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Eats")}
-          to="/"
-          >Eats
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -629,10 +606,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Eating")}
-          to="/"
-          >Eating
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -641,10 +615,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ate")}
-          to="/"
-          >Ate
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -653,10 +624,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Eaten")}
-          to="/"
-          >Eaten
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -665,10 +633,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Eat")}
-          to="/"
-          >To Eat
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -686,10 +651,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hungry")}
-          to="/"
-          >Hungry
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -698,10 +660,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hungrier")}
-          to="/"
-          >Hungrier
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -710,10 +669,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("")}
-          to="/"
-          >Hungriest
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -724,10 +680,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Food")}
-          to="/"
-          >Food
+          >061
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -736,10 +689,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Foods")}
-          to="/"
-          >Foods
+          >062
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -757,10 +707,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anywhere")}
-          to="/"
-          >Anywhere
+          >064
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -778,10 +725,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anyone")}
-          to="/"
-          >Anyone
+          >066
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -799,10 +743,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anyhow")}
-          to="/"
-          >Anyhow
+          >068
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -820,10 +761,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anymore")}
-          to="/"
-          >Anymore
+          >070
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -841,10 +779,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anytime")}
-          to="/"
-          >Anytime
+          >072
           </Button>
         </Grid>
       </Grid>
@@ -873,10 +808,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anybody")}
-          to="/"
-          >Anybody
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -894,10 +826,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anyway")}
-          to="/"
-          >Anyway
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -915,10 +844,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Anything")}
-          to="/"
-          >Anything
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1096,10 +1022,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Grow")}
-          to="/"
-          >Grow
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1117,10 +1040,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Bite")}
-          to="/"
-          >Bite
+          >100
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1138,10 +1058,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Chew")}
-          to="/"
-          >Chew
+          >102
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1159,10 +1076,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Smell")}
-          to="/"
-          >Smell
+          >104
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1180,10 +1094,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Feed")}
-          to="/"
-          >Feed
+          >106
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1201,10 +1112,7 @@ function Eat({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Taste")}
-          to="/"
-          >Taste
+          >108
           </Button>
         </Grid>
       </Grid>
@@ -1213,4 +1121,4 @@ function Eat({route}) {
   );
 }
 
-export default Eat;
+export default Fold;

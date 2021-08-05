@@ -4,6 +4,13 @@ import Badge from '@material-ui/core/Badge';
 import React from "react"
 import Home from "./Home"
 import Eat from "./Eat/Eat"
+import Condiment from "./Eat/Condiment"
+import Dairy from "./Eat/Dairy"
+import Fruit from "./Eat/Fruit"
+import Meals from "./Eat/Meals"
+import Meat from "./Eat/Meat"
+import Snack from "./Eat/Snack"
+import Vegetables from "./Eat/Vegetables"
 import Play from "./Play/Play"
 import He from "./Pronouns/He"
 import I from "./Pronouns/I"
@@ -45,6 +52,26 @@ import Watch from "./Watch/Watch"
 import Read from "./Read/Read"
 import Like from "./Like/Like"
 import Do from "./Do/Do"
+import DoNt from "./Do/Nt"
+import Catch from "./Do/Catch"
+import Dig from "./Do/Dig"
+import Fold from "./Do/Fold"
+import Hold from "./Do/Hold"
+import Lay from "./Do/Lay"
+import Pass from "./Do/Pass"
+import Pick from "./Do/Pick"
+import Point from "./Do/Point"
+import Pull from "./Do/Pull"
+import Push from "./Do/Push"
+import Remember from "./Do/Remember"
+import Roll from "./Do/Roll"
+import Rough from "./Do/Rough"
+import Smooth from "./Do/Smooth"
+import Soft from "./Do/Soft"
+import Throw from "./Do/Throw"
+import Touch from "./Do/Touch"
+import Wave from "./Do/Wave"
+import Wrap from "./Do/Wrap"
 import Find from "./Find/Find"
 import Go from "./Go/Go"
 import Get from "./Get/Get"
@@ -70,9 +97,20 @@ import Right from "./Right/Right"
 import RightNt from "./Right/Nt"
 import Said from "./Said/Said"
 import Follow from "./Follow/Follow"
+import Baby from "./Follow/Baby"
+import People from "./Follow/People"
+import Strange from "./Follow/Strange"
 import Ride from "./Ride/Ride"
 import Put from "./Put/Put"
 import Wear from "./Wear/Wear"
+import WearNt from "./Wear/Nt"
+import Clothing from "./Wear/Clothing"
+import WButton from "./Wear/WButton"
+import Dress from "./Wear/Dress"
+import Loose from "./Wear/Loose"
+import Tie from "./Wear/Tie"
+import Tight from "./Wear/Tight"
+import Zip from "./Wear/Zip"
 import Sit from "./Sit/Sit"
 import Body from "./Body/Body"
 import Left from "./Left/Left"
@@ -132,6 +170,13 @@ function App() {
           <Route exact path="/Little/Thin" component={Thin}/>
           <Route exact path="/Ask" component={Ask}/>
           <Route exact path="/Eat" component={Eat}/>
+          <Route exact path="/Eat/Condiment" component={Condiment}/>
+          <Route exact path="/Eat/Dairy" component={Dairy}/>
+          <Route exact path="/Eat/Fruit" component={Fruit}/>
+          <Route exact path="/Eat/Meals" component={Meals}/>
+          <Route exact path="/Eat/Meat" component={Meat}/>
+          <Route exact path="/Eat/Snack" component={Snack}/>
+          <Route exact path="/Eat/Vegetables" component={Vegetables}/>
           <Route exact path="/Play" component={Play}/>
           <Route exact path="/He" component={He}/>
           <Route exact path="/I" component={I}/>
@@ -171,6 +216,26 @@ function App() {
           <Route exact path="/Read" component={Read}/>
           <Route exact path="/Like" component={Like}/>
           <Route exact path="/Do" component={Do}/>
+          <Route exact path="/Do/Nt" component={DoNt}/>
+          <Route exact path="/Do/Catch" component={Catch}/>
+          <Route exact path="/Do/Dig" component={Dig}/>
+          <Route exact path="/Do/Fold" component={Fold}/>
+          <Route exact path="/Do/Hold" component={Hold}/>
+          <Route exact path="/Do/Lay" component={Lay}/>
+          <Route exact path="/Do/Pass" component={Pass}/>
+          <Route exact path="/Do/Pick" component={Pick}/>
+          <Route exact path="/Do/Point" component={Point}/>
+          <Route exact path="/Do/Pull" component={Pull}/>
+          <Route exact path="/Do/Push" component={Push}/>
+          <Route exact path="/Do/Remember" component={Remember}/>
+          <Route exact path="/Do/Roll" component={Roll}/>
+          <Route exact path="/Do/Rough" component={Rough}/>
+          <Route exact path="/Do/Smooth" component={Smooth}/>
+          <Route exact path="/Do/Soft" component={Soft}/>
+          <Route exact path="/Do/Throw" component={Throw}/>
+          <Route exact path="/Do/Touch" component={Touch}/>
+          <Route exact path="/Do/Wave" component={Wave}/>
+          <Route exact path="/Do/Wrap" component={Wrap}/>
           <Route exact path="/Find" component={Find}/>
           <Route exact path="/Go" component={Go}/>
           <Route exact path="/Get" component={Get}/>
@@ -199,6 +264,14 @@ function App() {
           <Route exact path="/Put" component={Put}/>
           <Route exact path="/Sit" component={Sit}/>
           <Route exact path="/Wear" component={Wear}/>
+          <Route exact path="/Wear/Nt" component={WearNt}/>
+          <Route exact path="/Wear/Clothing" component={Clothing}/>
+          <Route exact path="/Wear/WButton" component={WButton}/>
+          <Route exact path="/Wear/Dress" component={Dress}/>
+          <Route exact path="/Wear/Loose" component={Loose}/>
+          <Route exact path="/Wear/Tie" component={Tie}/>
+          <Route exact path="/Wear/Tight" component={Tight}/>
+          <Route exact path="/Wear/Zip" component={Zip}/>
           <Route exact path="/Body" component={Body}/>
           <Route exact path="/Left" component={Left}/>
           <Route exact path="/Who" component={Who}/>
@@ -213,6 +286,10 @@ function App() {
           <Route exact path="/Letters" component={Letters}/>
           <Route exact path="/Weather" component={Weather}/>
           <Route exact path="/Animal" component={Animal}/>
+          <Route exact path="/Follow" component={Follow}/>
+          <Route exact path="/Follow/Baby" component={Baby}/>
+          <Route exact path="/Follow/People" component={People}/>
+          <Route exact path="/Follow/Strange" component={Strange}/>
         </Switch>
       </Router>
     </div>
