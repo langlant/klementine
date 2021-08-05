@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Win({route}) {
+function Match({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Win({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Win
+        Match
       </Typography>
       <div>
         <Grid container>
@@ -589,9 +589,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Win")}
+          onClick={()=> buttonSpeak("Match")}
           to="/"
-          >Win
+          >Match
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -601,9 +601,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Wins")}
+          onClick={()=> buttonSpeak("Matches")}
           to="/"
-          >Wins
+          >Matches
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -613,9 +613,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Winning")}
+          onClick={()=> buttonSpeak("Matching")}
           to="/"
-          >Winning
+          >Matching
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -625,9 +625,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Won")}
+          onClick={()=> buttonSpeak("MAtched")}
           to="/"
-          >Won
+          >Matched
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -637,9 +637,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Win")}
+          onClick={()=> buttonSpeak("To Match")}
           to="/"
-          >To Win
+          >To Match
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1136,4 +1136,4 @@ function Win({route}) {
   );
 }
 
-export default Win;
+export default Match;

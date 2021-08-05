@@ -12,6 +12,16 @@ import Meat from "./Eat/Meat"
 import Snack from "./Eat/Snack"
 import Vegetables from "./Eat/Vegetables"
 import Play from "./Play/Play"
+import Games from "./Play/Games"
+import Lose from "./Play/Lose"
+import Skip from "./Play/Skip"
+import Slide from "./Play/Slide"
+import Swing from "./Play/Swing"
+import Toy from "./Play/Toy"
+import Win from "./Play/Win"
+import Match from "./Play/Match"
+import Party from "./Play/Party"
+import Difficult from"./Play/Difficult"
 import He from "./Pronouns/He"
 import I from "./Pronouns/I"
 import It from "./Pronouns/It"
@@ -178,6 +188,16 @@ function App() {
           <Route exact path="/Eat/Snack" component={Snack}/>
           <Route exact path="/Eat/Vegetables" component={Vegetables}/>
           <Route exact path="/Play" component={Play}/>
+          <Route exact path="/Play/Difficult" component={Difficult}/>
+          <Route exact path="/Play/Games" component={Games}/>
+          <Route exact path="/Play/Lose" component={Lose}/>
+          <Route exact path="/Play/Match" component={Match}/>
+          <Route exact path="/Play/Party" component={Party}/>
+          <Route exact path="/Play/Skip" component={Skip}/>
+          <Route exact path="/Play/Side" component={Slide}/>
+          <Route exact path="/Play/Swing" component={Swing}/>
+          <Route exact path="/Play/Toy" component={Toy}/>
+          <Route exact path="/Play/Win" component={Win}/>
           <Route exact path="/He" component={He}/>
           <Route exact path="/I" component={I}/>
           <Route exact path="/It" component={It}/>

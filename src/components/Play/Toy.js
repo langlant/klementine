@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Win({route}) {
+function Toy({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Win({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Win
+        Toy
       </Typography>
       <div>
         <Grid container>
@@ -588,10 +588,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Win")}
-          to="/"
-          >Win
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -600,10 +597,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Wins")}
-          to="/"
-          >Wins
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,10 +606,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Winning")}
-          to="/"
-          >Winning
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,10 +615,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Won")}
-          to="/"
-          >Won
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -636,10 +624,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Win")}
-          to="/"
-          >To Win
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1136,4 +1121,4 @@ function Win({route}) {
   );
 }
 
-export default Win;
+export default Toy;

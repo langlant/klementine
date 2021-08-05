@@ -148,7 +148,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          to="/Play/Toy"
+          >Toy
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +590,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Play")}
+          to="/"
+          >Play
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +602,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Plays")}
+          to="/"
+          >Plays
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +614,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Playing")}
+          to="/"
+          >Playing
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +626,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Played")}
+          to="/"
+          >Played
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +638,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Play")}
+          to="/"
+          >To Play
           </Button>
         </Grid>
         <Grid xs={1}>

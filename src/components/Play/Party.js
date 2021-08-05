@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Win({route}) {
+function Party({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Win({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Win
+        Party
       </Typography>
       <div>
         <Grid container>
@@ -589,9 +589,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Win")}
+          onClick={()=> buttonSpeak("Party")}
           to="/"
-          >Win
+          >Party
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -601,9 +601,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Wins")}
+          onClick={()=> buttonSpeak("Parties")}
           to="/"
-          >Wins
+          >Parties
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -613,9 +613,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Winning")}
+          onClick={()=> buttonSpeak("Partying")}
           to="/"
-          >Winning
+          >Partying
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -625,9 +625,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Won")}
+          onClick={()=> buttonSpeak("Partied")}
           to="/"
-          >Won
+          >Partied
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -637,9 +637,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Win")}
+          onClick={()=> buttonSpeak("To Party")}
           to="/"
-          >To Win
+          >To Party
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1136,4 +1136,4 @@ function Win({route}) {
   );
 }
 
-export default Win;
+export default Party;

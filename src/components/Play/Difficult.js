@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Win({route}) {
+function Difficult({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Win({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Win
+        Difficult
       </Typography>
       <div>
         <Grid container>
@@ -589,9 +589,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Win")}
+          onClick={()=> buttonSpeak("Difficult")}
           to="/"
-          >Win
+          >Difficult
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -601,9 +601,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Wins")}
+          onClick={()=> buttonSpeak("More Difficult")}
           to="/"
-          >Wins
+          >More Difficult
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -613,9 +613,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Winning")}
+          onClick={()=> buttonSpeak("Most Difficult")}
           to="/"
-          >Winning
+          >Most Difficult
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -625,9 +625,9 @@ function Win({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Won")}
+          onClick={()=> buttonSpeak("Difficultly")}
           to="/"
-          >Won
+          >Difficultly
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -636,10 +636,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Win")}
-          to="/"
-          >To Win
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1136,4 +1133,4 @@ function Win({route}) {
   );
 }
 
-export default Win;
+export default Difficult;

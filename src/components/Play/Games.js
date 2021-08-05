@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Win({route}) {
+function Games({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Win({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Win
+        Games
       </Typography>
       <div>
         <Grid container>
@@ -148,7 +148,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Angry Birds")}
+          to="/"
+          >Angry Birds
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +169,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dice")}
+          to="/"
+          >Dice
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +190,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tic Tac Toe")}
+          to="/"
+          >Tic Tac Toe
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +211,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Checkers")}
+          to="/"
+          >Checkers
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +232,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          >Chess
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -249,7 +261,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Uno")}
+          to="/"
+          >Uno
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -267,7 +282,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Memory")}
+          to="/"
+          >Memory
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -285,7 +303,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bingo")}
+          to="/"
+          >Bingo
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -303,7 +324,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Go Fish")}
+          to="/"
+          >Go Fish
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -321,7 +345,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dominoes")}
+          to="/"
+          >Dominoes
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -339,7 +366,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Scrabble")}
+          to="/"
+          >Scrabble
           </Button>
         </Grid>
       </Grid>
@@ -350,7 +380,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Monopoly")}
+          to="/"
+          >Monopoly
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +401,10 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Lucky Ducks")}
+          to="/"
+          >Lucky Ducks
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,10 +624,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Win")}
-          to="/"
-          >Win
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -600,10 +633,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Wins")}
-          to="/"
-          >Wins
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,10 +642,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Winning")}
-          to="/"
-          >Winning
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,10 +651,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Won")}
-          to="/"
-          >Won
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -636,10 +660,7 @@ function Win({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Win")}
-          to="/"
-          >To Win
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1136,4 +1157,4 @@ function Win({route}) {
   );
 }
 
-export default Win;
+export default Games;
