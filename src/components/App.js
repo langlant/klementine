@@ -36,6 +36,7 @@ import Verb from "./Verb/Verb"
 import Nt from "./Verb/Nt"
 import Drink from "./Drink/Drink"
 import Want from "./Want/Want"
+import WantNt from "./Want/Nt"
 import Time from "./Time/Time"
 import TimeTime from "./Time/TimeTime"
 import Calendar from "./Time/Calendar"
@@ -94,6 +95,7 @@ import Make from "./Make/Make"
 import Need from "./Need/Need"
 import Turn from "./Turn/Turn"
 import Stop from "./Stop/Stop"
+import StopNt from "./Stop/Nt"
 import Fast from "./Fast/Fast"
 import Slow from "./Slow/Slow"
 import Love from "./Love/Love"
@@ -226,6 +228,7 @@ function App() {
           <Route exact path="/You" component={You}/>
           <Route exact path="/Drink" component={Drink}/>
           <Route exact path="/Want" component={Want}/>
+          <Route exact path="/Want/Nt" component={WantNt}/>
           <Route exact path="/Time" component={Time}/>
           <Route exact path="/Time/TimeTime" component={TimeTime}/>
           <Route exact path="/Time/Calendar" component={Calendar}/>
@@ -284,6 +287,7 @@ function App() {
           <Route exact path="/Need" component={Need}/>
           <Route exact path="/Turn" component={Turn}/>
           <Route exact path="/Stop" component={Stop}/>
+          <Route exact pat="/Stop/Nt" component={StopNt}/>
           <Route exact path="/Slow" component={Slow}/>
           <Route exact path="/Fast" component={Fast}/>
           <Route exact path="/Love" component={Love}/>

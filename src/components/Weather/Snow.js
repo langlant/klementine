@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Snow({route}) {
   
   const classes = useStyles(); 
 
@@ -45,11 +45,6 @@ function Template({route}) {
   function setText(word){
     var newString = textString
     setTextString(newString + " " + word)
-  }
-
-  function setLText(word){
-    var newString = textString
-    setTextString(newString + word)
   }
 
   function tokenDelete(word){
@@ -75,23 +70,27 @@ function Template({route}) {
     setText(word)
   }
 
+  function setLText(word){
+    var newString = textString
+    setTextString(newString + word)
+  }
+  
   function buttonSpeakL(word) {
-    setLText(word)
-
     speech.speak({
-      text: textString,
+      text: word,
   }).then(() => {
       console.log("Success !")
   }).catch(e => {
       console.error("An error occurred :", e)
   })
 
+    setLText(word)
   }
   
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Snow
       </Typography>
       <div>
         <Grid container>
@@ -140,10 +139,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>
-            setText("one two three")
-          }
-          >
+          >002
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -592,7 +588,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snow")}
+          to="/"
+          >Snow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -601,7 +600,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snows")}
+          to="/"
+          >Snows
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -610,7 +612,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snowing")}
+          to="/"
+          >Snowing
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -619,7 +624,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snowed")}
+          to="/"
+          >Snowed
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -628,7 +636,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Snow")}
+          to="/"
+          >To Snow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -637,7 +648,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >056
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snowflake")}
+          to="/"
+          >Snowflake
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -646,7 +660,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snowy")}
+          to="/"
+          >Snowy
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -655,7 +672,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snowier")}
+          to="/"
+          >Snowier
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -664,7 +684,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Snowiest")}
+          to="/"
+          >Snowiest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1125,4 +1148,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Snow;

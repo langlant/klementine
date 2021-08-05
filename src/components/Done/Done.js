@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Done({route}) {
   
   const classes = useStyles(); 
 
@@ -72,7 +72,7 @@ function Template({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Done
       </Typography>
       <div>
         <Grid container>
@@ -573,7 +573,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Done")}
+          to="/"
+          >Done
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -591,7 +594,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Finish")}
+          to="/"
+          >Finish
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -600,7 +606,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Finishes")}
+          to="/"
+          >Finishes
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -609,7 +618,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Finishing")}
+          to="/"
+          >Finishing
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -618,7 +630,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >056
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Finished")}
+          to="/"
+          >Finished
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -627,7 +642,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Finish")}
+          to="/"
+          >To Finish
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1106,4 +1124,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Done;

@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Nt({route}) {
   
   const classes = useStyles(); 
 
@@ -45,11 +45,6 @@ function Template({route}) {
   function setText(word){
     var newString = textString
     setTextString(newString + " " + word)
-  }
-
-  function setLText(word){
-    var newString = textString
-    setTextString(newString + word)
   }
 
   function tokenDelete(word){
@@ -75,23 +70,27 @@ function Template({route}) {
     setText(word)
   }
 
+  function setLText(word){
+    var newString = textString
+    setTextString(newString + word)
+  }
+  
   function buttonSpeakL(word) {
-    setLText(word)
-
     speech.speak({
-      text: textString,
+      text: word,
   }).then(() => {
       console.log("Success !")
   }).catch(e => {
       console.error("An error occurred :", e)
   })
 
+    setLText(word)
   }
   
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Nt
       </Typography>
       <div>
         <Grid container>
@@ -140,10 +139,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>
-            setText("one two three")
-          }
-          >
+          >002
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -244,7 +240,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Don't I Want")}
+          to="/"
+          >Don't I Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -253,7 +252,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Don't You Want")}
+          to="/"
+          >Don't You Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -363,7 +365,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >26
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Don't We Want")}
+          to="/"
+          >Don't We Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -574,7 +579,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doesn't It Want")}
+          to="/"
+          >Doesn't It Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -583,7 +591,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >050
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Don't They Want")}
+          to="/"
+          >Don't They Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -684,7 +695,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >061
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doesn't She Want")}
+          to="/"
+          >Doesn't She Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -693,7 +707,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doesn't He Want")}
+          to="/"
+          >Doesn't He Want
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1125,4 +1142,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Nt;
