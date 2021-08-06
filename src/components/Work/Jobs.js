@@ -148,7 +148,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("PT")}
+          to="/"
+          >PT
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +169,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Secretary")}
+          to="/"
+          >Secretary
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +190,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Driver")}
+          to="/"
+          >Driver
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +211,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Singer")}
+          to="/"
+          >Singer
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +232,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Actor")}
+          to="/"
+          >Actor
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -350,7 +365,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Waiter")}
+          to="/"
+          >Waiter
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +386,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dentist")}
+          to="/"
+          >Dentist
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +407,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Police Officer")}
+          to="/"
+          >Police Officer
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +428,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fireman")}
+          to="/"
+          >Fireman
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +449,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Farmer")}
+          to="/"
+          >Farmer
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +470,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Mail Carrier")}
+          to="/"
+          >Mail Carrier
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +621,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Psychologist")}
+          to="/"
+          >Psychologist
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +642,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Case Worker")}
+          to="/"
+          >Case Worker
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,7 +663,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Baby Sitter")}
+          to="/"
+          >Baby Sitter
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +684,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Vet")}
+          to="/"
+          >Vet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,7 +705,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Chef")}
+          to="/"
+          >Chef
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -808,7 +856,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Astronaut")}
+          to="/"
+          >Astronaut
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -826,7 +877,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Pilot")}
+          to="/"
+          >Pilot
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -844,7 +898,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Cashier")}
+          to="/"
+          >Cashier
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -862,7 +919,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rabbi")}
+          to="/"
+          >Rabbi
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,7 +940,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Priest")}
+          to="/"
+          >Priest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1031,7 +1094,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >099
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Imam")}
+          to="/"
+          >Imam
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1049,7 +1115,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >101
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Carpenter")}
+          to="/"
+          >Carpenter
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1067,7 +1136,10 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >103
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Plumber")}
+          to="/"
+          >Plumber
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1085,7 +1157,7 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >105
+          >Librarian
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1103,7 +1175,7 @@ function Jobs({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >107
+          >Scientist
           </Button>
         </Grid>
         <Grid xs={1}>

@@ -588,7 +588,10 @@ function Hook({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hook")}
+          to="/"
+          >Hook
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Hook({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hooks")}
+          to="/"
+          >Hooks
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Hook({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hooking")}
+          to="/"
+          >Hooking
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,7 @@ function Hook({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          >To Hook
           </Button>
         </Grid>
         <Grid xs={1}>

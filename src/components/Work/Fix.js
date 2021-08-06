@@ -588,7 +588,10 @@ function Fix({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fix")}
+          to="/"
+          >Fix
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Fix({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fixes")}
+          to="/"
+          >Fixes
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Fix({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fixing")}
+          to="/"
+          >Fixing
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Fix({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fixed")}
+          to="/"
+          >Fixed
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,7 @@ function Fix({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          >To Fix
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -633,7 +645,10 @@ function Fix({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >056
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fixable")}
+          to="/"
+          >Fixable
           </Button>
         </Grid>
         <Grid xs={1}>

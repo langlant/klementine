@@ -148,7 +148,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tool")}
+          to="/"
+          >Tool
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +169,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hammer")}
+          to="/"
+          >Hammer
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +190,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Screwdriver")}
+          to="/"
+          >Screwdriver
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +211,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wrench")}
+          to="/"
+          >Wrench
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +232,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Allen Wrench")}
+          to="/"
+          >Allen Wrench
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +383,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Nails")}
+          to="/"
+          >Nails
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +404,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Screws")}
+          to="/"
+          >Screws
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +425,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wood")}
+          to="/"
+          >Wood
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +446,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Shovel")}
+          to="/"
+          >Shovel
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +467,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rake")}
+          to="/"
+          >Rake
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +618,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Ladder")}
+          to="/"
+          >Ladder
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +639,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sand Paper")}
+          to="/"
+          >Sand Paper
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,7 +660,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Nuts and BOlts")}
+          to="/"
+          >Nuts and Bolts
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +681,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Broom")}
+          to="/"
+          >Broom
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,7 +702,10 @@ function Tools({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Saw")}
+          to="/"
+          >Saw
           </Button>
         </Grid>
         <Grid xs={1}>

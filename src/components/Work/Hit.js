@@ -588,7 +588,10 @@ function Hit({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hit")}
+          to="/"
+          >Hit
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Hit({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hits")}
+          to="/"
+          >Hits
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Hit({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hitting")}
+          to="/"
+          >Hitting
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Hit({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Hit")}
+          to="/"
+          >To Hit
           </Button>
         </Grid>
         <Grid xs={1}>

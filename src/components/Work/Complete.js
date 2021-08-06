@@ -588,7 +588,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Complete")}
+          to="/"
+          >Complete
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Completes")}
+          to="/"
+          >Completes
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Completing")}
+          to="/"
+          >Completing
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Completed")}
+          to="/"
+          >Completed
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Complete")}
+          to="/"
+          >To Complete
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +657,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Completely")}
+          to="/"
+          >Completely
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -651,7 +669,10 @@ function Complete({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Completion")}
+          to="/"
+          >Completion
           </Button>
         </Grid>
         <Grid xs={1}>

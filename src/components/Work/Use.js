@@ -588,7 +588,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Use")}
+          to="/"
+          >Use
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Uses")}
+          to="/"
+          >Uses
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Using")}
+          to="/"
+          >Using
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Used")}
+          to="/"
+          >Used
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Use")}
+          to="/"
+          >To Use
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +657,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Usable")}
+          to="/"
+          >Usable
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -651,7 +669,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeak("More Usable")}
+          to="/"
+          >More Usable
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,7 +681,10 @@ function Use({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Most Usable")}
+          to="/"
+          >Most Usable
           </Button>
         </Grid>
         <Grid xs={1}>
