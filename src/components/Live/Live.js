@@ -148,7 +148,9 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          to="/Live/LHome"
+          >Home
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +168,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Living Room")}
+          to="/"
+          >Living Room
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +189,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dining Room")}
+          to="/"
+          >Dining Room
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +210,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Kitchen")}
+          to="/"
+          >Kitchen
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +231,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bathroom")}
+          to="/"
+          >Bathroom
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -249,7 +263,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bedroom")}
+          to="/"
+          >Bedroom
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -267,7 +284,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Office")}
+          to="/"
+          >Office
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -285,7 +305,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Classroom")}
+          to="/"
+          >Classroom
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -303,7 +326,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Cafeteria")}
+          to="/"
+          >Cafeteria
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -321,7 +347,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Gym")}
+          to="/"
+          >Gym
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -339,7 +368,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Room")}
+          to="/"
+          >Room
           </Button>
         </Grid>
       </Grid>
@@ -350,7 +382,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("House")}
+          to="/"
+          >House
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +403,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Home")}
+          to="/"
+          >Home
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +424,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Homes")}
+          to="/"
+          >Homes
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +445,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Build")}
+          to="/"
+          >Build
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +466,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("")}
+          to="/"
+          >Key
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +487,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Keys")}
+          to="/"
+          >Keys
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -817,7 +867,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >073
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Welcome")}
+          to="/"
+          >Welcome
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -835,7 +888,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Lock")}
+          to="/"
+          >Lock
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -853,7 +909,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Alive")}
+          to="/"
+          >Alive
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -871,7 +930,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Visit")}
+          to="/"
+          >Visit
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -889,7 +951,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Trash")}
+          to="/"
+          >Trash
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -907,7 +972,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Laundry")}
+          to="/"
+          >Laundry
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -936,7 +1004,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >086
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Family Room")}
+          to="/"
+          >Family Room
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -954,7 +1025,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >088
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Game Room")}
+          to="/"
+          >Game Room
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -972,7 +1046,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >090
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Lounge")}
+          to="/"
+          >Lounge
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -990,7 +1067,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >092
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Nursery")}
+          to="/"
+          >Nursery
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1008,7 +1088,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >094
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Decorate")}
+          to="/"
+          >Decorate
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1026,7 +1109,7 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >096
+          >Garage
           </Button>
         </Grid>
       </Grid>
@@ -1058,7 +1141,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >099
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Comfortable")}
+          to="/"
+          >Comfortable
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1076,7 +1162,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >101
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Die")}
+          to="/"
+          >Die
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1085,7 +1174,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >102
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dies")}
+          to="/"
+          >Dies
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1094,7 +1186,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >103
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dying")}
+          to="/"
+          >Dying
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1103,7 +1198,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >104
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Died")}
+          to="/"
+          >Died
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1112,7 +1210,10 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >105
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Die")}
+          to="/"
+          >To Die
           </Button>
         </Grid>
         <Grid xs={1}>

@@ -89,7 +89,40 @@ import Go from "./Go/Go"
 import GoNt from "./Go/Nt"
 import Building from "./Go/Building"
 import Get from "./Get/Get"
+import Dark from "./Get/Dark"
+import Fall from "./Get/Fall"
+import Flower from "./Get/Flower"
+import Light from "./Get/Light"
+import Sky from "./Get/Sky"
+import Space from "./Get/Space"
+import Terrain from "./Get/Terrain"
+import Trees from "./Get/Trees"
+import GWater from "./Get/GWater"
 import Help from "./Help/Help"
+import Ache from "./Help/Ache"
+import Bleed from "./Help/Bleed"
+import Breathe from "./Help/Breathe"
+import Brush from "./Help/Brush"
+import Burn from "./Help/Burn"
+import Clean from "./Help/Clean"
+import Comb from "./Help/Comb"
+import Cough from "./Help/Cough"
+import Dirty from "./Help/Dirty"
+import Drool from "./Help/Drool"
+import Dry from "./Help/Dry"
+import Fart from "./Help/Fart"
+import Flush from "./Help/Flush"
+import Health from "./Help/Health"
+import Hurt from "./Help/Hurt"
+import Itch from "./Help/Itch"
+import Mess from "./Help/Mess"
+import Pee from "./Help/Pee"
+import Poop from "./Help/Poop"
+import Scratch from "./Help/Scratch"
+import Sneeze from "./Help/Sneeze"
+import Toiletries from "./Help/Toiletries"
+import Wash from "./Help/Wash"
+import Wipe from "./Help/Wipe"
 import Look from "./Look/Look"
 import Talk from "./Talk/Talk"
 import Think from "./Think/Think"
@@ -316,7 +349,40 @@ function App() {
           <Route exact path="/Go/Nt" component={GoNt}/>
           <Route exact path="/Go/Building" component={Building}/>
           <Route exact path="/Get" component={Get}/>
+          <Route exact path="/Get/Dark" component={Dark}/>
+          <Route exact path="/Get/Fall" component={Fall}/>
+          <Route exact path="/Get/Flower" component={Flower}/>
+          <Route exact path="/Get/GWater" component={GWater}/>
+          <Route exact path="/Get/Light" component={Light}/>
+          <Route exact path="/Get/Sky" component={Sky}/>
+          <Route exact path="/Get/Space" component={Space}/>
+          <Route exact path="/Get/Terrain" component={Trees}/>
+          <Route exact path="/Get/Trees" component={Trees}/>
           <Route exact path="/Help" component={Help}/>
+          <Route exact path="/Help/Ache" component={Ache}/>
+          <Route exact path="/Help/Bleed" component={Bleed}/>
+          <Route exact path="/Help/Breathe" component={Breathe}/>
+          <Route exact path="/Help/Brush" component={Brush}/>
+          <Route exact path="/Help/Burn" component={Burn}/>
+          <Route exact path="/Help/Clean" component={Clean}/>
+          <Route exact path="/Help/Comb" component={Comb}/>
+          <Route exact path="/Help/Cough" component={Cough}/>
+          <Route exact path="/Help/Dirty" component={Dirty}/>
+          <Route exact path="/Help/Drool" component={Drool}/>
+          <Route exact path="/Help/Dry" component={Dry}/>
+          <Route exact path="/Help/Fart" component={Fart}/>
+          <Route exact path="/Help/Flush" component={Flush}/>
+          <Route exact path="/Help/Health" component={Health}/>
+          <Route exact path="/Help/Hurt" component={Hurt}/>
+          <Route exact path="/Help/Itch" component={Itch}/>
+          <Route exact path="/Help/Mess" component={Mess}/>
+          <Route exact path="/Help/Pee" component={Pee}/>
+          <Route exact path="/Help/Poop" component={Poop}/>
+          <Route exact path="/Help/Scratch" component={Scratch}/>
+          <Route exact path="/Help/Sneeze" component={Sneeze}/>
+          <Route exact path="/Help/Toiletries" component={Toiletries}/>
+          <Route exact path="/Help/Wash" component={Wash}/>
+          <Route exact path="/Help/Wipe" component={Wipe}/>
           <Route exact path="/Look" component={Look}/>
           <Route exact path="/Talk" component={Talk}/>
           <Route exact path="/Think" component={Think}/>

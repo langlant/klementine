@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Get({route}) {
+function Toiletries({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Get({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Get
+        Toiletries
       </Typography>
       <div>
         <Grid container>
@@ -149,8 +149,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Flower"
-          >Flower
+          onClick={()=> buttonSpeak("Toiletry")}
+          to="/"
+          >Toiletry
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,8 +170,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Trees"
-          >Trees
+          onClick={()=> buttonSpeak("Soap")}
+          to="/"
+          >Soap
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -189,8 +191,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/GWater"
-          >Water
+          onClick={()=> buttonSpeak("Shampoo")}
+          to="/"
+          >Shampoo
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -209,8 +212,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Terrain"
-          >Terrain
+          onClick={()=> buttonSpeak("Shower")}
+          to="/"
+          >Shower
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -229,8 +233,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Sky"
-          >Sky
+          onClick={()=> buttonSpeak("Toilet")}
+          to="/"
+          >Toilet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -379,8 +384,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Space"
-          >Space
+          onClick={()=> buttonSpeak("Toothbrush")}
+          to="/"
+          >Toothbrush
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -399,9 +405,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Fire")}
+          onClick={()=> buttonSpeak("Toothpaste")}
           to="/"
-          >Fire
+          >Toothpaste
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -420,9 +426,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Earthquake")}
+          onClick={()=> buttonSpeak("Deodorant")}
           to="/"
-          >Earthquake
+          >Deodorant
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -441,9 +447,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Shadow")}
+          onClick={()=> buttonSpeak("Shaving Cream")}
           to="/"
-          >Shadow
+          >Shaving Cream
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -462,8 +468,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Fall"
-          >Fall
+          onClick={()=> buttonSpeak("Razor")}
+          to="/"
+          >Razor
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,9 +619,18 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Get")}
+          onClick={()=> buttonSpeak("Sunscreen")}
           to="/"
-          >Get
+          >Sunscreen
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,21 +640,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Gets")}
+          onClick={()=> buttonSpeak("Aftershave")}
           to="/"
-          >Gets
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Getting")}
-          to="/"
-          >Getting
+          >Aftershave
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -647,10 +651,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Got")}
-          to="/"
-          >Got
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,9 +661,18 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Get")}
+          onClick={()=> buttonSpeak("Sponge")}
           to="/"
-          >To Get
+          >Sponge
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -672,9 +682,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Gotten")}
+          onClick={()=> buttonSpeak("Tampon")}
           to="/"
-          >Gotten
+          >Tampon
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -683,19 +693,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Low")}
-          to="/"
-          >Low
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -705,9 +703,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Lower")}
+          onClick={()=> buttonSpeak("Sanitary")}
           to="/"
-          >Lower
+          >Sanitary
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -716,10 +714,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lowest")}
-          to="/"
-          >Lowest
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -859,8 +854,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Light"
-          >Light
+          onClick={()=> buttonSpeak("Bath")}
+          to="/"
+          >Bath
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -878,9 +874,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Get/Dark"
-          >Dark
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -898,10 +892,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Nature")}
-          to="/"
-          >Nature
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -919,10 +910,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Natures")}
-          to="/"
-          >Natures
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1181,4 +1169,4 @@ function Get({route}) {
   );
 }
 
-export default Get;
+export default Toiletries;

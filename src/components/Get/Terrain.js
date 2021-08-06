@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Get({route}) {
+function Terrain({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Get({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Get
+        Terrain
       </Typography>
       <div>
         <Grid container>
@@ -149,8 +149,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Flower"
-          >Flower
+          onClick={()=> buttonSpeak("Desert")}
+          to="/"
+          >Desert
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,8 +170,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Trees"
-          >Trees
+          onClick={()=> buttonSpeak("Woods")}
+          to="/"
+          >Woods
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -189,8 +191,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/GWater"
-          >Water
+          onClick={()=> buttonSpeak("Forest")}
+          to="/"
+          >Forest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -209,8 +212,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Terrain"
-          >Terrain
+          onClick={()=> buttonSpeak("Jungle")}
+          to="/"
+          >Jungle
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -229,8 +233,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Sky"
-          >Sky
+          onClick={()=> buttonSpeak("Island")}
+          to="/"
+          >Island
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -379,8 +384,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Space"
-          >Space
+          onClick={()=> buttonSpeak("Mountain")}
+          to="/"
+          >Mountain
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -399,9 +405,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Fire")}
+          onClick={()=> buttonSpeak("Hill")}
           to="/"
-          >Fire
+          >Hill
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -420,9 +426,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Earthquake")}
+          onClick={()=> buttonSpeak("Grass")}
           to="/"
-          >Earthquake
+          >Grass
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -441,9 +447,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Shadow")}
+          onClick={()=> buttonSpeak("Dirt")}
           to="/"
-          >Shadow
+          >Dirt
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -462,8 +468,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Get/Fall"
-          >Fall
+          onClick={()=> buttonSpeak("Ground")}
+          to="/"
+          >Ground
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,9 +619,18 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Get")}
+          onClick={()=> buttonSpeak("Rock")}
           to="/"
-          >Get
+          >Rock
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,21 +640,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Gets")}
+          onClick={()=> buttonSpeak("Garden")}
           to="/"
-          >Gets
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Getting")}
-          to="/"
-          >Getting
+          >Garden
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -647,10 +651,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Got")}
-          to="/"
-          >Got
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,9 +661,9 @@ function Get({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Get")}
+          onClick={()=> buttonSpeak("Sand")}
           to="/"
-          >To Get
+          >Sand
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -671,10 +672,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Gotten")}
-          to="/"
-          >Gotten
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -692,10 +690,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Low")}
-          to="/"
-          >Low
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -704,10 +699,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lower")}
-          to="/"
-          >Lower
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -716,10 +708,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lowest")}
-          to="/"
-          >Lowest
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -858,9 +847,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Get/Light"
-          >Light
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -878,9 +865,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Get/Dark"
-          >Dark
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -898,10 +883,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Nature")}
-          to="/"
-          >Nature
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -919,10 +901,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Natures")}
-          to="/"
-          >Natures
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1181,4 +1160,4 @@ function Get({route}) {
   );
 }
 
-export default Get;
+export default Terrain;

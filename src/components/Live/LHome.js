@@ -148,7 +148,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Stairs")}
+          to="/"
+          >Stairs
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +169,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Upstairs")}
+          to="/"
+          >Upstairs
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +190,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Downstairs")}
+          to="/"
+          >Downstairs
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +211,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Ramp")}
+          to="/"
+          >Ramp
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +232,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Elevator")}
+          to="/"
+          >Elevator
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -249,7 +264,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Door")}
+          to="/"
+          >Door
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -267,7 +285,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Window")}
+          to="/"
+          >Window
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -285,7 +306,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Toilet")}
+          to="/"
+          >Toilet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -303,7 +327,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bath Tub")}
+          to="/"
+          >Bath Tub
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -321,7 +348,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sink")}
+          to="/"
+          >Sink
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -339,7 +369,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Closet")}
+          to="/"
+          >Closet
           </Button>
         </Grid>
       </Grid>
@@ -350,7 +383,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Cupboard")}
+          to="/"
+          >Cupboard
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +404,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Drawer")}
+          to="/"
+          >Drawer
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +425,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Shelf")}
+          to="/"
+          >Shelf
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +446,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Floor")}
+          to="/"
+          >Floor
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +467,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hall")}
+          to="/"
+          >Hall
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +488,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Light Bulb")}
+          to="/"
+          >Light Bulb
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -469,7 +520,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >38
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Outlet")}
+          to="/"
+          >Outlet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -487,7 +541,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >040
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Attic")}
+          to="/"
+          >Attic
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -505,7 +562,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >042
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Basement")}
+          to="/"
+          >Basement
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -523,7 +583,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >044
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Ceiling")}
+          to="/"
+          >Ceiling
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -541,7 +604,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >046
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Chimney")}
+          to="/"
+          >Chimney
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -559,7 +625,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >048
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fireplace")}
+          to="/"
+          >Fireplace
           </Button>
         </Grid>
       </Grid>
@@ -570,7 +639,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Deck")}
+          to="/"
+          >Deck
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +660,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Patio")}
+          to="/"
+          >Patio
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +681,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Porch")}
+          to="/"
+          >Porch
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,7 +702,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Roof")}
+          to="/"
+          >Roof
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +723,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Yard")}
+          to="/"
+          >Yard
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,7 +744,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wall")}
+          to="/"
+          >Wall
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -689,7 +776,10 @@ function LHome({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Fountain")}
+          to="/"
+          >Fountain
           </Button>
         </Grid>
         <Grid xs={1}>
