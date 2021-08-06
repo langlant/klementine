@@ -52,6 +52,20 @@ import End from "./End/End"
 import Direct from "./End/Direct"
 import US from "./End/US"
 import Work from "./Work/Work"
+import Abuse from "./Work/Abuse"
+import Achieve from "./Work/Achieve"
+import Adjust from "./Work/Adjust"
+import Bend from "./Work/Bend"
+import Break from "./Work/Break"
+import Complete from "./Work/Complete"
+import Employ from "./Work/Employ"
+import Fix from "./Work/Fix"
+import Hit from "./Work/Hit"
+import Hook from "./Work/Hook"
+import Jobs from "./Work/Jobs"
+import Tools from "./Work/Tools"
+import Use from "./Work/Use"
+import WorkNt from "./Work/WorkNt"
 import And from "./And/And"
 import That from "./That/That"
 import There from "./There/There"
@@ -311,6 +325,20 @@ function App() {
           <Route exact path="/End/Direct" component={Direct}/>
           <Route exact path="/End/US" component={US}/>
           <Route exact path="/Work" component={Work}/>
+          <Route exact path="/Work/Abuse" component={Abuse}/>
+          <Route exact path="/Work/Achieve" component={Achieve}/>
+          <Route exact path="/Work/Adjust" component={Adjust}/>
+          <Route exact path="/Work/Bend" component={Bend}/>
+          <Route exact path="/Work/Break" component={Break}/>
+          <Route exact path="/Work/Complete" component={Complete}/>
+          <Route exact path="/Work/Employ" component={Employ}/>
+          <Route exact path="/Work/Fix" component={Fix}/>
+          <Route exact path="/Work/Hit" component={Hit}/>
+          <Route exact path="/Work/Hook" component={Hook}/>
+          <Route exact path="/Work/Jobs" component={Jobs}/>
+          <Route exact path="/Work/Tools" component={Tools}/>
+          <Route exact path="/Work/Use" component={Use}/>
+          <Route exact path="/Work/WorkNt" component={WorkNt}/>
           <Route exact path="/Want" component={Want}/>
           <Route exact path="/And" component={And}/>
           <Route exact path="/That" component={That}/>

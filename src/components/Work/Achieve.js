@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Come({route}) {
+function Achieve({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Come({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Come
+        Achieve
       </Typography>
       <div>
         <Grid container>
@@ -148,9 +148,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Carry"
-          >Carry
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,9 +166,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Bring"
-          >Bring
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -188,9 +184,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Receive"
-          >Receive
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -595,9 +589,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Come")}
+          onClick={()=> buttonSpeak("Achieve")}
           to="/"
-          >Come
+          >Achieve
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -607,9 +601,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Comes")}
+          onClick={()=> buttonSpeak("Achieves")}
           to="/"
-          >Comes
+          >Achieves
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -619,9 +613,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Coming")}
+          onClick={()=> buttonSpeak("Achieving")}
           to="/"
-          >Coming
+          >Achieving
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -631,9 +625,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Came")}
+          onClick={()=> buttonSpeak("Achieved")}
           to="/"
-          >Came
+          >Achieved
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -643,9 +637,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Come")}
+          onClick={()=> buttonSpeak("To Achieve")}
           to="/"
-          >To Come
+          >To Achieve
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,10 +657,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tame")}
-          to="/"
-          >Tame
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +666,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamer")}
-          to="/"
-          >Tamer
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +675,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamest")}
-          to="/"
-          >Tamest
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -838,7 +823,10 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Achievable")}
+          to="/"
+          >Achievable
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -847,7 +835,10 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >076
+          component={RouterLink}
+          onClick={()=> buttonSpeak("More Achievable")}
+          to="/"
+          >More Achievable
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -856,7 +847,10 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Most Achievable")}
+          to="/"
+          >Most Achievable
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -874,7 +868,10 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Achievement")}
+          to="/"
+          >Achievement
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -883,7 +880,10 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >080
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Achievements")}
+          to="/"
+          >Achievements
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,4 +1151,4 @@ function Come({route}) {
   );
 }
 
-export default Come;
+export default Achieve;

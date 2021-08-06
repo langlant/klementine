@@ -588,7 +588,10 @@ function Receive({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Receive")}
+          to="/"
+          >Receive
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -597,7 +600,10 @@ function Receive({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Receives")}
+          to="/"
+          >Receives
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +612,10 @@ function Receive({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Receiving")}
+          to="/"
+          >Receiving
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -615,7 +624,10 @@ function Receive({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Received")}
+          to="/"
+          >Received
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -624,7 +636,10 @@ function Receive({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Receive")}
+          to="/"
+          >To Receive
           </Button>
         </Grid>
         <Grid xs={1}>

@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Come({route}) {
+function Hook({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Come({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Come
+        Hook
       </Typography>
       <div>
         <Grid container>
@@ -148,9 +148,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Carry"
-          >Carry
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,9 +166,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Bring"
-          >Bring
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -188,9 +184,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Receive"
-          >Receive
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -594,10 +588,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Come")}
-          to="/"
-          >Come
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,10 +597,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Comes")}
-          to="/"
-          >Comes
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -618,10 +606,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Coming")}
-          to="/"
-          >Coming
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -630,10 +615,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Came")}
-          to="/"
-          >Came
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,10 +624,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Come")}
-          to="/"
-          >To Come
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,10 +642,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tame")}
-          to="/"
-          >Tame
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +651,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamer")}
-          to="/"
-          >Tamer
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +660,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamest")}
-          to="/"
-          >Tamest
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,4 +1121,4 @@ function Come({route}) {
   );
 }
 
-export default Come;
+export default Hook;

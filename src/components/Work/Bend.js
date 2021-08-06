@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Come({route}) {
+function Bend({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Come({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Come
+        Bend
       </Typography>
       <div>
         <Grid container>
@@ -148,9 +148,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Carry"
-          >Carry
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,9 +166,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Bring"
-          >Bring
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -188,9 +184,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Come/Receive"
-          >Receive
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -595,9 +589,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Come")}
+          onClick={()=> buttonSpeak("Bend")}
           to="/"
-          >Come
+          >Bend
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -607,9 +601,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Comes")}
+          onClick={()=> buttonSpeak("Bends")}
           to="/"
-          >Comes
+          >Bends
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -619,9 +613,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Coming")}
+          onClick={()=> buttonSpeak("Bending")}
           to="/"
-          >Coming
+          >Bending
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -631,9 +625,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Came")}
+          onClick={()=> buttonSpeak("Bent")}
           to="/"
-          >Came
+          >Bent
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -643,9 +637,9 @@ function Come({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Come")}
+          onClick={()=> buttonSpeak("To Bend")}
           to="/"
-          >To Come
+          >To Bend
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,10 +657,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tame")}
-          to="/"
-          >Tame
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +666,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamer")}
-          to="/"
-          >Tamer
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +675,7 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamest")}
-          to="/"
-          >Tamest
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,4 +1136,4 @@ function Come({route}) {
   );
 }
 
-export default Come;
+export default Bend;

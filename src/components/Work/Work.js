@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Template({route}) {
+function Work({route}) {
   
   const classes = useStyles(); 
 
@@ -69,10 +69,28 @@ function Template({route}) {
 
     setText(word)
   }
+
+  function setLText(word){
+    var newString = textString
+    setTextString(newString + word)
+  }
+  
+  function buttonSpeakL(word) {
+    speech.speak({
+      text: word,
+  }).then(() => {
+      console.log("Success !")
+  }).catch(e => {
+      console.error("An error occurred :", e)
+  })
+
+    setLText(word)
+  }
+  
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Template
+        Work
       </Typography>
       <div>
         <Grid container>
@@ -121,10 +139,7 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          onClick={()=>
-            setText("one two three")
-          }
-          >
+          >002
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -225,7 +240,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must I")}
+          to="/"
+          >Must I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -234,7 +252,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must You")}
+          to="/"
+          >Must You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -344,7 +365,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >26
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must We")}
+          to="/"
+          >Must We
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -555,7 +579,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must It")}
+          to="/"
+          >Must It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -564,7 +591,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >050
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must They")}
+          to="/"
+          >Must They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -665,7 +695,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >061
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must She")}
+          to="/"
+          >Must She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -674,7 +707,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Must He")}
+          to="/"
+          >Must He
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1007,7 +1043,9 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >098
+          component={RouterLink}
+          to="/Work/WorkNt"
+          >Nt
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1106,4 +1144,4 @@ function Template({route}) {
   );
 }
 
-export default Template;
+export default Work;
