@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function All({route}) {
+function AllNt({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function All({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        All
+        Nt
       </Typography>
       <div>
         <Grid container>
@@ -241,9 +241,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did I")}
+          onClick={()=> buttonSpeak("Didn't I")}
           to="/"
-          >Did I
+          >Didn't I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -253,9 +253,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did You")}
+          onClick={()=> buttonSpeak("Didn't You")}
           to="/"
-          >Did You
+          >Didn't You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -366,9 +366,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did We")}
+          onClick={()=> buttonSpeak("Didn't We")}
           to="/"
-          >Did We
+          >Didn't We
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -580,9 +580,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did It")}
+          onClick={()=> buttonSpeak("Didn't It")}
           to="/"
-          >Did It
+          >Didn't It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -592,9 +592,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did They")}
+          onClick={()=> buttonSpeak("Didn't They")}
           to="/"
-          >Did They
+          >Didn't They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -696,9 +696,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did She")}
+          onClick={()=> buttonSpeak("Didn't She")}
           to="/"
-          >Did She
+          >Didn't She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -708,9 +708,9 @@ function All({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Did He")}
+          onClick={()=> buttonSpeak("Didn't He")}
           to="/"
-          >Did He
+          >Didn't He
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1043,9 +1043,7 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/All/AllNt"
-          >Nt
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1144,4 +1142,4 @@ function All({route}) {
   );
 }
 
-export default All;
+export default AllNt;

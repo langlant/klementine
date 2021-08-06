@@ -119,6 +119,7 @@ import Cost from "./Have/Cost"
 import Change from "./Have/Change"
 import Feel from "./Feel/Feel"
 import All from "./All/All"
+import AllNt from "./All/AllNt"
 import Come from "./Come/Come"
 import Color from "./Color/Color"
 import Right from "./Right/Right"
@@ -315,6 +316,7 @@ function App() {
           <Route exact path="/Have/Cost" component={Cost}/>
           <Route exact path="/Have/Change" component={Change}/>
           <Route exact path="/All" component={All}/>
+          <Route exact path="/All/AllNt" component={AllNt}/>
           <Route exact path="/Come" component={Come}/>
           <Route exact path="/Color" component={Color}/>
           <Route exact path="/Right" component={Right}/>
