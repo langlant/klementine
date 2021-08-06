@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Numbers({route}) {
+function Adopt({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Numbers({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Numbers
+        Adopt
       </Typography>
       <div>
         <Grid container>
@@ -579,10 +579,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("0")}
-          to="/"
-          >0
+          >050
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -592,9 +589,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("1")}
+          onClick={()=> buttonSpeak("Adopt")}
           to="/"
-          >1
+          >Adopt
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -604,9 +601,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("2")}
+          onClick={()=> buttonSpeak("Adopts")}
           to="/"
-          >2
+          >Adopts
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -616,9 +613,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("3")}
+          onClick={()=> buttonSpeak("Adopting")}
           to="/"
-          >3
+          >Adopting
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -628,9 +625,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("4")}
+          onClick={()=> buttonSpeak("Adopted")}
           to="/"
-          >4
+          >Adopted
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -640,9 +637,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("5")}
+          onClick={()=> buttonSpeak("To Adopt")}
           to="/"
-          >5
+          >To Adopt
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -651,10 +648,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("6")}
-          to="/"
-          >6
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,10 +657,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("7")}
-          to="/"
-          >7
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +666,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("8")}
-          to="/"
-          >8
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +675,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("9")}
-          to="/"
-          >9
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,4 +1136,4 @@ function Numbers({route}) {
   );
 }
 
-export default Numbers;
+export default Adopt;

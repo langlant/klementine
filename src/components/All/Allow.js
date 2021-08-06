@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Numbers({route}) {
+function Allow({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Numbers({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Numbers
+        Allow
       </Typography>
       <div>
         <Grid container>
@@ -579,10 +579,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("0")}
-          to="/"
-          >0
+          >050
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -592,9 +589,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("1")}
+          onClick={()=> buttonSpeak("Allow")}
           to="/"
-          >1
+          >Allow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -604,9 +601,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("2")}
+          onClick={()=> buttonSpeak("Allows")}
           to="/"
-          >2
+          >Allows
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -616,9 +613,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("3")}
+          onClick={()=> buttonSpeak("Allowing")}
           to="/"
-          >3
+          >Allowing
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -628,9 +625,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("4")}
+          onClick={()=> buttonSpeak("Allowed")}
           to="/"
-          >4
+          >Allowed
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -640,9 +637,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("5")}
+          onClick={()=> buttonSpeak("To Allow")}
           to="/"
-          >5
+          >To Allow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -652,9 +649,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("6")}
+          onClick={()=> buttonSpeak("Allowance")}
           to="/"
-          >6
+          >Allowancce
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,10 +660,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("7")}
-          to="/"
-          >7
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +669,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("8")}
-          to="/"
-          >8
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +678,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("9")}
-          to="/"
-          >9
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,4 +1139,4 @@ function Numbers({route}) {
   );
 }
 
-export default Numbers;
+export default Allow;

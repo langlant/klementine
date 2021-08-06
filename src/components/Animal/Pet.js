@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Numbers({route}) {
+function Pet({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Numbers({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Numbers
+        Pet
       </Typography>
       <div>
         <Grid container>
@@ -148,7 +148,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dog")}
+          to="/"
+          >Dog
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +169,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Cat")}
+          to="/"
+          >Cat
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +190,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hamster")}
+          to="/"
+          >Hamster
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +211,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Gerbil")}
+          to="/"
+          >Mouse
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +232,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Gerbil")}
+          to="/"
+          >Gerbil
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +383,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Gerbil")}
+          to="/"
+          >Gerbil
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +404,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Guinea Pig")}
+          to="/"
+          >Guinea Pig
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +425,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rat")}
+          to="/"
+          >Rat
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +446,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Ferret")}
+          to="/"
+          >Ferret
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +467,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hedgehog")}
+          to="/"
+          >Hedgehog
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -579,10 +609,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("0")}
-          to="/"
-          >0
+          >050
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -592,9 +619,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("1")}
+          onClick={()=> buttonSpeak("Pet")}
           to="/"
-          >1
+          >Pet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -604,9 +631,9 @@ function Numbers({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeakL("2")}
+          onClick={()=> buttonSpeak("Pets")}
           to="/"
-          >2
+          >Pets
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -615,10 +642,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("3")}
-          to="/"
-          >3
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -627,10 +651,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("4")}
-          to="/"
-          >4
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -639,10 +660,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("5")}
-          to="/"
-          >5
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -651,10 +669,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("6")}
-          to="/"
-          >6
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,10 +678,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("7")}
-          to="/"
-          >7
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +687,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("8")}
-          to="/"
-          >8
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +696,7 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeakL("9")}
-          to="/"
-          >9
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -838,7 +844,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hen")}
+          to="/"
+          >Hen
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -856,7 +865,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rooster")}
+          to="/"
+          >Rooster
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -874,7 +886,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Cow")}
+          to="/"
+          >Cow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -892,7 +907,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Horse")}
+          to="/"
+          >Horse
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -910,7 +928,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sheep")}
+          to="/"
+          >Sheep
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1061,7 +1082,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >099
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Pig")}
+          to="/"
+          >Pig
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1079,7 +1103,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >101
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Goat")}
+          to="/"
+          >Goat
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1097,7 +1124,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >103
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Llama")}
+          to="/"
+          >Llama
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1115,7 +1145,10 @@ function Numbers({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >105
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Alpaca")}
+          to="/"
+          >Alpaca
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,4 +1184,4 @@ function Numbers({route}) {
   );
 }
 
-export default Numbers;
+export default Pet;

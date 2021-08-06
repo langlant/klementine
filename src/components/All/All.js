@@ -148,7 +148,9 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          to="/Family"
+          >Family
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +168,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Mom")}
+          to="/"
+          >Mom
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +189,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dad")}
+          to="/"
+          >Dad
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +210,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sister")}
+          to="/"
+          >Sister
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +231,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Brother")}
+          to="/"
+          >Brother
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -273,7 +287,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Kind")}
+          to="/"
+          >Kind
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -282,7 +299,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Kinder")}
+          to="/"
+          >Kinder
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -291,7 +311,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Kindest")}
+          to="/"
+          >Kindest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -300,7 +323,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Kindly")}
+          to="/"
+          >Kindly
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -318,7 +344,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >021
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Let")}
+          to="/"
+          >Let
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -327,7 +356,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Lets")}
+          to="/"
+          >Lets
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -336,7 +368,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Letting")}
+          to="/"
+          >Letting
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -345,7 +380,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Let")}
+          to="/"
+          >To Let
           </Button>
         </Grid>
       </Grid>
@@ -603,7 +641,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("All")}
+          to="/"
+          >All
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,7 +653,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Also")}
+          to="/"
+          >Also
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -621,7 +665,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Alright")}
+          to="/"
+          >Alright
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -630,7 +677,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Already")}
+          to="/"
+          >Already
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -648,7 +698,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >056
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Join")}
+          to="/"
+          >Join
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -657,7 +710,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Joins")}
+          to="/"
+          >Joins
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -666,7 +722,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Joining")}
+          to="/"
+          >Joining
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,7 +734,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Joined")}
+          to="/"
+          >Joined
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -684,7 +746,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >060
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Join")}
+          to="/"
+          >To Join
           </Button>
         </Grid>
       </Grid>
@@ -829,7 +894,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Short")}
+          to="/"
+          >Short
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -838,7 +906,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >076
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Shorter")}
+          to="/"
+          >Shorter
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -847,7 +918,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Shortest")}
+          to="/"
+          >Shortest
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -865,7 +939,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tall")}
+          to="/"
+          >Tall
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -874,7 +951,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >080
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Taller")}
+          to="/"
+          >Taller
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -883,7 +963,10 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tallest")}
+          to="/"
+          >Tallest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1063,7 +1146,9 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >100
+          component={RouterLink}
+          to="/All/Allow"
+          >Allow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1081,7 +1166,9 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >102
+          component={RouterLink}
+          to="/All/Marry"
+          >Marry
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1099,7 +1186,9 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >104
+          component={RouterLink}
+          to="/All/Belong"
+          >Belong
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1117,7 +1206,9 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >106
+          component={RouterLink}
+          to="/All/Adopt"
+          >Adopt
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1135,7 +1226,9 @@ function All({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >108
+          component={RouterLink}
+          to="/All/Foster"
+          >Foster
           </Button>
         </Grid>
       </Grid>

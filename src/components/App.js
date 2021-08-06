@@ -118,6 +118,12 @@ import Change from "./Have/Change"
 import Feel from "./Feel/Feel"
 import All from "./All/All"
 import AllNt from "./All/AllNt"
+import Adopt from "./All/Adopt"
+import Allow from "./All/Allow"
+import Belong from "./All/Belong"
+import Family from "./All/Family"
+import Foster from "./All/Foster"
+import Marry from "./All/Marry"
 import Come from "./Come/Come"
 import Color from "./Color/Color"
 import Right from "./Right/Right"
@@ -157,6 +163,20 @@ import Numbers from "./Numbers/Numbers"
 import Letters from "./Letters/Letters"
 import Weather from "./Weather/Weather"
 import Animal from "./Animal/Animal"
+import AnimalBaby from "./Animal/AnimalBaby"
+import Birds from "./Animal/Birds"
+import Bring from "./Come/Bring"
+import Bugs from "./Animal/Bugs"
+import Carry from "./Come/Carry"
+import Dino from "./Animal/Dino"
+import Fantasy from "./Animal/Fantasy"
+import Forest from "./Animal/Forest"
+import Homes from "./Animal/Homes"
+import Parts from "./Animal/Parts"
+import Pet from "./Animal/Pet"
+import Receive from "./Come/Receive"
+import Water from "./Animal/Water"
+import Zoo from "./Animal/Zoo"
 import Template from "./template"
 import Big from "./Big/Big"
 import Strong from "./Big/Strong"
@@ -173,17 +193,14 @@ import Weak from "./Little/Weak"
 import Skinny from "./Little/Skinny"
 import Thin from "./Little/Thin"
 
-
-
 function App() {
-
 
   return (
 
     <div>
       <Router>
         <Switch>
-          <Route path="/Template" component={Template}/>
+          <Route exact path="/Template" component={Template}/>
           <Route exact path="/" component={Home}/>
           <Route exact path="/In" component={In}/>
           <Route exact path="/Big" component={Big}/>
@@ -294,7 +311,7 @@ function App() {
           <Route exact path="/Need" component={Need}/>
           <Route exact path="/Turn" component={Turn}/>
           <Route exact path="/Stop" component={Stop}/>
-          <Route exact pat="/Stop/Nt" component={StopNt}/>
+          <Route exact path="/Stop/Nt" component={StopNt}/>
           <Route exact path="/Slow" component={Slow}/>
           <Route exact path="/Fast" component={Fast}/>
           <Route exact path="/Love" component={Love}/>
@@ -315,6 +332,12 @@ function App() {
           <Route exact path="/Have/Change" component={Change}/>
           <Route exact path="/All" component={All}/>
           <Route exact path="/All/AllNt" component={AllNt}/>
+          <Route exact path="/All/Adopt" component={Adopt}/>
+          <Route exact path="/All/Allow" component={Allow}/>
+          <Route exact path="/All/Belong" component={Belong}/>
+          <Route exact path="/All/Family" component={Family}/>
+          <Route exact path="/All/Foster" component={Foster}/>
+          <Route exact path="/All/Marry" component={Marry}/>
           <Route exact path="/Come" component={Come}/>
           <Route exact path="/Color" component={Color}/>
           <Route exact path="/Right" component={Right}/>
@@ -350,6 +373,20 @@ function App() {
           <Route exact path="/Letters" component={Letters}/>
           <Route exact path="/Weather" component={Weather}/>
           <Route exact path="/Animal" component={Animal}/>
+          <Route exact path="/Animal/AnimalBaby" component={AnimalBaby}/>
+          <Route exact path="/Animal/Birds" component={Birds}/>
+          <Route exact path="/Animal/Bring" component={Bring}/>
+          <Route exact path="/Animal/Bugs" component={Bugs}/>
+          <Route exact path="/Come/Carry" component={Carry}/>
+          <Route exact path="/Animal/Dino" component={Dino}/>
+          <Route exact path="/Animal/Fantasy" component={Fantasy}/>
+          <Route exact path="/Animal/Forest" component={Forest}/>
+          <Route exact path="/Animal/Homes" component={Homes}/>
+          <Route exact path="/Animal/Parts" component={Parts}/>
+          <Route exact path="/Animal/Pet" component={Pet}/>
+          <Route exact path="/Come/Receive" component={Receive}/>
+          <Route exact path="/Animal/Water" component={Water}/>
+          <Route exact path="/Animal/Zoo" component={Zoo}/>
           <Route exact path="/Follow" component={Follow}/>
           <Route exact path="/Follow/Baby" component={Baby}/>
           <Route exact path="/Follow/People" component={People}/>
