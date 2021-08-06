@@ -450,7 +450,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("1")}
+          to="/"
+          >1
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -459,7 +462,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("2")}
+          to="/"
+          >2
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -468,7 +474,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("3")}
+          to="/"
+          >3
           </Button>
         </Grid>
       </Grid>
@@ -560,7 +569,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >046
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("4")}
+          to="/"
+          >4
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -569,7 +581,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >047
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("5")}
+          to="/"
+          >5
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -578,7 +593,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >048
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("6")}
+          to="/"
+          >6
           </Button>
         </Grid>
       </Grid>
@@ -670,7 +688,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("7")}
+          to="/"
+          >7
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -679,7 +700,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("8")}
+          to="/"
+          >8
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -688,7 +712,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >060
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("9")}
+          to="/"
+          >9
           </Button>
         </Grid>
       </Grid>
@@ -793,7 +820,10 @@ function Count({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >071
+          component={RouterLink}
+          onClick={()=> buttonSpeakL("0")}
+          to="/"
+          >0
           </Button>
         </Grid>
         <Grid xs={1}>

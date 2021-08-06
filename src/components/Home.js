@@ -753,8 +753,8 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Numbers"
-          >Numbers
+          to="/Live"
+          >Live
           </Button>
         </Grid>
         <Grid xs={1}>

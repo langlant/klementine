@@ -33,6 +33,7 @@ import Us from "./Pronouns/Us"
 import We from "./Pronouns/We"
 import You from "./Pronouns/You"
 import Drink from "./Drink/Drink"
+import DrinkNt from "./Drink/Nt"
 import Want from "./Want/Want"
 import WantNt from "./Want/Nt"
 import Time from "./Time/Time"
@@ -134,6 +135,17 @@ import Baby from "./Follow/Baby"
 import People from "./Follow/People"
 import Strange from "./Follow/Strange"
 import Ride from "./Ride/Ride"
+import RideNt from "./Ride/Nt"
+import Air from "./Ride/Air"
+import VWater from "./Ride/Water"
+import Land from "./Ride/Land"
+import RParts from "./Ride/Parts"
+import Road from "./Ride/Road"
+import Drive from "./Ride/Drive"
+import Fly from "./Ride/Fly"
+import Move from "./Ride/Move"
+import Front from "./Ride/Front"
+import Back from "./Ride/Back"
 import Put from "./Put/Put"
 import Wear from "./Wear/Wear"
 import WearNt from "./Wear/Nt"
@@ -159,7 +171,6 @@ import Multiply from "./Count/Multiply"
 import Divide from "./Count/Divide"
 import Please from "./Please/Please"
 import Shapes from "./Shapes/Shapes"
-import Numbers from "./Numbers/Numbers"
 import Letters from "./Letters/Letters"
 import Weather from "./Weather/Weather"
 import Animal from "./Animal/Animal"
@@ -192,6 +203,8 @@ import Little from "./Little/Little"
 import Weak from "./Little/Weak"
 import Skinny from "./Little/Skinny"
 import Thin from "./Little/Thin"
+import Live from "./Live/Live"
+import LHome from "./Live/LHome"
 
 function App() {
 
@@ -247,6 +260,7 @@ function App() {
           <Route exact path="/We" component={We}/>
           <Route exact path="/You" component={You}/>
           <Route exact path="/Drink" component={Drink}/>
+          <Route exact path="/Drink/Nt" component={DrinkNt}/>
           <Route exact path="/Want" component={Want}/>
           <Route exact path="/Want/Nt" component={WantNt}/>
           <Route exact path="/Time" component={Time}/>
@@ -344,6 +358,17 @@ function App() {
           <Route exact path="/Right/Nt" component={RightNt}/>
           <Route exact path="/Said" component={Said}/>
           <Route exact path="/Ride" component={Ride}/>
+          <Route exact path="/Ride/Nt" component={RideNt}/>
+          <Route exact path="/Ride/Air" component={Air}/>
+          <Route exact path="/Ride/Water" component={VWater}/>
+          <Route exact path="/Ride/Land" component={Land}/>
+          <Route exact path="/Ride/Parts" component={RParts}/>
+          <Route exact path="/Ride/Road" component={Road}/>
+          <Route exact path="/Ride/Drive" component={Drive}/>
+          <Route exact path="/Ride/Fly" component={Fly}/>
+          <Route exact path="/Ride/Move" component={Move}/>
+          <Route exact path="/Ride/Front" component={Front}/>
+          <Route exact path="/Ride/Back" component={Back}/>
           <Route exact path="/Put" component={Put}/>
           <Route exact path="/Sit" component={Sit}/>
           <Route exact path="/Wear" component={Wear}/>
@@ -369,7 +394,6 @@ function App() {
           <Route exact path="/Count/Divide" component={Divide}/>
           <Route exact path="/Please" component={Please}/>
           <Route exact path="/Shapes" component={Shapes}/>
-          <Route exact path="/Numbers" component={Numbers}/>
           <Route exact path="/Letters" component={Letters}/>
           <Route exact path="/Weather" component={Weather}/>
           <Route exact path="/Animal" component={Animal}/>
@@ -391,6 +415,8 @@ function App() {
           <Route exact path="/Follow/Baby" component={Baby}/>
           <Route exact path="/Follow/People" component={People}/>
           <Route exact path="/Follow/Strange" component={Strange}/>
+          <Route exact path="/Live" component={Live}/>
+          <Route exact path="/Live/LHome" component={LHome}/>
         </Switch>
       </Router>
     </div>

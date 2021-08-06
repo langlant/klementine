@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Drink({route}) {
+function Land({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Drink({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Drink
+        Land
       </Typography>
       <div>
         <Grid container>
@@ -149,9 +149,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Chocolate")}
+          onClick={()=> buttonSpeak("Car")}
           to="/"
-          >Chocolate Milk
+          >Car
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -170,9 +170,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Coffee")}
+          onClick={()=> buttonSpeak("Trucl")}
           to="/"
-          >Coffee
+          >Truck
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -191,9 +191,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Soda")}
+          onClick={()=> buttonSpeak("Bus")}
           to="/"
-          >Soda
+          >Bus
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -212,9 +212,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Tea")}
+          onClick={()=> buttonSpeak("Bike")}
           to="/"
-          >Tea
+          >Bike
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -233,9 +233,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Water")}
+          onClick={()=> buttonSpeak("Van")}
           to="/"
-          >Water
+          >Van
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -255,10 +255,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can I")}
-          to="/"
-          >Can I
+          >13
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -267,10 +264,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can You")}
-          to="/"
-          >Can You
+          >14
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -288,10 +282,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Beverage")}
-          to="/"
-          >Beverage
+          >016
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -309,10 +300,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Beverages")}
-          to="/"
-          >Beverages
+          >018
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,10 +374,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can We")}
-          to="/"
-          >Can We
+          >26
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -399,9 +384,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Hot Tea")}
+          onClick={()=> buttonSpeak("Fire Truck")}
           to="/"
-          >Hot Tea
+          >Fire Truck
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -420,9 +405,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Iced Tee")}
+          onClick={()=> buttonSpeak("Ambulance")}
           to="/"
-          >Iced Tee
+          >Ambulance
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -441,9 +426,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Juice")}
+          onClick={()=> buttonSpeak("Police Car")}
           to="/"
-          >Juice
+          >Police Car
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -462,9 +447,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Lemonade")}
+          onClick={()=> buttonSpeak("Train")}
           to="/"
-          >Lemonade
+          >Train
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -482,10 +467,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Milk")}
-          to="/"
-          >Milk
+          >Taxi
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -604,10 +586,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thirstily")}
-          to="/"
-          >Thirstily
+          >048
           </Button>
         </Grid>
       </Grid>
@@ -618,10 +597,16 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can It")}
-          to="/"
-          >Can It
+          >049
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >050
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -631,9 +616,18 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Can They")}
+          onClick={()=> buttonSpeak("Pickup Truck")}
           to="/"
-          >Can They
+          >Pickup Truck
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -643,33 +637,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("")}
+          onClick={()=> buttonSpeak("SUV")}
           to="/"
-          >Drink
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Drinks")}
-          to="/"
-          >Drinks
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Drinking")}
-          to="/"
-          >Drinking
+          >SUV
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -678,10 +648,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Drank")}
-          to="/"
-          >Drank
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -691,9 +658,18 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Drunk")}
+          onClick={()=> buttonSpeak("RV")}
           to="/"
-          >Drunk
+          >RV
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -703,9 +679,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Drink")}
+          onClick={()=> buttonSpeak("Sports Car")}
           to="/"
-          >To Drink
+          >Sports Car
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -714,19 +690,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thirsty")}
-          to="/"
-          >Thirsty
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -736,9 +700,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Thirstier")}
+          onClick={()=> buttonSpeak("Minivan")}
           to="/"
-          >Thirstier
+          >Minivan
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -747,10 +711,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Thirstiest")}
-          to="/"
-          >Thirstiest
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -761,10 +722,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can She")}
-          to="/"
-          >Can She
+          >061
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -773,10 +731,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Can He")}
-          to="/"
-          >Can He
+          >062
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -896,9 +851,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Small")}
+          onClick={()=> buttonSpeak("Motorcycle")}
           to="/"
-          >Small
+          >Motorcycle
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -907,7 +862,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >Smaller
+          >076
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -916,7 +871,10 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >Smallest
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tractor")}
+          to="/"
+          >Tractor
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -935,9 +893,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Medium")}
+          onClick={()=> buttonSpeak("Snowplow")}
           to="/"
-          >Medium
+          >Snowplow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -956,9 +914,9 @@ function Drink({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Large")}
+          onClick={()=> buttonSpeak("Tank")}
           to="/"
-          >Large
+          >Tank
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -967,10 +925,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Larger")}
-          to="/"
-          >Larger
+          >082
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -979,10 +934,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Largest")}
-          to="/"
-          >Largest
+          >083
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1047,10 +999,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Empty")}
-          to="/"
-          >Empty
+          >090
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1059,10 +1008,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Emptier")}
-          to="/"
-          >Emptier
+          >091
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1071,10 +1017,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Emptiest")}
-          to="/"
-          >Emptiest
+          >092
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1133,9 +1076,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Drink/Nt"
-          >Nt
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1153,10 +1094,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Suck")}
-          to="/"
-          >Suck
+          >100
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1210,10 +1148,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Swallow")}
-          to="/"
-          >Swallow
+          >106
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1231,10 +1166,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Blow")}
-          to="/"
-          >Blow
+          >108
           </Button>
         </Grid>
       </Grid>
@@ -1243,4 +1175,4 @@ function Drink({route}) {
   );
 }
 
-export default Drink;
+export default Land;
