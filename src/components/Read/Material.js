@@ -148,7 +148,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("")}
+          to="/"
+          >Notebook
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +169,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Journal")}
+          to="/"
+          >Journal
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +190,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Magazine")}
+          to="/"
+          >Magazine
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +211,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Newspaper")}
+          to="/"
+          >Newspaper
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +232,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Menu")}
+          to="/"
+          >Menu
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +383,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Homework")}
+          to="/"
+          >Homework
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -386,7 +404,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Test")}
+          to="/"
+          >Test
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -404,7 +425,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Comic")}
+          to="/"
+          >Comic
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -422,7 +446,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Letter")}
+          to="/"
+          >Letter
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +467,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Catalog")}
+          to="/"
+          >Catalog
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +618,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Material")}
+          to="/"
+          >Material
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +639,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Dictionary")}
+          to="/"
+          >Dictionary
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,7 +660,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Encyclopedia")}
+          to="/"
+          >Encyclopedia
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -642,7 +681,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Novel")}
+          to="/"
+          >Novel
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -660,7 +702,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Atlas")}
+          to="/"
+          >Atlas
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -808,7 +853,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bible")}
+          to="/"
+          >Bible
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -826,7 +874,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Torah")}
+          to="/"
+          >Torah
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -844,7 +895,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Quran")}
+          to="/"
+          >Quran
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -862,7 +916,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Manual")}
+          to="/"
+          >Manual
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,7 +937,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Map")}
+          to="/"
+          >Map
           </Button>
         </Grid>
         <Grid xs={1}>
