@@ -148,7 +148,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          to="/Work/Jobs"
+          >Jobs
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +168,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Occupation")}
+          to="/"
+          >Occupation
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,7 +189,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          to="/Work/Employ"
+          >Employ
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +209,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          to="/Work/Tools"
+          >Tools
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -220,7 +229,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          component={RouterLink}
+          onClick={()=> buttonSpeak("However")}
+          to="/"
+          >However
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -377,7 +389,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Aide")}
+          to="/"
+          >Aide
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -395,7 +410,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Teacher")}
+          to="/"
+          >Teacher
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -413,7 +431,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Speech Therapist")}
+          to="/"
+          >Speech Therapist
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -431,7 +452,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Nurse")}
+          to="/"
+          >Nurse
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -449,7 +473,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Occupational Therapist")}
+          to="/"
+          >Occupational Therapist
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -603,7 +630,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Work")}
+          to="/"
+          >Work
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -612,7 +642,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >052
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Works")}
+          to="/"
+          >Works
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -621,7 +654,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Working")}
+          to="/"
+          >Working
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -630,7 +666,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Worked")}
+          to="/"
+          >Worked
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -639,7 +678,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Work")}
+          to="/"
+          >To Work
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -657,7 +699,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >057
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hard")}
+          to="/"
+          >Hard
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -666,7 +711,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >058
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Harder")}
+          to="/"
+          >Harder
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,7 +723,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >059
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hardest")}
+          to="/"
+          >Hardest
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -684,7 +735,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >060
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hardly")}
+          to="/"
+          >Hardly
           </Button>
         </Grid>
       </Grid>
@@ -829,7 +883,10 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doctor")}
+          to="/"
+          >Doctor
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -847,7 +904,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          to="/Work/Complete"
+          >Complete
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -865,7 +924,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          to="/Work/Adjust"
+          >Adjust
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -883,7 +944,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >081
+          component={RouterLink}
+          to="/Work/Abuse"
+          >Abuse
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -901,7 +964,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >083
+          component={RouterLink}
+          to="/Work/Hit"
+          >Hit
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -930,7 +995,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >086
+          component={RouterLink}
+          to="/Work/Bend"
+          >Bend
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1054,7 +1121,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >099
+          component={RouterLink}
+          to="/Work/Achieve"
+          >Achieve
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1072,7 +1141,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >101
+          component={RouterLink}
+          to="/Work/Use"
+          >Use
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1090,7 +1161,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >103
+          component={RouterLink}
+          to="/Work/Fix"
+          >Fix
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1108,7 +1181,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >105
+          component={RouterLink}
+          to="/Work/Hook"
+          >Hook
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1126,7 +1201,9 @@ function Work({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >107
+          component={RouterLink}
+          to="/Work/Break"
+          >Break
           </Button>
         </Grid>
         <Grid xs={1}>
