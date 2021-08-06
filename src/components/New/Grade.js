@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function New({route}) {
+function Grade({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function New({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        New
+        Grade
       </Typography>
       <div>
         <Grid container>
@@ -148,10 +148,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Science")}
-          to="/"
-          >Science
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +166,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Language")}
-          to="/"
-          >Language
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -190,10 +184,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Social")}
-          to="/"
-          >Social
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -211,10 +202,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Drama")}
-          to="/"
-          >Drama
+          >009
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -232,10 +220,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Geography")}
-          to="/"
-          >Geography
+          >011
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -255,10 +240,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Do I Know")}
-          to="/"
-          >Do I Know
+          >13
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -267,10 +249,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Do You Know")}
-          to="/"
-          >Do You Know
+          >14
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -288,10 +267,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("History")}
-          to="/"
-          >History
+          >016
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -309,10 +285,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Math")}
-          to="/"
-          >Math
+          >018
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -330,10 +303,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("PE")}
-          to="/"
-          >PE
+          >020
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -351,10 +321,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Music")}
-          to="/"
-          >Music
+          >022
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -372,10 +339,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Art")}
-          to="/"
-          >Art
+          >024
           </Button>
         </Grid>
       </Grid>
@@ -395,10 +359,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Do We Know")}
-          to="/"
-          >Do We Know
+          >26
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -425,10 +386,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Knowledge")}
-          to="/"
-          >Knowledge
+          >029
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -446,10 +404,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Recess")}
-          to="/"
-          >Recess
+          >031
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -467,10 +422,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Therapy")}
-          to="/"
-          >Therapy
+          >033
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -618,10 +570,16 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Does It Know")}
-          to="/"
-          >Does It Know
+          >049
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >050
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -631,9 +589,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Do They Know")}
+          onClick={()=> buttonSpeak("Grade")}
           to="/"
-          >Do They Know
+          >Grade
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -643,9 +601,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("New")}
+          onClick={()=> buttonSpeak("Grades")}
           to="/"
-          >New
+          >Grades
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -655,21 +613,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Newer")}
+          onClick={()=> buttonSpeak("Grading")}
           to="/"
-          >Newer
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Newest")}
-          to="/"
-          >Newest
+          >Grading
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -678,7 +624,10 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >054
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Graded")}
+          to="/"
+          >Graded
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -688,9 +637,18 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Know")}
+          onClick={()=> buttonSpeak("To Grade")}
           to="/"
-          >Know
+          >To Grade
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -700,9 +658,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Knows")}
+          onClick={()=> buttonSpeak("Gradual")}
           to="/"
-          >Knows
+          >Gradual
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -712,9 +670,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Knowing")}
+          onClick={()=> buttonSpeak("More Gradual")}
           to="/"
-          >Knowing
+          >More Gradual
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -724,9 +682,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Knew")}
+          onClick={()=> buttonSpeak("Most Gradual")}
           to="/"
-          >Knew
+          >Most Gradual
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -736,21 +694,9 @@ function New({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Known")}
+          onClick={()=> buttonSpeak("Gradually")}
           to="/"
-          >Known
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Know")}
-          to="/"
-          >To Know
+          >Gradually
           </Button>
         </Grid>
       </Grid>
@@ -761,10 +707,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Does She Know")}
-          to="/"
-          >Does She Know
+          >061
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -773,10 +716,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Does He Know")}
-          to="/"
-          >Does He Know
+          >062
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -886,9 +826,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Cheat"
-          >Cheat
+          >074
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -906,9 +844,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Learn"
-          >Learn
+          >076
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -926,9 +862,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Study"
-          >Study
+          >078
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -946,9 +880,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Teach"
-          >Teach
+          >080
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -966,9 +898,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Graduate"
-          >Graduate
+          >082
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -986,9 +916,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Sure"
-          >Sure
+          >084
           </Button>
         </Grid>
       </Grid>
@@ -1121,9 +1049,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/NewNt"
-          >Nt
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1141,9 +1067,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Certain"
-          >Certain
+          >100
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1161,9 +1085,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Grade"
-          >Grade
+          >102
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1181,9 +1103,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/True"
-          >True
+          >104
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1201,9 +1121,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/Try"
-          >Try
+          >106
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1221,9 +1139,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/New/False"
-          >False
+          >108
           </Button>
         </Grid>
       </Grid>
@@ -1232,4 +1148,4 @@ function New({route}) {
   );
 }
 
-export default New;
+export default Grade;

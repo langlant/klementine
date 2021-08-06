@@ -150,6 +150,17 @@ import Fast from "./Fast/Fast"
 import Slow from "./Slow/Slow"
 import Love from "./Love/Love"
 import New from "./New/New"
+import Cheat from "./New/Cheat"
+import False from "./New/False"
+import Grade from "./New/Grade"
+import Graduate from "./New/Graduate"
+import Learn from "./New/Learn"
+import NewNt from "./New/NewNt"
+import Study from "./New/Study"
+import Sure from "./New/Sure"
+import Teach from "./New/Teach"
+import True from "./New/True"
+import Try from "./New/Try"
 import Have from "./Have/Have"
 import HaveNt from "./Have/Nt"
 import Pay from "./Have/Pay"
@@ -425,6 +436,17 @@ function App() {
           <Route exact path="/Love" component={Love}/>
           <Route exact path="/Feel" component={Feel}/>
           <Route exact path="/New" component={New}/>
+          <Route exact path="/New/Cheat" component={Cheat}/>
+          <Route exact path="/New/False" component={False}/>
+          <Route exact path="/New/Grade" component={Grade}/>
+          <Route exact path="/New/Graduate" component={Graduate}/>
+          <Route exact path="/New/Learn" component={Learn}/>
+          <Route exact path="/New/NewNt" component={NewNt}/>
+          <Route exact path="/New/Study" component={Study}/>
+          <Route exact path="/New/Sure" component={Sure}/>
+          <Route exact path="/New/Teach" component={Teach}/>
+          <Route exact path="/New/True" component={True}/>
+          <Route exact path="/New/Try" component={Try}/>
           <Route exact path="/Have" component={Have}/>
           <Route exact path="/Have/Nt" component={HaveNt}/>
           <Route exact path="/Have/Pay" component={Pay}/>
