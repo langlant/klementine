@@ -61,6 +61,8 @@ import Am from "./Am/Am"
 import AmNt from "./Am/Nt"
 import Watch from "./Watch/Watch"
 import Read from "./Read/Read"
+import ReadNt from "./Read/Nt"
+import Material from "./Read/Material"
 import Like from "./Like/Like"
 import Do from "./Do/Do"
 import DoNt from "./Do/Nt"
@@ -85,6 +87,8 @@ import Wave from "./Do/Wave"
 import Wrap from "./Do/Wrap"
 import Find from "./Find/Find"
 import Go from "./Go/Go"
+import GoNt from "./Go/Nt"
+import Building from "./Go/Building"
 import Get from "./Get/Get"
 import Help from "./Help/Help"
 import Look from "./Look/Look"
@@ -253,6 +257,8 @@ function App() {
           <Route exact path="/Am/Nt" component={AmNt}/>
           <Route exact path="/Watch" component={Watch}/>
           <Route exact path="/Read" component={Read}/>
+          <Route exact path="/Read/Nt" component={ReadNt}/>
+          <Route exact path="/Read/Material" component={Material}/>
           <Route exact path="/Like" component={Like}/>
           <Route exact path="/Do" component={Do}/>
           <Route exact path="/Do/Nt" component={DoNt}/>
@@ -277,6 +283,8 @@ function App() {
           <Route exact path="/Do/Wrap" component={Wrap}/>
           <Route exact path="/Find" component={Find}/>
           <Route exact path="/Go" component={Go}/>
+          <Route exact path="/Go/Nt" component={GoNt}/>
+          <Route exact path="/Go/Building" component={Building}/>
           <Route exact path="/Get" component={Get}/>
           <Route exact path="/Help" component={Help}/>
           <Route exact path="/Look" component={Look}/>

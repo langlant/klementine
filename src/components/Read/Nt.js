@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Go({route}) {
+function Nt({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Go({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Go
+        Nt
       </Typography>
       <div>
         <Grid container>
@@ -148,9 +148,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Go/Building"
-          >Building
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,10 +166,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Long")}
-          to="/"
-          >Long
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -180,10 +175,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Longer")}
-          to="/"
-          >Longer
+          >006
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -192,10 +184,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Longest")}
-          to="/"
-          >Longest
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -252,9 +241,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Am I Going")}
+          onClick={()=> buttonSpeak("Won't I")}
           to="/"
-          >Am I Going
+          >Won't I
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -264,9 +253,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Are You Going")}
+          onClick={()=> buttonSpeak("Won't You")}
           to="/"
-          >Are You Going
+          >Won't You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -377,9 +366,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Are We Going")}
+          onClick={()=> buttonSpeak("Won't You")}
           to="/"
-          >Are We Going
+          >Won't You
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -591,9 +580,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Is It Going")}
+          onClick={()=> buttonSpeak("Won't It")}
           to="/"
-          >Is It Going
+          >Won't It
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -603,9 +592,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Are They Going")}
+          onClick={()=> buttonSpeak("Won't They")}
           to="/"
-          >Are They Going
+          >Won't They
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -614,10 +603,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Go")}
-          to="/"
-          >Go
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -626,10 +612,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Goes")}
-          to="/"
-          >Goes
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -638,10 +621,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Went")}
-          to="/"
-          >Going
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -650,10 +630,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Went")}
-          to="/"
-          >Went
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -662,10 +639,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Gone")}
-          to="/"
-          >Gone
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -674,10 +648,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Go")}
-          to="/"
-          >To Go
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -725,9 +696,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Is She Going")}
+          onClick={()=> buttonSpeak("Won't She")}
           to="/"
-          >Is She Going
+          >Won't She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -737,9 +708,9 @@ function Go({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Is He Going")}
+          onClick={()=> buttonSpeak("Won't He")}
           to="/"
-          >Is He Going
+          >Won't He
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1072,9 +1043,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          to="/Go/Nt"
-          >Nt
+          >098
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1083,10 +1052,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hurry")}
-          to="/"
-          >Hurry
+          >099
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1095,10 +1061,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hurries")}
-          to="/"
-          >Hurries
+          >100
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1107,10 +1070,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hurrying")}
-          to="/"
-          >Hurrying
+          >101
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1119,10 +1079,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hurried")}
-          to="/"
-          >Hurried
+          >102
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1131,10 +1088,7 @@ function Go({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Hurry")}
-          to="/"
-          >To Hurry
+          >103
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1188,4 +1142,4 @@ function Go({route}) {
   );
 }
 
-export default Go;
+export default Nt;
