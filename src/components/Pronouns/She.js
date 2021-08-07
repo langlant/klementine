@@ -588,7 +588,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >051
+          component={RouterLink}
+          onClick={()=> buttonSpeak("She")}
+          to="/"
+          >She
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,7 +609,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >053
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Her")}
+          to="/"
+          >Her
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -624,7 +630,10 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >055
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hers")}
+          to="/"
+          >Hers
           </Button>
         </Grid>
         <Grid xs={1}>

@@ -260,7 +260,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/I"
+          onClick={()=> buttonSpeak("I")}
           >I
           </Button>
         </Grid>
@@ -520,7 +520,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          to="/My"
+          onClick={()=> buttonSpeak("My")}
           >My
           </Button>
         </Grid>
@@ -531,7 +531,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Us"
+          onClick={()=> buttonSpeak("Us")}
           >Us
           </Button>
         </Grid>
@@ -654,7 +654,7 @@ function Home() {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
           component={RouterLink}
-          to="/It"
+          onClick={()=> buttonSpeak("It")}
           >It
           </Button>
         </Grid>

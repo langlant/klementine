@@ -28,7 +28,7 @@ import It from "./Pronouns/It"
 import Me from "./Pronouns/Me"
 import My from "./Pronouns/My"
 import She from "./Pronouns/She"
-import Them from "./Pronouns/Them"
+import They from "./Pronouns/They"
 import Us from "./Pronouns/Us"
 import We from "./Pronouns/We"
 import You from "./Pronouns/You"
@@ -316,7 +316,7 @@ function App() {
           <Route exact path="/Me" component={Me}/>
           <Route exact path="/My" component={My}/>
           <Route exact path="/She" component={She}/>
-          <Route exact path="/Them" component={Them}/>
+          <Route exact path="/They" component={They}/>
           <Route exact path="/Us" component={Us}/>
           <Route exact path="/We" component={We}/>
           <Route exact path="/You" component={You}/>
