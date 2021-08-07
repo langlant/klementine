@@ -100,7 +100,7 @@ function Want({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -108,7 +108,7 @@ function Want({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -138,8 +138,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >002
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -147,7 +147,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Whoever")}
           to="/"
@@ -159,8 +159,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,7 +168,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wrong")}
           to="/"
@@ -180,7 +180,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wrongly")}
           to="/"
@@ -192,8 +192,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -201,8 +201,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >008
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -210,8 +210,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -219,8 +219,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >010
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -228,8 +228,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -237,8 +237,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >012
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
       </Grid>
@@ -248,7 +248,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do I Want")}
           to="/"
@@ -260,7 +260,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do You Want")}
           to="/"
@@ -272,8 +272,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >015
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >0  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -281,8 +281,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -290,8 +290,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -299,8 +299,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -308,8 +308,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -317,8 +317,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -326,8 +326,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >021
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -335,8 +335,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -344,8 +344,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -353,8 +353,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -364,8 +364,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -373,7 +373,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do We Want")}
           to="/"
@@ -385,7 +385,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bet")}
           to="/"
@@ -397,7 +397,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bets")}
           to="/"
@@ -409,7 +409,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Betting")}
           to="/"
@@ -421,7 +421,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Bet")}
           to="/"
@@ -433,8 +433,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -442,8 +442,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >032
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -451,8 +451,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -460,8 +460,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -469,8 +469,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -478,8 +478,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -489,7 +489,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >37
           </Button>
         </Grid>
@@ -498,7 +498,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >38
           </Button>
         </Grid>
@@ -507,8 +507,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >039
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -516,8 +516,8 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >040
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -525,7 +525,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >41
           </Button>
         </Grid>
@@ -534,7 +534,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >042
           </Button>
         </Grid>
@@ -543,7 +543,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >043
           </Button>
         </Grid>
@@ -552,7 +552,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >044
           </Button>
         </Grid>
@@ -561,7 +561,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -570,7 +570,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >046
           </Button>
         </Grid>
@@ -579,7 +579,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -588,7 +588,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >048
           </Button>
         </Grid>
@@ -599,7 +599,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does It Want")}
           to="/"
@@ -611,7 +611,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do They Want")}
           to="/"
@@ -623,7 +623,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Want")}
           to="/"
@@ -635,7 +635,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wants")}
           to="/"
@@ -647,7 +647,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wanting")}
           to="/"
@@ -659,7 +659,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wanted")}
           to="/"
@@ -671,7 +671,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Want")}
           to="/"
@@ -683,7 +683,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >056
           </Button>
         </Grid>
@@ -692,7 +692,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >057
           </Button>
         </Grid>
@@ -701,7 +701,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >058
           </Button>
         </Grid>
@@ -710,7 +710,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >059
           </Button>
         </Grid>
@@ -719,7 +719,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >060
           </Button>
         </Grid>
@@ -730,7 +730,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does She Want")}
           to="/"
@@ -742,7 +742,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does He Want")}
           to="/"
@@ -754,7 +754,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -763,7 +763,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >064
           </Button>
         </Grid>
@@ -772,7 +772,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -781,7 +781,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >066
           </Button>
         </Grid>
@@ -790,7 +790,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -799,7 +799,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >068
           </Button>
         </Grid>
@@ -808,7 +808,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -817,7 +817,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >070
           </Button>
         </Grid>
@@ -826,7 +826,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -835,7 +835,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >072
           </Button>
         </Grid>
@@ -846,7 +846,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >073
           </Button>
         </Grid>
@@ -855,7 +855,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -864,7 +864,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hope")}
           to="/"
@@ -876,7 +876,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hopes")}
           to="/"
@@ -888,7 +888,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hoping")}
           to="/"
@@ -900,7 +900,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hoped")}
           to="/"
@@ -912,7 +912,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Hope")}
           to="/"
@@ -924,7 +924,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hopeful")}
           to="/"
@@ -936,7 +936,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More Hopeful")}
           to="/"
@@ -948,7 +948,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Hopeful")}
           to="/"
@@ -960,7 +960,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hopefully")}
           to="/"
@@ -972,7 +972,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -983,7 +983,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -992,7 +992,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >086
           </Button>
         </Grid>
@@ -1001,7 +1001,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -1010,7 +1010,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >088
           </Button>
         </Grid>
@@ -1019,7 +1019,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -1028,7 +1028,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >090
           </Button>
         </Grid>
@@ -1037,7 +1037,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -1046,7 +1046,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >092
           </Button>
         </Grid>
@@ -1055,7 +1055,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1064,7 +1064,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >094
           </Button>
         </Grid>
@@ -1073,7 +1073,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1082,7 +1082,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >096
           </Button>
         </Grid>
@@ -1093,7 +1093,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1105,7 +1105,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           to="/Want/Nt"
           >Nt
@@ -1116,7 +1116,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hate")}
           to="/"
@@ -1128,7 +1128,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hates")}
           to="/"
@@ -1140,7 +1140,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hating")}
           to="/"
@@ -1152,7 +1152,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hated")}
           to="/"
@@ -1164,7 +1164,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Hate")}
           to="/"
@@ -1176,7 +1176,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hateful")}
           to="/"
@@ -1188,7 +1188,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More Hateful")}
           to="/"
@@ -1200,7 +1200,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Hateful")}
           to="/"
@@ -1212,7 +1212,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hatefully")}
           to="/"
@@ -1224,7 +1224,7 @@ function Want({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hatred")}
           to="/"

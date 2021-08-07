@@ -82,7 +82,7 @@ function There({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -90,7 +90,7 @@ function There({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -120,7 +120,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           onClick={()=>
             setText("one two three")
           }
@@ -132,8 +132,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -141,8 +141,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -150,8 +150,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -159,8 +159,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >006
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,8 +168,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -177,8 +177,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >008
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -186,8 +186,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -195,8 +195,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >010
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -204,8 +204,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >011
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -213,8 +213,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >012
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
       </Grid>
@@ -224,8 +224,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -233,8 +233,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -242,8 +242,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >015
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >0  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -251,8 +251,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -260,8 +260,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -269,8 +269,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -278,8 +278,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -287,8 +287,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -296,8 +296,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >021
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -305,8 +305,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -314,8 +314,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -323,8 +323,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -334,8 +334,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -343,7 +343,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >26
           </Button>
         </Grid>
@@ -352,8 +352,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -361,8 +361,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >028
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -370,8 +370,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -379,8 +379,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >030
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -388,8 +388,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -397,8 +397,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >032
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -406,8 +406,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -415,8 +415,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -424,8 +424,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -433,8 +433,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -444,7 +444,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >37
           </Button>
         </Grid>
@@ -453,7 +453,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >38
           </Button>
         </Grid>
@@ -462,8 +462,8 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >039
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -471,7 +471,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Though")}
           to="/"
@@ -483,7 +483,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >41
           </Button>
         </Grid>
@@ -492,7 +492,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Almost")}
           to="/"
@@ -504,7 +504,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >043
           </Button>
         </Grid>
@@ -513,7 +513,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Else")}
           to="/"
@@ -525,7 +525,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -534,7 +534,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Again")}
           to="/"
@@ -546,7 +546,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -555,7 +555,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Yet")}
           to="/"
@@ -569,7 +569,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >049
           </Button>
         </Grid>
@@ -578,7 +578,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >050
           </Button>
         </Grid>
@@ -587,7 +587,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("There")}
           to="/"
@@ -599,7 +599,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >052
           </Button>
         </Grid>
@@ -608,7 +608,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ever")}
           to="/">Ever
@@ -619,7 +619,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >054
           </Button>
         </Grid>
@@ -628,7 +628,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("So")}
           to="/"
@@ -640,7 +640,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >056
           </Button>
         </Grid>
@@ -649,7 +649,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Even")}
           to="/"
@@ -661,7 +661,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >058
           </Button>
         </Grid>
@@ -670,7 +670,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Too")}
           to="/"
@@ -682,7 +682,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >060
           </Button>
         </Grid>
@@ -693,7 +693,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >061
           </Button>
         </Grid>
@@ -702,7 +702,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >062
           </Button>
         </Grid>
@@ -711,7 +711,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -720,7 +720,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("As")}
           to="/"
@@ -732,7 +732,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -741,7 +741,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Much")}
           to="/"
@@ -753,7 +753,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -762,7 +762,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Maybe")}
           to="/"
@@ -774,7 +774,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -783,7 +783,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Once")}
           to="/"
@@ -795,7 +795,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -804,7 +804,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Very")}
           to="/"
@@ -818,7 +818,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >073
           </Button>
         </Grid>
@@ -827,7 +827,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -836,7 +836,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Just")}
           to="/"
@@ -848,7 +848,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >076
           </Button>
         </Grid>
@@ -857,7 +857,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Never")}
           to="/"
@@ -869,7 +869,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >078
           </Button>
         </Grid>
@@ -878,7 +878,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Still")}
           to="/"
@@ -890,7 +890,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >080
           </Button>
         </Grid>
@@ -899,7 +899,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Together")}
           to="/"
@@ -911,7 +911,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >082
           </Button>
         </Grid>
@@ -920,7 +920,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ready")}
           to="/"
@@ -932,7 +932,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -943,7 +943,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -952,7 +952,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >086
           </Button>
         </Grid>
@@ -961,7 +961,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -970,7 +970,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Forward")}
           to="/"
@@ -982,7 +982,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -991,7 +991,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Outdoors")}
           to="/"
@@ -1003,7 +1003,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -1012,7 +1012,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quite")}
           to="/"
@@ -1024,7 +1024,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1033,7 +1033,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Now")}
           to="/"
@@ -1045,7 +1045,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1054,7 +1054,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Always")}
           to="/"
@@ -1068,7 +1068,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1080,7 +1080,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >098
           </Button>
         </Grid>
@@ -1089,7 +1089,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Away")}
           to="/"
@@ -1101,7 +1101,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >100
           </Button>
         </Grid>
@@ -1110,7 +1110,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Often")}
           to="/"
@@ -1122,7 +1122,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >102
           </Button>
         </Grid>
@@ -1131,7 +1131,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Indoors")}
           to="/"
@@ -1143,7 +1143,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >104
           </Button>
         </Grid>
@@ -1152,7 +1152,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Then")}
           to="/"
@@ -1164,7 +1164,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >106
           </Button>
         </Grid>
@@ -1173,7 +1173,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Backward")}
           to="/"
@@ -1185,7 +1185,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >108
           </Button>
         </Grid>

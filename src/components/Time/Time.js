@@ -82,7 +82,7 @@ function Time({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -90,7 +90,7 @@ function Time({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -120,7 +120,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >
           </Button>
         </Grid>
@@ -129,7 +129,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Yesterday")}
           to="/"
@@ -141,7 +141,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Today")}
           to="/"
@@ -153,7 +153,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tomorrow")}
           to="/"
@@ -165,7 +165,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tonight")}
           to="/"
@@ -177,8 +177,8 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -186,7 +186,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Start")}
           to="/"
@@ -198,7 +198,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Starts")}
           to="/"
@@ -210,7 +210,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Starting")}
           to="/"
@@ -222,7 +222,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Started")}
           to="/"
@@ -234,7 +234,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Start")}
           to="/"
@@ -248,7 +248,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Was I")}
           to="/"
@@ -260,7 +260,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Were You")}
           to="/"
@@ -272,8 +272,8 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >015
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >0  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -281,7 +281,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Old")}
           to="/"
@@ -293,7 +293,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Older")}
           to="/"
@@ -305,7 +305,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Oldest")}
           to="/"
@@ -317,8 +317,8 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -326,7 +326,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Exact")}
           to="/"
@@ -338,7 +338,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More Exact")}
           to="/"
@@ -350,7 +350,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Exact")}
           to="/"
@@ -362,7 +362,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Exactly")}
           to="/"
@@ -374,8 +374,8 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -385,8 +385,8 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -394,7 +394,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Were We")}
           to="/"
@@ -406,7 +406,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Early")}
           to="/"
@@ -418,7 +418,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Earlier")}
           to="/"
@@ -430,7 +430,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Earliest")}
           to="/"
@@ -442,8 +442,8 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >030
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -451,7 +451,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Begin")}
           to="/"
@@ -463,7 +463,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Begins")}
           to="/"
@@ -475,7 +475,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Beginning")}
           to="/"
@@ -487,7 +487,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Began")}
           to="/"
@@ -499,7 +499,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Begun")}
           to="/"
@@ -511,7 +511,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Begin")}
           to="/"
@@ -525,7 +525,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >37
           </Button>
         </Grid>
@@ -534,7 +534,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >38
           </Button>
         </Grid>
@@ -543,7 +543,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Late")}
           to="/"
@@ -555,7 +555,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Later")}
           to="/"
@@ -567,7 +567,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Latest")}
           to="/"
@@ -579,7 +579,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >042
           </Button>
         </Grid>
@@ -588,7 +588,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >043
           </Button>
         </Grid>
@@ -597,7 +597,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >044
           </Button>
         </Grid>
@@ -606,7 +606,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -615,7 +615,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >046
           </Button>
         </Grid>
@@ -624,7 +624,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -633,7 +633,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >048
           </Button>
         </Grid>
@@ -644,7 +644,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Was It")}
           to="/"
@@ -656,7 +656,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Were They")}
           to="/"
@@ -668,7 +668,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           to="/Time/TimeTime"
           >Time
@@ -679,7 +679,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >052
           </Button>
         </Grid>
@@ -688,7 +688,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           to="/Time/Calendar"
           >Calendar
@@ -699,7 +699,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >054
           </Button>
         </Grid>
@@ -708,7 +708,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           to="/Time/TDate"
           >Date
@@ -719,7 +719,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >056
           </Button>
         </Grid>
@@ -728,7 +728,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >057
           </Button>
         </Grid>
@@ -737,7 +737,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >058
           </Button>
         </Grid>
@@ -746,7 +746,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >059
           </Button>
         </Grid>
@@ -755,7 +755,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >060
           </Button>
         </Grid>
@@ -766,7 +766,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Was She")}
           to="/"
@@ -778,7 +778,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Was He")}
           to="/"
@@ -790,7 +790,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -799,7 +799,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >064
           </Button>
         </Grid>
@@ -808,7 +808,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -817,7 +817,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >066
           </Button>
         </Grid>
@@ -826,7 +826,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -835,7 +835,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >068
           </Button>
         </Grid>
@@ -844,7 +844,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -853,7 +853,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >070
           </Button>
         </Grid>
@@ -862,7 +862,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -871,7 +871,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >072
           </Button>
         </Grid>
@@ -882,7 +882,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >073
           </Button>
         </Grid>
@@ -891,7 +891,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -900,7 +900,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >075
           </Button>
         </Grid>
@@ -909,7 +909,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >076
           </Button>
         </Grid>
@@ -918,7 +918,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >077
           </Button>
         </Grid>
@@ -927,7 +927,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >078
           </Button>
         </Grid>
@@ -936,7 +936,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >079
           </Button>
         </Grid>
@@ -945,7 +945,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >080
           </Button>
         </Grid>
@@ -954,7 +954,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >081
           </Button>
         </Grid>
@@ -963,7 +963,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >082
           </Button>
         </Grid>
@@ -972,7 +972,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >083
           </Button>
         </Grid>
@@ -981,7 +981,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -992,7 +992,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -1001,7 +1001,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >086
           </Button>
         </Grid>
@@ -1010,7 +1010,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -1019,7 +1019,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >088
           </Button>
         </Grid>
@@ -1028,7 +1028,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -1037,7 +1037,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >090
           </Button>
         </Grid>
@@ -1046,7 +1046,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -1055,7 +1055,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >092
           </Button>
         </Grid>
@@ -1064,7 +1064,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1073,7 +1073,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >094
           </Button>
         </Grid>
@@ -1082,7 +1082,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1091,7 +1091,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >096
           </Button>
         </Grid>
@@ -1102,7 +1102,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1114,7 +1114,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
           to="/Time/TimeNt"
           >N't
@@ -1125,7 +1125,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >099
           </Button>
         </Grid>
@@ -1134,7 +1134,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >100
           </Button>
         </Grid>
@@ -1143,7 +1143,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >101
           </Button>
         </Grid>
@@ -1152,7 +1152,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >102
           </Button>
         </Grid>
@@ -1161,7 +1161,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >103
           </Button>
         </Grid>
@@ -1170,7 +1170,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >104
           </Button>
         </Grid>
@@ -1179,7 +1179,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >105
           </Button>
         </Grid>
@@ -1188,7 +1188,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >106
           </Button>
         </Grid>
@@ -1197,7 +1197,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >107
           </Button>
         </Grid>
@@ -1206,7 +1206,7 @@ function Time({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >108
           </Button>
         </Grid>

@@ -100,7 +100,7 @@ function US({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'  /Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -108,7 +108,7 @@ function US({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'  /Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -138,8 +138,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >002
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -147,7 +147,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Alabama")}
           to="/"
@@ -159,8 +159,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,7 +168,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Alaska")}
           to="/"
@@ -180,8 +180,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >006
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -189,7 +189,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Arizona")}
           to="/"
@@ -201,8 +201,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >008
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -210,7 +210,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Arkansas")}
           to="/"
@@ -222,8 +222,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >010
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -231,7 +231,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("California")}
           to="/"
@@ -243,8 +243,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >012
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
       </Grid>
@@ -254,8 +254,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -263,7 +263,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Colorado")}
           to="/"
@@ -275,8 +275,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >015
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >0  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -284,7 +284,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Connecticut")}
           to="/"
@@ -296,8 +296,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -305,7 +305,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Delaware")}
           to="/"
@@ -317,8 +317,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -326,7 +326,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Florida")}
           to="/"
@@ -338,8 +338,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >021
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -347,7 +347,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Georgia")}
           to="/"
@@ -359,8 +359,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,7 +368,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hawaii")}
           to="/"
@@ -382,7 +382,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Idaho")}
           to="/"
@@ -394,7 +394,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >26
           </Button>
         </Grid>
@@ -403,7 +403,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Illinois")}
           to="/"
@@ -415,8 +415,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >028
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -424,7 +424,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Indiana")}
           to="/"
@@ -436,8 +436,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >030
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -445,7 +445,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Iowa")}
           to="/"
@@ -457,8 +457,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >032
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -466,7 +466,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kansas")}
           to="/"
@@ -478,8 +478,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -487,7 +487,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kentucky")}
           to="/"
@@ -499,8 +499,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -510,7 +510,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >37
           </Button>
         </Grid>
@@ -519,7 +519,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Louisiana")}
           to="/"
@@ -531,8 +531,8 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >039
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -540,7 +540,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Maine")}
           to="/"
@@ -552,7 +552,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >41
           </Button>
         </Grid>
@@ -561,7 +561,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Maryland")}
           to="/"
@@ -573,7 +573,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >043
           </Button>
         </Grid>
@@ -582,7 +582,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Massachusetts")}
           to="/"
@@ -594,7 +594,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -603,7 +603,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Michigan")}
           to="/"
@@ -615,7 +615,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -624,7 +624,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Minnesota")}
           to="/"
@@ -638,7 +638,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mississippi")}
           to="/"
@@ -650,7 +650,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >050
           </Button>
         </Grid>
@@ -659,7 +659,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Missouri")}
           to="/"
@@ -671,7 +671,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >052
           </Button>
         </Grid>
@@ -680,7 +680,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Montana")}
           to="/"
@@ -692,7 +692,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >054
           </Button>
         </Grid>
@@ -701,7 +701,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nebraska")}
           to="/"
@@ -713,7 +713,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >056
           </Button>
         </Grid>
@@ -722,7 +722,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nevada")}
           to="/"
@@ -734,7 +734,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >058
           </Button>
         </Grid>
@@ -743,7 +743,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("New Hampshire")}
           to="/"
@@ -755,7 +755,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >060
           </Button>
         </Grid>
@@ -766,7 +766,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >061
           </Button>
         </Grid>
@@ -775,7 +775,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("New Jersey")}
           to="/"
@@ -787,7 +787,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -796,7 +796,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >New Mexico
           </Button>
         </Grid>
@@ -805,7 +805,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -814,7 +814,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("New York")}
           to="/"
@@ -826,7 +826,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -835,7 +835,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("North Carolina")}
           to="/"
@@ -847,7 +847,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -856,7 +856,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("North Dakota")}
           to="/"
@@ -868,7 +868,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -877,7 +877,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ohio")}
           to="/"
@@ -891,7 +891,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Oklahoma")}
           to="/"
@@ -903,7 +903,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -912,7 +912,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Oregon")}
           to="/"
@@ -924,7 +924,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >076
           </Button>
         </Grid>
@@ -933,7 +933,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pennsylvania")}
           to="/"
@@ -945,7 +945,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >078
           </Button>
         </Grid>
@@ -954,7 +954,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rhode Island")}
           to="/"
@@ -966,7 +966,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >080
           </Button>
         </Grid>
@@ -975,7 +975,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("South Carolina")}
           to="/"
@@ -987,7 +987,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >082
           </Button>
         </Grid>
@@ -996,7 +996,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("South Dakota")}
           to="/"
@@ -1008,7 +1008,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -1019,7 +1019,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -1028,7 +1028,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tennessee")}
           to="/"
@@ -1040,7 +1040,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -1049,7 +1049,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Texas")}
           to="/"
@@ -1061,7 +1061,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -1070,7 +1070,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Utah")}
           to="/"
@@ -1082,7 +1082,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -1091,7 +1091,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Vermont")}
           to="/"
@@ -1103,7 +1103,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1112,7 +1112,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Virginia")}
           to="/"
@@ -1124,7 +1124,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1133,7 +1133,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Washington")}
           to="/"
@@ -1147,7 +1147,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1159,7 +1159,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >098
           </Button>
         </Grid>
@@ -1168,7 +1168,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("West Virginia")}
           to="/"
@@ -1180,7 +1180,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >100
           </Button>
         </Grid>
@@ -1189,7 +1189,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wisconsin")}
           to="/"
@@ -1201,7 +1201,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >102
           </Button>
         </Grid>
@@ -1210,7 +1210,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wyoming")}
           to="/" >Wyoming
@@ -1221,7 +1221,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >104
           </Button>
         </Grid>
@@ -1230,7 +1230,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >105
           </Button>
         </Grid>
@@ -1239,7 +1239,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >106
           </Button>
         </Grid>
@@ -1248,7 +1248,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >107
           </Button>
         </Grid>
@@ -1257,7 +1257,7 @@ function US({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("State of")}
           to="/"

@@ -100,7 +100,7 @@ function Eat({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'  /Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -108,7 +108,7 @@ function Eat({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+            startIcon={<Avatar src={'  /Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -138,8 +138,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >002
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -147,8 +147,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -156,8 +156,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -165,7 +165,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Condiment"
           >Condiment
@@ -176,8 +176,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >006
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -185,7 +185,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Dairy"
           >Dairy
@@ -196,8 +196,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >008
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -205,7 +205,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Fruit"
           >Fruit
@@ -216,8 +216,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >010
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -225,7 +225,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Vegetables"
           >Vegetables
@@ -236,8 +236,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >012
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
       </Grid>
@@ -247,8 +247,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -256,8 +256,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -265,8 +265,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >015
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >0  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -274,8 +274,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -283,8 +283,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >017
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -292,8 +292,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -301,8 +301,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >019
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -310,8 +310,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -319,8 +319,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >021
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -328,8 +328,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -337,8 +337,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -346,8 +346,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -357,8 +357,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -366,7 +366,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >26
           </Button>
         </Grid>
@@ -375,8 +375,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -384,8 +384,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >028
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -393,8 +393,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -402,8 +402,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >030
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -411,7 +411,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Meals"
           >Meals
@@ -422,8 +422,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >032
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -431,7 +431,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Meat"
           >Meat/Sea
@@ -442,8 +442,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >034
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -451,7 +451,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           to="/Eat/Snack"
           >Snack/Dessert
@@ -462,8 +462,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >036
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
       </Grid>
@@ -473,7 +473,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >37
           </Button>
         </Grid>
@@ -482,7 +482,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >38
           </Button>
         </Grid>
@@ -491,8 +491,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >039
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -500,8 +500,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >040
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -509,7 +509,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >41
           </Button>
         </Grid>
@@ -518,7 +518,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >042
           </Button>
         </Grid>
@@ -527,7 +527,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >043
           </Button>
         </Grid>
@@ -536,7 +536,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >044
           </Button>
         </Grid>
@@ -545,7 +545,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -554,7 +554,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >046
           </Button>
         </Grid>
@@ -563,7 +563,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -572,7 +572,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hungrily")}
           to="/"
@@ -586,7 +586,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >049
           </Button>
         </Grid>
@@ -595,7 +595,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >050
           </Button>
         </Grid>
@@ -604,7 +604,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eat")}
           to="/"
@@ -616,7 +616,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eats")}
           to="/"
@@ -628,7 +628,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eating")}
           to="/"
@@ -640,7 +640,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ate")}
           to="/"
@@ -652,7 +652,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eaten")}
           to="/"
@@ -664,7 +664,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Eat")}
           to="/"
@@ -676,7 +676,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >057
           </Button>
         </Grid>
@@ -685,7 +685,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hungry")}
           to="/"
@@ -697,7 +697,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hungrier")}
           to="/"
@@ -709,7 +709,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -723,7 +723,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Food")}
           to="/"
@@ -735,7 +735,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Foods")}
           to="/"
@@ -747,7 +747,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -756,7 +756,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anywhere")}
           to="/"
@@ -768,7 +768,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -777,7 +777,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anyone")}
           to="/"
@@ -789,7 +789,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -798,7 +798,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anyhow")}
           to="/"
@@ -810,7 +810,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -819,7 +819,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anymore")}
           to="/"
@@ -831,7 +831,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -840,7 +840,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anytime")}
           to="/"
@@ -854,7 +854,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >073
           </Button>
         </Grid>
@@ -863,7 +863,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -872,7 +872,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anybody")}
           to="/"
@@ -884,7 +884,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >076
           </Button>
         </Grid>
@@ -893,7 +893,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anyway")}
           to="/"
@@ -905,7 +905,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >078
           </Button>
         </Grid>
@@ -914,7 +914,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anything")}
           to="/"
@@ -926,7 +926,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >080
           </Button>
         </Grid>
@@ -935,7 +935,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >081
           </Button>
         </Grid>
@@ -944,7 +944,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >082
           </Button>
         </Grid>
@@ -953,7 +953,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >083
           </Button>
         </Grid>
@@ -962,7 +962,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -973,7 +973,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -982,7 +982,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >086
           </Button>
         </Grid>
@@ -991,7 +991,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -1000,7 +1000,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >088
           </Button>
         </Grid>
@@ -1009,7 +1009,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -1018,7 +1018,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >090
           </Button>
         </Grid>
@@ -1027,7 +1027,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -1036,7 +1036,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >092
           </Button>
         </Grid>
@@ -1045,7 +1045,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1054,7 +1054,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >094
           </Button>
         </Grid>
@@ -1063,7 +1063,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1072,7 +1072,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >096
           </Button>
         </Grid>
@@ -1083,7 +1083,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1095,7 +1095,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Grow")}
           to="/"
@@ -1107,7 +1107,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >099
           </Button>
         </Grid>
@@ -1116,7 +1116,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bite")}
           to="/"
@@ -1128,7 +1128,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >101
           </Button>
         </Grid>
@@ -1137,7 +1137,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Chew")}
           to="/"
@@ -1149,7 +1149,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >103
           </Button>
         </Grid>
@@ -1158,7 +1158,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Smell")}
           to="/"
@@ -1170,7 +1170,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >105
           </Button>
         </Grid>
@@ -1179,7 +1179,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Feed")}
           to="/"
@@ -1191,7 +1191,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           >107
           </Button>
         </Grid>
@@ -1200,7 +1200,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'  /Assets/blank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Taste")}
           to="/"
