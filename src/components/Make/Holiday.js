@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Turn({route}) {
+function Holiday({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Turn({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Turn
+        Holiday
       </Typography>
       <div>
         <Grid container>
@@ -149,9 +149,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Plate")}
+          onClick={()=> buttonSpeak("New Years Eve")}
           to="/"
-          >Plate
+          >New Years Eve
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -170,9 +170,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Cup")}
+          onClick={()=> buttonSpeak("New Years")}
           to="/"
-          >Cup
+          >New Years 
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -191,9 +191,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("")}
+          onClick={()=> buttonSpeak("MLK Day")}
           to="/"
-          >Bowl
+          >MLK
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -212,9 +212,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Mug")}
+          onClick={()=> buttonSpeak("Valentine's Day")}
           to="/"
-          >Mug
+          >Valentine's Day
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -233,9 +233,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Napkin")}
+          onClick={()=> buttonSpeak("St. Patrick's Day")}
           to="/"
-          >Napkin
+          >St. Patrick's Day
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -265,9 +265,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Fork")}
+          onClick={()=> buttonSpeak("Easter")}
           to="/"
-          >Fork
+          >Easter
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -286,9 +286,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Spoon")}
+          onClick={()=> buttonSpeak("Passover")}
           to="/"
-          >Spoon
+          >Passover
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -307,9 +307,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Knife")}
+          onClick={()=> buttonSpeak("Mother's Day")}
           to="/"
-          >Knife
+          >Mother's Day
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -328,9 +328,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Microwave")}
+          onClick={()=> buttonSpeak("Memorial Day")}
           to="/"
-          >Microwave
+          >Memorial Day
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -349,9 +349,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Stove")}
+          onClick={()=> buttonSpeak("Father's Day")}
           to="/"
-          >Stove
+          >Father's Day
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -370,9 +370,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Dishwasher")}
+          onClick={()=> buttonSpeak("4th of July")}
           to="/"
-          >Dishwasher
+          >4th of July
           </Button>
         </Grid>
       </Grid>
@@ -383,7 +383,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Labor Day")}
+          to="/"
+          >Labor Day
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -401,7 +404,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Halloween")}
+          to="/"
+          >Halloween
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -419,7 +425,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Thanksgiving")}
+          to="/"
+          >Thanksgiving
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -437,7 +446,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >031
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Christmas Eve")}
+          to="/"
+          >Christmas Eve
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -455,7 +467,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >033
+          component={RouterLink}
+          onClick={()=> buttonSpeak("")}
+          to="/"
+          >Christmas
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -473,7 +488,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hanukkah")}
+          to="/"
+          >Hanukkah
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -622,9 +640,18 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Turn")}
+          onClick={()=> buttonSpeak("Holiday")}
           to="/"
-          >Turn
+          >Holiday
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -634,21 +661,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Turns")}
+          onClick={()=> buttonSpeak("Holidays")}
           to="/"
-          >Turns
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Turning")}
-          to="/"
-          >Turning
+          >Holidays
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -657,10 +672,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Turned")}
-          to="/"
-          >Turned
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -669,10 +681,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Turn")}
-          to="/"
-          >To Turn
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -857,9 +866,18 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Hot")}
+          onClick={()=> buttonSpeak("Kwanza")}
           to="/"
-          >Hot
+          >Kwanza
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >076
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -869,21 +887,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Hotter")}
+          onClick={()=> buttonSpeak("Ramadan")}
           to="/"
-          >Hotter
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hottest")}
-          to="/"
-          >Hottest
+          >Ramadan
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -902,9 +908,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Cold")}
+          onClick={()=> buttonSpeak("Eid")}
           to="/"
-          >Cold
+          >Eid
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -913,10 +919,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Colder")}
-          to="/"
-          >Colder
+          >080
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -925,10 +928,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Coldest")}
-          to="/"
-          >Coldest
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1097,10 +1097,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Cook")}
-          to="/"
-          >Cook
+          >099
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1118,10 +1115,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Mix")}
-          to="/"
-          >Mix
+          >101
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1139,10 +1133,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Pour")}
-          to="/"
-          >Pour
+          >103
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1160,10 +1151,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Bake")}
-          to="/"
-          >Bake
+          >105
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1181,10 +1169,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Stir")}
-          to="/"
-          >Stir
+          >107
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1202,4 +1187,4 @@ function Turn({route}) {
   );
 }
 
-export default Turn;
+export default Holiday;

@@ -148,7 +148,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >003
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sleep")}
+          to="/"
+          >Sleep
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -157,7 +160,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >004
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sleeps")}
+          to="/"
+          >Sleeps
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -166,7 +172,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >005
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sleeping")}
+          to="/"
+          >Sleeping
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -175,7 +184,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >006
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Slept")}
+          to="/"
+          >Slept
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -184,7 +196,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >007
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Sleep")}
+          to="/"
+          >To Sleep
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -202,7 +217,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >009
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Sleepy")}
+          to="/"
+          >Sleepy
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -327,7 +345,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Tired")}
+          to="/"
+          >Tired
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -336,7 +357,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >023
+          component={RouterLink}
+          onClick={()=> buttonSpeak("More Tired")}
+          to="/"
+          >More Tired
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -345,7 +369,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Most Tired")}
+          to="/"
+          >Most Tired
           </Button>
         </Grid>
       </Grid>
@@ -844,7 +871,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bed")}
+          to="/"
+          >Bed
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -862,7 +892,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Awake")}
+          to="/"
+          >Awake
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -880,7 +913,10 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Asleep")}
+          to="/"
+          >Asleep
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1058,7 +1094,9 @@ function Need({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >098
+          component={RouterLink}
+          to="/Need/NeedNt"
+          >Nt
           </Button>
         </Grid>
         <Grid xs={1}>

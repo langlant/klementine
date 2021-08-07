@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Turn({route}) {
+function Shape({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Turn({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Turn
+        Shape
       </Typography>
       <div>
         <Grid container>
@@ -149,9 +149,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Plate")}
+          onClick={()=> buttonSpeak("Circle")}
           to="/"
-          >Plate
+          >Circle
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -170,9 +170,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Cup")}
+          onClick={()=> buttonSpeak("Square")}
           to="/"
-          >Cup
+          >Square
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -191,9 +191,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("")}
+          onClick={()=> buttonSpeak("Triangle")}
           to="/"
-          >Bowl
+          >Triangle
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -212,9 +212,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Mug")}
+          onClick={()=> buttonSpeak("Rectangle")}
           to="/"
-          >Mug
+          >Rectangle
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -233,9 +233,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Napkin")}
+          onClick={()=> buttonSpeak("Diamond")}
           to="/"
-          >Napkin
+          >Diamond
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -265,9 +265,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Fork")}
+          onClick={()=> buttonSpeak("Heart")}
           to="/"
-          >Fork
+          >Heart
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -286,9 +286,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Spoon")}
+          onClick={()=> buttonSpeak("Oval")}
           to="/"
-          >Spoon
+          >Oval
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -307,9 +307,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Knife")}
+          onClick={()=> buttonSpeak("Star")}
           to="/"
-          >Knife
+          >Star
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -328,9 +328,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Microwave")}
+          onClick={()=> buttonSpeak("Part")}
           to="/"
-          >Microwave
+          >Part
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -349,9 +349,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Stove")}
+          onClick={()=> buttonSpeak("Half")}
           to="/"
-          >Stove
+          >Half
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -370,9 +370,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Dishwasher")}
+          onClick={()=> buttonSpeak("Whole")}
           to="/"
-          >Dishwasher
+          >Whole
           </Button>
         </Grid>
       </Grid>
@@ -383,7 +383,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Parrallelogram")}
+          to="/"
+          >Parrellelogram
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -401,7 +404,10 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >027
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Pentagon")}
+          to="/"
+          >Pentagon
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -419,12 +425,15 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >029
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Hexagon")}
+          to="/"
+          >Hexagon
           </Button>
         </Grid>
         <Grid xs={1}> 
           <Button 
-          className={classes.buttonStyles} 
+          className={classes.buttontyles} 
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
@@ -622,9 +631,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Turn")}
+          onClick={()=> buttonSpeak("Shape")}
           to="/"
-          >Turn
+          >Shape
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -634,9 +643,9 @@ function Turn({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Turns")}
+          onClick={()=> buttonSpeak("Shapes")}
           to="/"
-          >Turns
+          >Shapes
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -645,10 +654,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Turning")}
-          to="/"
-          >Turning
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -657,10 +663,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Turned")}
-          to="/"
-          >Turned
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -669,10 +672,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Turn")}
-          to="/"
-          >To Turn
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -856,10 +856,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hot")}
-          to="/"
-          >Hot
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -868,10 +865,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hotter")}
-          to="/"
-          >Hotter
+          >076
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,10 +874,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hottest")}
-          to="/"
-          >Hottest
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -901,10 +892,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Cold")}
-          to="/"
-          >Cold
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -913,10 +901,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Colder")}
-          to="/"
-          >Colder
+          >080
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -925,10 +910,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Coldest")}
-          to="/"
-          >Coldest
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1097,10 +1079,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Cook")}
-          to="/"
-          >Cook
+          >099
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1118,10 +1097,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Mix")}
-          to="/"
-          >Mix
+          >101
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1139,10 +1115,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Pour")}
-          to="/"
-          >Pour
+          >103
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1160,10 +1133,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Bake")}
-          to="/"
-          >Bake
+          >105
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1181,10 +1151,7 @@ function Turn({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Stir")}
-          to="/"
-          >Stir
+          >107
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1202,4 +1169,4 @@ function Turn({route}) {
   );
 }
 
-export default Turn;
+export default Shape;

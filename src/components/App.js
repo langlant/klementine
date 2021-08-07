@@ -140,9 +140,13 @@ import Wipe from "./Help/Wipe"
 import Look from "./Look/Look"
 import Talk from "./Talk/Talk"
 import Think from "./Think/Think"
+import ThinkNt from "./Think/ThinkNt"
 import Hear from "./Hear/Hear"
 import Make from "./Make/Make"
+import Holiday from "./Make/Holiday"
+import Shape from "./Make/Shape"
 import Need from "./Need/Need"
+import NeedNt from "./Need/NeedNt"
 import Turn from "./Turn/Turn"
 import Stop from "./Stop/Stop"
 import StopNt from "./Stop/Nt"
@@ -428,9 +432,13 @@ function App() {
           <Route exact path="/Look" component={Look}/>
           <Route exact path="/Talk" component={Talk}/>
           <Route exact path="/Think" component={Think}/>
+          <Route exact path="/Think/ThinkNt" component={ThinkNt}/>
           <Route exact path="/Hear" component={Hear}/>
           <Route exact path="/Make" component={Make}/>
+          <Route exact path="/Make/Holiday" component={Holiday}/>
+          <Route exact path="/Make/Shape" component={Shape}/>
           <Route exact path="/Need" component={Need}/>
+          <Route exact path="/Need/NeedNt" component={NeedNt}/>
           <Route exact path="/Turn" component={Turn}/>
           <Route exact path="/Stop" component={Stop}/>
           <Route exact path="/Stop/Nt" component={StopNt}/>
