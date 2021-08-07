@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Hear({route}) {
+function NeedNt({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Hear({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Hear
+        NeedNt
       </Typography>
       <div>
         <Grid container>
@@ -148,10 +148,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Deaf")}
-          to="/"
-          >Deaf
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +166,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Here")}
-          to="/"
-          >Here
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -190,10 +184,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Everywhere")}
-          to="/"
-          >Everywhere
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -211,10 +202,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Everyone")}
-          to="/"
-          >Everyone
+          >009
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -232,7 +220,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >Everybody
+          >011
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -252,7 +240,10 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >13
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Don't I Need")}
+          to="/"
+          >Don't I Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -262,9 +253,9 @@ function Hear({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Sound")}
+          onClick={()=> buttonSpeak("Don't You Need")}
           to="/"
-          >Sound
+          >Don't You Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -273,10 +264,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sounds")}
-          to="/"
-          >Sounds
+          >015
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -285,10 +273,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sounding")}
-          to="/"
-          >Sounding
+          >016
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -297,10 +282,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sounded")}
-          to="/"
-          >Sounded
+          >017
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -309,10 +291,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Sound")}
-          to="/"
-          >To Sound
+          >018
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -348,9 +327,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Everything")}
-          to="/">Everything
+          >022
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -368,10 +345,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Every")}
-          to="/"
-          >Every
+          >024
           </Button>
         </Grid>
       </Grid>
@@ -391,7 +365,10 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >26
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Don't We Need")}
+          to="/"
+          >Don't We Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -602,16 +579,10 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >049
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >050
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doesn't It Need")}
+          to="/"
+          >Doesn't It Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -621,9 +592,9 @@ function Hear({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Hear")}
+          onClick={()=> buttonSpeak("Don't They Need")}
           to="/"
-          >Hear
+          >Don't They Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -632,10 +603,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hears")}
-          to="/"
-          >Hears
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -644,10 +612,16 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hearing")}
-          to="/"
-          >Hearing
+          >052
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -656,10 +630,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Heard")}
-          to="/"
-          >Heard
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -668,10 +639,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Hear")}
-          to="/"
-          >To Hear
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -689,10 +657,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quiet")}
-          to="/"
-          >Quiet
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -701,10 +666,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quieter")}
-          to="/"
-          >Quieter
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -713,10 +675,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quietest")}
-          to="/"
-          >Quietest
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -725,10 +684,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quietly")}
-          to="/"
-          >Quietly
+          >060
           </Button>
         </Grid>
       </Grid>
@@ -739,7 +695,10 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >061
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doesn't She Need")}
+          to="/"
+          >Doesn't She Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -748,7 +707,10 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >062
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Doesn't He Need")}
+          to="/"
+          >Doesn't He Need
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -849,10 +811,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Loud")}
-          to="/"
-          >Loud
+          >073
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -861,10 +820,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Louder")}
-          to="/"
-          >Louder
+          >074
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -873,10 +829,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Loudest")}
-          to="/"
-          >Loudest
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -885,10 +838,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Loudly")}
-          to="/"
-          >Loudly
+          >076
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -906,10 +856,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ring")}
-          to="/"
-          >Ring
+          >078
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -918,10 +865,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Rings")}
-          to="/"
-          >Rings
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -930,10 +874,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ringing")}
-          to="/"
-          >Ringing
+          >080
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -942,10 +883,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Rang")}
-          to="/"
-          >Rang
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -954,10 +892,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Ring")}
-          to="/"
-          >To Ring
+          >082
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1117,10 +1052,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Listen")}
-          to="/"
-          >Listen
+          >099
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1129,10 +1061,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Listens")}
-          to="/"
-          >Listens
+          >100
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1141,10 +1070,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Listening")}
-          to="/"
-          >Listening
+          >101
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1153,10 +1079,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Listened")}
-          to="/"
-          >Listened
+          >102
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1165,10 +1088,7 @@ function Hear({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Listen")}
-          to="/"
-          >To Listen
+          >103
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1222,4 +1142,4 @@ function Hear({route}) {
   );
 }
 
-export default Hear;
+export default NeedNt;
