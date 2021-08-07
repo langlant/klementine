@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Love({route}) {
+function Rainbow({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Love({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Love
+        Color
       </Typography>
       <div>
         <Grid container>
@@ -148,10 +148,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Life")}
-          to="/"
-          >Life
+          >003
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +166,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lives")}
-          to="/"
-          >Lives
+          >005
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -190,10 +184,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lovely")}
-          to="/"
-          >Lovely
+          >007
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -211,10 +202,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Reject")}
-          to="/"
-          >Reject
+          >009
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -252,10 +240,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Do I Love")}
-          to="/"
-          >Do I Love
+          >13
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -264,10 +249,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Do You Love")}
-          to="/"
-          >Do You Love
+          >14
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -377,10 +359,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Do We Love")}
-          to="/"
-          >Do We Love
+          >26
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -390,9 +369,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Kiss")}
+          onClick={()=> buttonSpeak("Black")}
           to="/"
-          >Kiss
+          >Black
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -411,9 +390,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Hug")}
+          onClick={()=> buttonSpeak("White")}
           to="/"
-          >Hug
+          >White
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -432,9 +411,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Accept")}
+          onClick={()=> buttonSpeak("Grey")}
           to="/"
-          >Accept
+          >Grey
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -453,9 +432,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Care")}
+          onClick={()=> buttonSpeak("Brown")}
           to="/"
-          >Care
+          >Brown
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -474,9 +453,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Date")}
+          onClick={()=> buttonSpeak("Tan")}
           to="/"
-          >Date
+          >Tan
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -606,10 +585,16 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Does It Love")}
-          to="/"
-          >Does It Love
+          >049
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >050
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -619,9 +604,18 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Do They Love")}
+          onClick={()=> buttonSpeak("Red")}
           to="/"
-          >Do They Love
+          >Red
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -631,33 +625,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Love")}
+          onClick={()=> buttonSpeak("Blue")}
           to="/"
-          >Love
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Loves")}
-          to="/"
-          >Loves
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Loving")}
-          to="/"
-          >Loving
+          >Blue
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -666,10 +636,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Loved")}
-          to="/"
-          >Loved
+          >054
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -679,9 +646,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("To Love")}
+          onClick={()=> buttonSpeak("Yellow")}
           to="/"
-          >To Love
+          >Yellow
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -700,9 +667,18 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Young")}
+          onClick={()=> buttonSpeak("Green")}
           to="/"
-          >Young
+          >Green
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -712,21 +688,9 @@ function Love({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Younger")}
+          onClick={()=> buttonSpeak("Purple")}
           to="/"
-          >Younger
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Youngest")}
-          to="/"
-          >Youngest
+          >Purple
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -746,10 +710,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Does She Love")}
-          to="/"
-          >Does She Love
+          >061
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -758,10 +719,7 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Does He Love")}
-          to="/"
-          >Does He Love
+          >062
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,7 +838,10 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >075
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Orange")}
+          to="/"
+          >Orange
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -898,7 +859,10 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >077
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Pink")}
+          to="/"
+          >Pink
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -916,7 +880,10 @@ function Love({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >079
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Violet")}
+          to="/"
+          >Violet
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1193,4 +1160,4 @@ function Love({route}) {
   );
 }
 
-export default Love;
+export default Rainbow;

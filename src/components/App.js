@@ -148,7 +148,10 @@ import Stop from "./Stop/Stop"
 import StopNt from "./Stop/Nt"
 import Fast from "./Fast/Fast"
 import Slow from "./Slow/Slow"
+import SlowNt from "./Slow/SlowNt"
 import Love from "./Love/Love"
+import LoveNt from "./Love/LoveNt"
+import More from "./More/More"
 import New from "./New/New"
 import Cheat from "./New/Cheat"
 import False from "./New/False"
@@ -184,7 +187,7 @@ import Family from "./All/Family"
 import Foster from "./All/Foster"
 import Marry from "./All/Marry"
 import Come from "./Come/Come"
-import Color from "./Color/Color"
+import Rainbow from "./Rainbow/Rainbow"
 import Right from "./Right/Right"
 import RightNt from "./Right/Nt"
 import Said from "./Said/Said"
@@ -432,9 +435,12 @@ function App() {
           <Route exact path="/Stop" component={Stop}/>
           <Route exact path="/Stop/Nt" component={StopNt}/>
           <Route exact path="/Slow" component={Slow}/>
+          <Route exact path="/Slow/SlowNt" component={SlowNt}/>
           <Route exact path="/Fast" component={Fast}/>
           <Route exact path="/Love" component={Love}/>
+          <Route exact path="/Love/LoveNt" component={LoveNt}/>
           <Route exact path="/Feel" component={Feel}/>
+          <Route exact path="/More" component={More}/>
           <Route exact path="/New" component={New}/>
           <Route exact path="/New/Cheat" component={Cheat}/>
           <Route exact path="/New/False" component={False}/>
@@ -469,7 +475,7 @@ function App() {
           <Route exact path="/All/Foster" component={Foster}/>
           <Route exact path="/All/Marry" component={Marry}/>
           <Route exact path="/Come" component={Come}/>
-          <Route exact path="/Color" component={Color}/>
+          <Route exact path="/Rainbow" component={Rainbow}/>
           <Route exact path="/Right" component={Right}/>
           <Route exact path="/Right/Nt" component={RightNt}/>
           <Route exact path="/Said" component={Said}/>
