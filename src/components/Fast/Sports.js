@@ -36,7 +36,7 @@ if(speech.hasBrowserSupport()) { // returns a boolean
       console.error("An error occured while initializing : ", e)
   })
 
-function Fast({route}) {
+function Sports({route}) {
   
   const classes = useStyles(); 
 
@@ -90,7 +90,7 @@ function Fast({route}) {
   return (
     <div className="Home">
       <Typography color="primary" variant="h1" className={classes.helloThereStyle}>
-        Fast
+        Sports
       </Typography>
       <div>
         <Grid container>
@@ -149,8 +149,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Fast/Sports"
-          >Sports
+          onClick={()=> buttonSpeak("Baseball")}
+          to="/"
+          >Baseball
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,8 +170,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          to="/Fast/Equipment"
-          >Equipment
+          onClick={()=> buttonSpeak("Softball")}
+          to="/"
+          >Softball
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -189,9 +191,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Offense")}
+          onClick={()=> buttonSpeak("Basketball")}
           to="/"
-          >Offense
+          >Basketball
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -210,9 +212,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Defense")}
+          onClick={()=> buttonSpeak("Football")}
           to="/"
-          >Defense
+          >Football
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -231,9 +233,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Team")}
+          onClick={()=> buttonSpeak("Soccer")}
           to="/"
-          >Team
+          >Soccer
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -262,7 +264,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >14
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Bowling")}
+          to="/"
+          >Bowling
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -280,7 +285,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >016
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Gymnastics")}
+          to="/"
+          >Gymnastics
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -298,7 +306,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >018
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Skating")}
+          to="/"
+          >Skating
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -316,7 +327,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >020
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Skiing")}
+          to="/"
+          >Skiiing
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -334,7 +348,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >022
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Track")}
+          to="/"
+          >Track
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -352,7 +369,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >024
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Wrestling")}
+          to="/"
+          >Wrestling
           </Button>
         </Grid>
       </Grid>
@@ -363,7 +383,10 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} onClick={click} />}
-          >25
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Rugby")}
+          to="/"
+          >Rugby
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -382,9 +405,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Touchdown")}
+          onClick={()=> buttonSpeak("Golf")}
           to="/"
-          >Touchdown
+          >Golf
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -403,9 +426,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Goal")}
+          onClick={()=> buttonSpeak("Hockey")}
           to="/"
-          >Goal
+          >Hockey
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -424,9 +447,18 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Quick")}
+          onClick={()=> buttonSpeak("Tennis")}
           to="/"
-          >Quick
+          >Tennis
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >032
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -436,9 +468,18 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Quicker")}
+          onClick={()=> buttonSpeak("Lacrosse")}
           to="/"
-          >Quicker
+          >Lacrosse
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          >034
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -448,30 +489,9 @@ function Fast({route}) {
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Quickest")}
+          onClick={()=> buttonSpeak("Autoracing")}
           to="/"
-          >Quickest
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quickly")}
-          to="/"
-          >Quickly
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >035
+          >Autoracing
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -619,10 +639,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Fast")}
-          to="/"
-          >Fast
+          >051
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -631,10 +648,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Faster")}
-          to="/"
-          >Faster
+          >052
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -643,10 +657,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Fastest")}
-          to="/"
-          >Fastest
+          >053
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -664,10 +675,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Run")}
-          to="/"
-          >Run
+          >055
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -676,10 +684,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Runs")}
-          to="/"
-          >Runs
+          >056
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -688,10 +693,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Running")}
-          to="/"
-          >Running
+          >057
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -700,10 +702,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ran")}
-          to="/"
-          >Ran
+          >058
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -712,10 +711,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Run")}
-          to="/"
-          >To Run
+          >059
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -863,10 +859,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Fish")}
-          to="/"
-          >Fish
+          >075
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -884,10 +877,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Slide")}
-          to="/"
-          >Slide
+          >077
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -905,10 +895,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Skip")}
-          to="/"
-          >Skip
+          >079
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -926,10 +913,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Score")}
-          to="/"
-          >Score
+          >081
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -947,10 +931,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Stand")}
-          to="/"
-          >Stand
+          >083
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1101,10 +1082,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Kick")}
-          to="/"
-          >Kick
+          >099
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1122,10 +1100,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Swing")}
-          to="/"
-          >Swing
+          >101
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1143,7 +1118,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >Bounce
+          >103
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1161,7 +1136,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          >Jump
+          >105
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1179,10 +1154,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Swim")}
-          to="/"
-          >Swim
+          >107
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1200,4 +1172,4 @@ function Fast({route}) {
   );
 }
 
-export default Fast;
+export default Sports;

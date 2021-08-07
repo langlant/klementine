@@ -151,6 +151,8 @@ import Turn from "./Turn/Turn"
 import Stop from "./Stop/Stop"
 import StopNt from "./Stop/Nt"
 import Fast from "./Fast/Fast"
+import Equipment from "./Fast/Equipment"
+import Sports from "./Fast/Sports"
 import Slow from "./Slow/Slow"
 import SlowNt from "./Slow/SlowNt"
 import Love from "./Love/Love"
@@ -445,6 +447,8 @@ function App() {
           <Route exact path="/Slow" component={Slow}/>
           <Route exact path="/Slow/SlowNt" component={SlowNt}/>
           <Route exact path="/Fast" component={Fast}/>
+          <Route exact path="/Fast/Equipment" component={Equipment}/>
+          <Route exact path="/Fast/Sports" component={Sports}/>
           <Route exact path="/Love" component={Love}/>
           <Route exact path="/Love/LoveNt" component={LoveNt}/>
           <Route exact path="/Feel" component={Feel}/>

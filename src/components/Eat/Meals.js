@@ -873,7 +873,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'https://i.redd.it/w3kr4m2fi3111.png'} />}
+          startIcon={<Avatar src={'http://clipart-library.com/img/1347528.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pizza")}
           to="/"
