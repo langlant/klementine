@@ -147,7 +147,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/carry.png'} />}
           component={RouterLink}
           to="/Come/Carry"
           >Carry
@@ -167,7 +167,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bring.jpg'} />}
           component={RouterLink}
           to="/Come/Bring"
           >Bring
@@ -187,7 +187,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/catch.jpg'} />}
           component={RouterLink}
           to="/Come/Receive"
           >Receive
@@ -593,7 +593,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/come.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Come")}
           to="/"
@@ -605,7 +605,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Comes")}
           to="/"
@@ -617,7 +617,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Coming")}
           to="/"
@@ -629,7 +629,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Came")}
           to="/"
@@ -641,7 +641,7 @@ function Come({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Come")}
           to="/"
@@ -663,10 +663,8 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tame")}
-          to="/"
-          >Tame
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -675,10 +673,8 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamer")}
-          to="/"
-          >Tamer
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -687,10 +683,8 @@ function Come({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tamest")}
-          to="/"
-          >Tamest
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

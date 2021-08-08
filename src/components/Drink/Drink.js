@@ -147,7 +147,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/chocolatemilk.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Chocolate")}
           to="/"
@@ -168,7 +168,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/coffee.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Coffee")}
           to="/"
@@ -189,7 +189,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/soda.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Soda")}
           to="/"
@@ -210,7 +210,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tea.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tea")}
           to="/"
@@ -231,7 +231,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/waterglass.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Water")}
           to="/"
@@ -254,7 +254,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Can I")}
           to="/"
@@ -266,7 +266,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Can You")}
           to="/"
@@ -279,7 +279,7 @@ function Drink({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -287,7 +287,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cup.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Beverage")}
           to="/"
@@ -308,7 +308,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Beverages")}
           to="/"
@@ -385,7 +385,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Can We")}
           to="/"
@@ -397,7 +397,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tea.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hot Tea")}
           to="/"
@@ -418,7 +418,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/icetea.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Iced Tee")}
           to="/"
@@ -439,7 +439,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/juicebox.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Juice")}
           to="/"
@@ -460,7 +460,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lemonade.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lemonade")}
           to="/"
@@ -481,7 +481,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/milk.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Milk")}
           to="/"
@@ -603,7 +603,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thirstily")}
           to="/"
@@ -629,7 +629,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Can They")}
           to="/"
@@ -641,7 +641,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/drinking.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -653,7 +653,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Drinks")}
           to="/"
@@ -665,7 +665,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Drinking")}
           to="/"
@@ -677,7 +677,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Drank")}
           to="/"
@@ -689,7 +689,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Drunk")}
           to="/"
@@ -701,7 +701,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Drink")}
           to="/"
@@ -722,7 +722,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thirsty.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thirsty")}
           to="/"
@@ -734,7 +734,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thirstier")}
           to="/"
@@ -746,7 +746,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thirstiest")}
           to="/"
@@ -760,7 +760,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Can She")}
           to="/"
@@ -772,7 +772,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Can He")}
           to="/"
@@ -894,7 +894,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/small.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Small")}
           to="/"
@@ -906,7 +906,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           >Smaller
           </Button>
         </Grid>
@@ -915,7 +915,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           >Smallest
           </Button>
         </Grid>
@@ -933,7 +933,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mediumcup.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Medium")}
           to="/"
@@ -954,7 +954,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/largecup.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Large")}
           to="/"
@@ -966,7 +966,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Larger")}
           to="/"
@@ -978,7 +978,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Largest")}
           to="/"
@@ -1046,7 +1046,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cup.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Empty")}
           to="/"
@@ -1058,7 +1058,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Emptier")}
           to="/"
@@ -1070,7 +1070,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Emptiest")}
           to="/"
@@ -1132,7 +1132,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Drink/Nt"
           >Nt
@@ -1152,7 +1152,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/suck.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Suck")}
           to="/"
@@ -1209,7 +1209,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/swallow.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Swallow")}
           to="/"
@@ -1230,7 +1230,7 @@ function Drink({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Blow")}
           to="/"

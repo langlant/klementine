@@ -147,7 +147,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sports.png'} />}
           component={RouterLink}
           to="/Fast/Sports"
           >Sports
@@ -167,7 +167,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/equipment.jpg'} />}
           component={RouterLink}
           to="/Fast/Equipment"
           >Equipment
@@ -187,7 +187,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/offense.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Offense")}
           to="/"
@@ -208,7 +208,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/defense.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Defense")}
           to="/"
@@ -229,7 +229,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/team.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Team")}
           to="/"
@@ -271,7 +271,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -380,7 +380,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/touchdown.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Touchdown")}
           to="/"
@@ -401,7 +401,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/goal.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Goal")}
           to="/"
@@ -422,7 +422,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/quick.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quick")}
           to="/"
@@ -434,7 +434,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quicker")}
           to="/"
@@ -446,7 +446,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quickest")}
           to="/"
@@ -458,7 +458,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quickly")}
           to="/"
@@ -618,7 +618,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fast.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fast")}
           to="/"
@@ -630,7 +630,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Faster")}
           to="/"
@@ -642,7 +642,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fastest")}
           to="/"
@@ -663,7 +663,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/quick.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Run")}
           to="/"
@@ -675,7 +675,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Runs")}
           to="/"
@@ -687,7 +687,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Running")}
           to="/"
@@ -699,7 +699,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ran")}
           to="/"
@@ -711,7 +711,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Run")}
           to="/"
@@ -862,7 +862,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fish.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fish")}
           to="/"
@@ -883,7 +883,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/slide.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Slide")}
           to="/"
@@ -904,7 +904,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/skip.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Skip")}
           to="/"
@@ -925,7 +925,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/goal.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Score")}
           to="/"
@@ -946,7 +946,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stand.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stand")}
           to="/"
@@ -1100,7 +1100,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/kick.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kick")}
           to="/"
@@ -1121,7 +1121,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/swing.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Swing")}
           to="/"
@@ -1142,7 +1142,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bounce.jpg'} />}
           >Bounce
           </Button>
         </Grid>
@@ -1160,7 +1160,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/jump.jpg'} />}
           >Jump
           </Button>
         </Grid>
@@ -1178,7 +1178,7 @@ function Fast({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/swim.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Swim")}
           to="/"

@@ -147,7 +147,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/baseballbat.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bat")}
           to="/"
@@ -168,7 +168,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/jersey.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Uniform")}
           to="/"
@@ -189,7 +189,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/goalpost.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Goalpost")}
           to="/"
@@ -210,7 +210,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fishingpole.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fishing Pole")}
           to="/"
@@ -231,7 +231,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cleats.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cleats")}
           to="/"
@@ -403,7 +403,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/racket.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Racket")}
           to="/"
@@ -424,7 +424,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hockeystick.jpg'} />}
           >Hockey Stick
           </Button>
         </Grid>
@@ -442,7 +442,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/helmet.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Helmet")}
           to="/"
@@ -463,7 +463,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mouthgaurd.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mouth Guard")}
           to="/"

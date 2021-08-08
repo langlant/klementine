@@ -1159,7 +1159,7 @@ function People({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >108
           </Button>
         </Grid>

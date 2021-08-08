@@ -100,7 +100,7 @@ function Meat({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'  /Assets/blank.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -108,7 +108,7 @@ function Meat({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'  /Assets/blank.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -138,7 +138,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -147,7 +147,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -156,7 +156,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -165,7 +165,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -174,7 +174,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -183,7 +183,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -192,7 +192,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -201,7 +201,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -210,7 +210,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -219,7 +219,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -228,7 +228,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -239,7 +239,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -248,7 +248,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -257,7 +257,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >0  
           </Button>
         </Grid>
@@ -266,7 +266,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -275,7 +275,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -284,7 +284,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -293,7 +293,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -302,7 +302,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -311,7 +311,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -320,7 +320,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -329,7 +329,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -338,7 +338,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -349,7 +349,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           > 
           </Button>
         </Grid>
@@ -358,7 +358,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >26
           </Button>
         </Grid>
@@ -367,7 +367,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bacon.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bacon")}
           to="/"
@@ -379,7 +379,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -388,7 +388,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/steak.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Steak")}
           to="/"
@@ -400,7 +400,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -409,7 +409,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/porkchop.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ribs")}
           to="/"
@@ -421,7 +421,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -430,7 +430,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sausage.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sausage")}
           to="/"
@@ -442,7 +442,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -451,7 +451,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -460,7 +460,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -471,7 +471,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >37
           </Button>
         </Grid>
@@ -480,7 +480,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >38
           </Button>
         </Grid>
@@ -489,7 +489,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -498,7 +498,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -507,7 +507,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >41
           </Button>
         </Grid>
@@ -516,7 +516,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >042
           </Button>
         </Grid>
@@ -525,7 +525,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >043
           </Button>
         </Grid>
@@ -534,7 +534,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >044
           </Button>
         </Grid>
@@ -543,7 +543,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -552,7 +552,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >046
           </Button>
         </Grid>
@@ -561,7 +561,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -570,7 +570,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >048
           </Button>
         </Grid>
@@ -581,7 +581,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >049
           </Button>
         </Grid>
@@ -590,7 +590,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >050
           </Button>
         </Grid>
@@ -599,7 +599,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/chicken.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Chicken")}
           to="/"
@@ -611,7 +611,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >052
           </Button>
         </Grid>
@@ -620,7 +620,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pork.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pork")}
           to="/"
@@ -632,7 +632,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >054
           </Button>
         </Grid>
@@ -641,7 +641,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/beef.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Beef")}
           to="/"
@@ -653,7 +653,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >056
           </Button>
         </Grid>
@@ -662,7 +662,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fish.png'} />}
           >Fish
           </Button>
         </Grid>
@@ -671,7 +671,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >058
           </Button>
         </Grid>
@@ -680,7 +680,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >059
           </Button>
         </Grid>
@@ -689,7 +689,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >060
           </Button>
         </Grid>
@@ -700,7 +700,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >061
           </Button>
         </Grid>
@@ -709,7 +709,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >062
           </Button>
         </Grid>
@@ -718,7 +718,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -727,7 +727,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >064
           </Button>
         </Grid>
@@ -736,7 +736,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -745,7 +745,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >066
           </Button>
         </Grid>
@@ -754,7 +754,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -763,7 +763,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >068
           </Button>
         </Grid>
@@ -772,7 +772,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -781,7 +781,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >070
           </Button>
         </Grid>
@@ -790,7 +790,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -799,7 +799,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >072
           </Button>
         </Grid>
@@ -810,7 +810,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >073
           </Button>
         </Grid>
@@ -819,7 +819,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -828,7 +828,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >075
           </Button>
         </Grid>
@@ -837,7 +837,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >076
           </Button>
         </Grid>
@@ -846,7 +846,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >077
           </Button>
         </Grid>
@@ -855,7 +855,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >078
           </Button>
         </Grid>
@@ -864,7 +864,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >079
           </Button>
         </Grid>
@@ -873,7 +873,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >080
           </Button>
         </Grid>
@@ -882,7 +882,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >081
           </Button>
         </Grid>
@@ -891,7 +891,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >082
           </Button>
         </Grid>
@@ -900,7 +900,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >083
           </Button>
         </Grid>
@@ -909,7 +909,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -920,7 +920,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -929,7 +929,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >086
           </Button>
         </Grid>
@@ -938,7 +938,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -947,7 +947,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >088
           </Button>
         </Grid>
@@ -956,7 +956,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -965,7 +965,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >090
           </Button>
         </Grid>
@@ -974,7 +974,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -983,7 +983,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >092
           </Button>
         </Grid>
@@ -992,7 +992,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1001,7 +1001,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >094
           </Button>
         </Grid>
@@ -1010,7 +1010,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1019,7 +1019,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >096
           </Button>
         </Grid>
@@ -1030,7 +1030,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1042,7 +1042,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >098
           </Button>
         </Grid>
@@ -1051,7 +1051,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >099
           </Button>
         </Grid>
@@ -1060,7 +1060,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >100
           </Button>
         </Grid>
@@ -1069,7 +1069,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >101
           </Button>
         </Grid>
@@ -1078,7 +1078,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >102
           </Button>
         </Grid>
@@ -1087,7 +1087,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >103
           </Button>
         </Grid>
@@ -1096,7 +1096,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >104
           </Button>
         </Grid>
@@ -1105,7 +1105,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >105
           </Button>
         </Grid>
@@ -1114,7 +1114,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >106
           </Button>
         </Grid>
@@ -1123,7 +1123,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >107
           </Button>
         </Grid>
@@ -1132,7 +1132,7 @@ function Meat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >108
           </Button>
         </Grid>

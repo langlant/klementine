@@ -147,7 +147,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ring.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Jewelry")}
           to="/"
@@ -168,7 +168,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bracelet.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bracelet")}
           to="/"
@@ -189,7 +189,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/necklace.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Necklace")}
           to="/"
@@ -210,7 +210,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wallet.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wallet")}
           to="/"
@@ -231,7 +231,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/earring.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Earring")}
           to="/"
@@ -254,7 +254,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do I")}
           to="/"
@@ -266,7 +266,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do You")}
           to="/"
@@ -287,7 +287,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/belt.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Belt")}
           to="/"
@@ -308,7 +308,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/glasses.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Glasses")}
           to="/"
@@ -329,7 +329,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/umbrella.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Umbrella")}
           to="/"
@@ -350,7 +350,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/barrette.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Barrette")}
           to="/"
@@ -371,7 +371,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/purse.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Purse")}
           to="/"
@@ -394,7 +394,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do We")}
           to="/"
@@ -406,7 +406,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shrug.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Whichever")}
           to="/"
@@ -427,7 +427,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/makeup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Accessory")}
           to="/"
@@ -448,7 +448,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Accessories")}
           to="/"
@@ -469,7 +469,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dig.png'} />}
           component={RouterLink}
           to="/Do/Dig"
           >Dig
@@ -489,7 +489,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/roll.png'} />}
           component={RouterLink}
           to="/Do/Roll"
           >Roll
@@ -610,7 +610,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Importantly")}
           to="/"
@@ -624,7 +624,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does It")}
           to="/"
@@ -636,7 +636,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do They")}
           to="/"
@@ -648,7 +648,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/do.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do")}
           to="/"
@@ -660,7 +660,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -672,7 +672,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Doing")}
           to="/"
@@ -684,7 +684,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -696,7 +696,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/check.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Done")}
           to="/"
@@ -708,7 +708,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Do")}
           to="/"
@@ -729,7 +729,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/important.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Important")}
           to="/"
@@ -741,7 +741,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More Important")}
           to="/"
@@ -753,7 +753,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Important")}
           to="/"
@@ -767,7 +767,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does She")}
           to="/"
@@ -779,7 +779,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does He")}
           to="/"
@@ -883,7 +883,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sleep.png'} onClick={click} />}
           component={RouterLink}
           to="/Do/Lay"
           >Lay
@@ -903,7 +903,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pull.png'} />}
           component={RouterLink}
           to="/Do/Pull"
           >Pull
@@ -923,7 +923,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/throw.jpg'} />}
           component={RouterLink}
           to="/Do/Throw"
           >Throw
@@ -943,7 +943,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pass.jpg'} />}
           component={RouterLink}
           to="/Do/Pass"
           >Pass
@@ -963,7 +963,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/touch.png'} />}
           component={RouterLink}
           to="/Do/Touch"
           >Touch
@@ -983,7 +983,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/catch.jpg'} />}
           component={RouterLink}
           to="/Do/Catch"
           >Catch
@@ -1014,7 +1014,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rough.jpg'} />}
           component={RouterLink}
           to="/Do/Rough"
           >Rough
@@ -1034,7 +1034,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/teddy.png'} />}
           component={RouterLink}
           to="/Do/Soft"
           >Soft
@@ -1054,7 +1054,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/remember.jpg'} />}
           component={RouterLink}
           to="/Do/Remember"
           >Remember
@@ -1074,7 +1074,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/point.png'} />}
           component={RouterLink}
           to="/Do/Point"
           >Point
@@ -1094,7 +1094,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/present.png'} />}
           component={RouterLink}
           to="/Do/Wrap"
           >Wrap
@@ -1114,7 +1114,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wave.png'} />}
           component={RouterLink}
           to="/Do/Wave"
           >Wave
@@ -1139,7 +1139,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Do/Nt"
           >Nt
@@ -1150,7 +1150,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pick.png'} />}
           component={RouterLink}
           to="/Do/Pick"
           >Pick
@@ -1170,7 +1170,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/push.jpg'} />}
           component={RouterLink}
           to="/Do/Push"
           >Push
@@ -1190,7 +1190,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/smooth.png'} />}
           component={RouterLink}
           to="/Do/Smooth"
           >Smooth
@@ -1210,7 +1210,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fold.png'} />}
           component={RouterLink}
           to="/Do/Fold"
           >Fold
@@ -1230,7 +1230,7 @@ function Do({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hold.png'} />}
           component={RouterLink}
           to="/Do/Hold"
           >Hold

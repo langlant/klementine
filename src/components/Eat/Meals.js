@@ -147,7 +147,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cereal.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cereal")}
           to="/"
@@ -168,7 +168,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/oatmeal.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Oatmeal")}
           to="/"
@@ -189,7 +189,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pancakes.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pancakes")}
           to="/"
@@ -210,7 +210,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/eggs.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eggs")}
           to="/"
@@ -231,7 +231,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/waffles.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Waffles")}
           to="/"
@@ -273,7 +273,7 @@ function Meals({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -374,7 +374,7 @@ function Meals({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -382,7 +382,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/taco.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Taco")}
           to="/"
@@ -403,7 +403,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/macncheese.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Macaroni and Cheese")}
           to="/"
@@ -424,7 +424,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/burrito.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Burrito")}
           to="/"
@@ -445,7 +445,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/soup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Soup")}
           to="/"
@@ -466,7 +466,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/burger.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hamburger")}
           to="/"
@@ -617,7 +617,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/chickennugger.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Chicken Nugget")}
           to="/"
@@ -638,7 +638,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fries.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fries")}
           to="/"
@@ -659,7 +659,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/spaghetti.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Spaghetti")}
           to="/"
@@ -680,7 +680,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hotdog.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hot Dog")}
           to="/"
@@ -701,7 +701,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/corndog.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Corn Dog")}
           to="/"
@@ -852,7 +852,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/quesadilla.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quesadilla")}
           to="/"
@@ -894,7 +894,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rice.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rice")}
           to="/"
@@ -915,7 +915,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mexrice.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mexican Rice")}
           to="/"
@@ -936,7 +936,7 @@ function Meals({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lasagna.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lasagna")}
           to="/"

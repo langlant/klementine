@@ -587,7 +587,7 @@ function Push({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/push.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Push")}
           to="/"
@@ -599,7 +599,7 @@ function Push({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusES.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pushes")}
           to="/"
@@ -611,7 +611,7 @@ function Push({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pushing")}
           to="/"
@@ -623,7 +623,7 @@ function Push({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/push.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pushed")}
           to="/"

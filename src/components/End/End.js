@@ -121,9 +121,8 @@ function End({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/End/US"
-          >US
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

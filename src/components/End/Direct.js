@@ -174,7 +174,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/up.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("North")}
           to="/"
@@ -278,7 +278,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/left.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("East")}
           to="/"
@@ -299,7 +299,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/right.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("West")}
           to="/"
@@ -403,7 +403,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/down.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("South")}
           to="/"
@@ -599,7 +599,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/arrow.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Direct")}
           to="/"
@@ -611,7 +611,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Directs")}
           to="/"
@@ -623,7 +623,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Directing")}
           to="/"
@@ -635,7 +635,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Directed")}
           to="/"
@@ -647,7 +647,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Direct")}
           to="/"
@@ -668,7 +668,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Direction")}
           to="/"
@@ -680,7 +680,7 @@ function Direct({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Directions")}
           to="/"

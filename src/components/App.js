@@ -545,7 +545,7 @@ function App() {
           <Route exact path="/Animal" component={Animal}/>
           <Route exact path="/Animal/AnimalBaby" component={AnimalBaby}/>
           <Route exact path="/Animal/Birds" component={Birds}/>
-          <Route exact path="/Animal/Bring" component={Bring}/>
+          <Route exact path="/Come/Bring" component={Bring}/>
           <Route exact path="/Animal/Bugs" component={Bugs}/>
           <Route exact path="/Come/Carry" component={Carry}/>
           <Route exact path="/Animal/Dino" component={Dino}/>

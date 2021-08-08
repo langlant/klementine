@@ -100,7 +100,7 @@ function Eat({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'  /Assets/blank.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> {speech.cancel(); tokenDelete(textString);}}
             >Delete
             </Button>
@@ -108,7 +108,7 @@ function Eat({route}) {
             className={classes.buttonStyles} 
             variant="outlined" 
             color="primary"
-            startIcon={<Avatar src={'  /Assets/blank.png'} />}
+            startIcon={<Avatar src={'/Assets/blank.png'} />}
             onClick={()=> speech.speak({
               text: textString,
           }).then(() => {
@@ -138,7 +138,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -147,7 +147,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -156,7 +156,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -165,7 +165,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/condiment.png'} />}
           component={RouterLink}
           to="/Eat/Condiment"
           >Condiment
@@ -176,7 +176,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -185,7 +185,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/milk.png'} />}
           component={RouterLink}
           to="/Eat/Dairy"
           >Dairy
@@ -196,7 +196,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -205,7 +205,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fruit.png'} />}
           component={RouterLink}
           to="/Eat/Fruit"
           >Fruit
@@ -216,7 +216,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -225,7 +225,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/vegetables.png'} />}
           component={RouterLink}
           to="/Eat/Vegetables"
           >Vegetables
@@ -236,7 +236,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -247,7 +247,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -256,7 +256,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -265,7 +265,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >0  
           </Button>
         </Grid>
@@ -274,7 +274,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >  
           </Button>
         </Grid>
@@ -283,7 +283,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -292,7 +292,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -301,7 +301,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -310,7 +310,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -319,7 +319,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -328,7 +328,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -337,7 +337,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -346,7 +346,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -357,7 +357,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           > 
           </Button>
         </Grid>
@@ -366,8 +366,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
-          >26
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -375,7 +375,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -384,7 +384,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -393,7 +393,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -402,7 +402,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -411,7 +411,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/meal.jpg'} />}
           component={RouterLink}
           to="/Eat/Meals"
           >Meals
@@ -422,7 +422,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -431,7 +431,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/meat.gif'} />}
           component={RouterLink}
           to="/Eat/Meat"
           >Meat/Sea
@@ -442,7 +442,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -451,7 +451,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/snack.png'} />}
           component={RouterLink}
           to="/Eat/Snack"
           >Snack/Dessert
@@ -462,7 +462,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -473,8 +473,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
-          >37
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -482,8 +482,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
-          >38
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -491,7 +491,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -500,7 +500,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           > 
           </Button>
         </Grid>
@@ -509,8 +509,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
-          >41
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -518,8 +518,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
-          >042
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -527,8 +527,8 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
-          >043
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -536,7 +536,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >044
           </Button>
         </Grid>
@@ -545,7 +545,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >045
           </Button>
         </Grid>
@@ -554,7 +554,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >046
           </Button>
         </Grid>
@@ -563,7 +563,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >047
           </Button>
         </Grid>
@@ -572,7 +572,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hungrily")}
           to="/"
@@ -586,7 +586,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >049
           </Button>
         </Grid>
@@ -595,7 +595,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >050
           </Button>
         </Grid>
@@ -604,7 +604,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/eat.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eat")}
           to="/"
@@ -616,7 +616,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eats")}
           to="/"
@@ -628,7 +628,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eating")}
           to="/"
@@ -640,7 +640,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ate")}
           to="/"
@@ -652,9 +652,9 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Eaten")}
+          onClick={()=> buttonSpeak("plusED")}
           to="/"
           >Eaten
           </Button>
@@ -664,7 +664,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Eat")}
           to="/"
@@ -676,7 +676,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >057
           </Button>
         </Grid>
@@ -685,7 +685,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hungry.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hungry")}
           to="/"
@@ -697,7 +697,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hungrier")}
           to="/"
@@ -709,7 +709,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -723,7 +723,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/food.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Food")}
           to="/"
@@ -735,7 +735,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Foods")}
           to="/"
@@ -747,7 +747,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >063
           </Button>
         </Grid>
@@ -756,7 +756,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anywhere")}
           to="/"
@@ -768,7 +768,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >065
           </Button>
         </Grid>
@@ -777,7 +777,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anyone")}
           to="/"
@@ -789,7 +789,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >067
           </Button>
         </Grid>
@@ -798,7 +798,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anyhow")}
           to="/"
@@ -810,7 +810,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >069
           </Button>
         </Grid>
@@ -819,7 +819,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anymore")}
           to="/"
@@ -831,7 +831,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >071
           </Button>
         </Grid>
@@ -840,7 +840,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anytime")}
           to="/"
@@ -854,7 +854,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >073
           </Button>
         </Grid>
@@ -863,7 +863,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >074
           </Button>
         </Grid>
@@ -872,7 +872,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anybody")}
           to="/"
@@ -884,7 +884,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >076
           </Button>
         </Grid>
@@ -893,7 +893,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anyway")}
           to="/"
@@ -905,7 +905,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >078
           </Button>
         </Grid>
@@ -914,7 +914,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Anything")}
           to="/"
@@ -926,7 +926,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >080
           </Button>
         </Grid>
@@ -935,7 +935,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >081
           </Button>
         </Grid>
@@ -944,7 +944,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >082
           </Button>
         </Grid>
@@ -953,7 +953,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >083
           </Button>
         </Grid>
@@ -962,7 +962,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >084
           </Button>
         </Grid>
@@ -973,7 +973,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           >085
           </Button>
         </Grid>
@@ -982,7 +982,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >086
           </Button>
         </Grid>
@@ -991,7 +991,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >087
           </Button>
         </Grid>
@@ -1000,7 +1000,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >088
           </Button>
         </Grid>
@@ -1009,7 +1009,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >089
           </Button>
         </Grid>
@@ -1018,7 +1018,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >090
           </Button>
         </Grid>
@@ -1027,7 +1027,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >091
           </Button>
         </Grid>
@@ -1036,7 +1036,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >092
           </Button>
         </Grid>
@@ -1045,7 +1045,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >093
           </Button>
         </Grid>
@@ -1054,7 +1054,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >094
           </Button>
         </Grid>
@@ -1063,7 +1063,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >095
           </Button>
         </Grid>
@@ -1072,7 +1072,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >096
           </Button>
         </Grid>
@@ -1083,7 +1083,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> setTextString("")}
           to="/"
@@ -1095,7 +1095,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/grow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Grow")}
           to="/"
@@ -1107,7 +1107,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >099
           </Button>
         </Grid>
@@ -1116,7 +1116,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bite.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bite")}
           to="/"
@@ -1128,7 +1128,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >101
           </Button>
         </Grid>
@@ -1137,7 +1137,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/chew.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Chew")}
           to="/"
@@ -1149,7 +1149,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >103
           </Button>
         </Grid>
@@ -1158,7 +1158,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/smell.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Smell")}
           to="/"
@@ -1170,7 +1170,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >105
           </Button>
         </Grid>
@@ -1179,7 +1179,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/feed.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Feed")}
           to="/"
@@ -1191,7 +1191,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
           >107
           </Button>
         </Grid>
@@ -1200,7 +1200,7 @@ function Eat({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'  /Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/taste.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Taste")}
           to="/"

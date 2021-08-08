@@ -367,7 +367,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ketchup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ketchup")}
           to="/"
@@ -388,7 +388,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mustard.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mustard")}
           to="/"
@@ -409,7 +409,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mayo.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mayonaise")}
           to="/"
@@ -430,7 +430,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bbq.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Barbeque Sauce")}
           to="/"
@@ -599,7 +599,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hotsauce.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hot Sauce")}
           to="/"
@@ -620,7 +620,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/honey.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Honey")}
           to="/"
@@ -641,7 +641,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ranch.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ranch")}
           to="/"
@@ -662,7 +662,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/salt.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Salt")}
           to="/"
@@ -885,7 +885,7 @@ function Condiment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pepper.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pepper")}
           to="/"

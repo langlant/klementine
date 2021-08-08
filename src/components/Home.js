@@ -127,9 +127,9 @@ function Home() {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={"/Assets/back.png"}/>}
+          startIcon={<Avatar src={"/Assets/check.j                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        pg"}/>}
           component={RouterLink} 
-          to="/Done'"
+          to="/Done"
           >Done
           </Button>
         </Grid>
