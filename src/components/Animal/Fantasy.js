@@ -147,7 +147,7 @@ function Fantasy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dragon.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dragon")}
           to="/"
@@ -168,7 +168,7 @@ function Fantasy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/unicorn.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Unicorn")}
           to="/"
@@ -189,7 +189,7 @@ function Fantasy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/centaur.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Centaur")}
           to="/"
@@ -210,7 +210,7 @@ function Fantasy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pheonix.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pheonix")}
           to="/"
@@ -231,7 +231,7 @@ function Fantasy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/saytyr.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Saytyr")}
           to="/"

@@ -590,7 +590,7 @@ function Powerful({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lightning.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Power")}
           to="/"
@@ -602,7 +602,7 @@ function Powerful({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Powerfully")}
           to="/"
@@ -614,7 +614,7 @@ function Powerful({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lightning.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Powerful")}
           to="/"
@@ -626,7 +626,7 @@ function Powerful({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More Powerful")}
           to="/"
@@ -638,7 +638,7 @@ function Powerful({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Powerful")}
           to="/"

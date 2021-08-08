@@ -590,7 +590,7 @@ function Divorce({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/divorce.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Divorce")}
           to="/"
@@ -602,7 +602,7 @@ function Divorce({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Divorces")}
           to="/"
@@ -614,9 +614,9 @@ function Divorce({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
-          onClick={()=> buttonPress("Divorcing")}
+          onClick={()=> buttonSpeak("Divorcing")}
           to="/"
           >Divorcing
           </Button>
@@ -626,7 +626,7 @@ function Divorce({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Divorced")}
           to="/"
@@ -638,7 +638,7 @@ function Divorce({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Divorce")}
           to="/"

@@ -147,7 +147,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dog.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dog")}
           to="/"
@@ -168,7 +168,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cat.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cat")}
           to="/"
@@ -189,7 +189,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hamster.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hamster")}
           to="/"
@@ -210,9 +210,9 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mouse.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Gerbil")}
+          onClick={()=> buttonSpeak("Mouse")}
           to="/"
           >Mouse
           </Button>
@@ -231,7 +231,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/gerbil.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Gerbil")}
           to="/"
@@ -382,7 +382,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/gerbil.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Gerbil")}
           to="/"
@@ -403,7 +403,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/guineapig.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Guinea Pig")}
           to="/"
@@ -424,7 +424,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rat.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rat")}
           to="/"
@@ -445,7 +445,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ferret.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ferret")}
           to="/"
@@ -466,7 +466,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hedgehog.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hedgehog")}
           to="/"
@@ -617,7 +617,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pet.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pet")}
           to="/"
@@ -629,7 +629,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pets")}
           to="/"
@@ -843,7 +843,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hen.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hen")}
           to="/"
@@ -864,7 +864,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rooster.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rooster")}
           to="/"
@@ -885,7 +885,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cow")}
           to="/"
@@ -906,7 +906,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/horse.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Horse")}
           to="/"
@@ -927,7 +927,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sheep.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sheep")}
           to="/"
@@ -1081,7 +1081,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pig.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pig")}
           to="/"
@@ -1102,7 +1102,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/goat.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Goat")}
           to="/"
@@ -1123,7 +1123,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/llama.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Llama")}
           to="/"
@@ -1144,7 +1144,7 @@ function Pet({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/alpaca.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Alpaca")}
           to="/"

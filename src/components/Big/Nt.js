@@ -242,7 +242,7 @@ function BigNt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("I Might not")}
           to="/"
@@ -256,7 +256,7 @@ function BigNt({route}) {
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("You Might Not")}
+          onClick={()=> buttonSpeak("You you Not")}
           to="/"
           >You Might Not
           </Button>
@@ -367,7 +367,7 @@ function BigNt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("We Might Not")}
           to="/"
@@ -581,7 +581,7 @@ function BigNt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("It Might Not")}
           to="/"
@@ -593,7 +593,7 @@ function BigNt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("They Might Not")}
           to="/"
@@ -697,7 +697,7 @@ function BigNt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("She Might Not")}
           to="/"
@@ -709,7 +709,7 @@ function BigNt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("He Might Not")}
           to="/"

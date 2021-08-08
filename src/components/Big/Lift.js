@@ -590,7 +590,7 @@ function Lift({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lift.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lift")}
           to="/"

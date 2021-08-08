@@ -147,7 +147,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bear.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bear")}
           to="/"
@@ -168,7 +168,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/elephant.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Elephant")}
           to="/"
@@ -189,7 +189,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/giraffe.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Giraffe")}
           to="/"
@@ -210,7 +210,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lion.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lion")}
           to="/"
@@ -231,7 +231,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/monkey.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Monkey")}
           to="/"
@@ -374,7 +374,7 @@ function Zoo({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -382,7 +382,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tiger.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tiger")}
           to="/">Tiger
@@ -402,7 +402,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/zebra.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Zebra")}
           to="/"
@@ -423,7 +423,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hippo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hippopotamus")}
           to="/"
@@ -444,7 +444,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/camel.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Camel")}
           to="/"
@@ -465,7 +465,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/gorilla.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Gorilla")}
           to="/"
@@ -628,7 +628,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/zoo.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Zoos")}
           to="/"
@@ -640,7 +640,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           >053
           </Button>
         </Grid>
@@ -842,7 +842,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/kangaroo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kangaroo")}
           to="/"
@@ -863,7 +863,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dingo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dingo")}
           to="/"
@@ -884,7 +884,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/echidna.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Echidna")}
           to="/"
@@ -905,7 +905,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/platypus.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Platypus")}
           to="/"
@@ -926,7 +926,7 @@ function Zoo({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/iguana.png'} />}
           >Iguana
           </Button>
         </Grid>

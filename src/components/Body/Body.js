@@ -150,7 +150,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/head.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Head")}
           to="/"
@@ -162,7 +162,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/neck.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Neck")}
           to="/"
@@ -174,7 +174,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/face.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Face")}
           to="/"
@@ -186,7 +186,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/eye.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Eye")}
           to="/"
@@ -198,7 +198,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ear.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ear")}
           to="/"
@@ -210,7 +210,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/nose.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nose")}
           to="/"
@@ -222,7 +222,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/off.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Off")}
           to="/"
@@ -234,7 +234,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mouth.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mouth")}
           to="/"
@@ -266,7 +266,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mustasche.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mustache")}
           to="/"
@@ -278,7 +278,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/beard.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Beard")}
           to="/"
@@ -290,7 +290,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mouth.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lip")}
           to="/"
@@ -314,7 +314,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Teeth")}
           to="/"
@@ -326,7 +326,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tongue.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -338,7 +338,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/chin.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Chin")}
           to="/"
@@ -350,7 +350,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cheek.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cheek")}
           to="/"
@@ -481,7 +481,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/arm.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Arm")}
           to="/"
@@ -493,7 +493,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shoulder.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shoulder")}
           to="/"
@@ -505,7 +505,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/elbow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Elbow")}
           to="/"
@@ -600,7 +600,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hand.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hand")}
           to="/"
@@ -612,7 +612,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/finger.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Finger")}
           to="/"
@@ -624,7 +624,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thumbsup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thumb")}
           to="/"
@@ -656,7 +656,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/body.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -668,7 +668,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/body.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Skin")}
           to="/"
@@ -680,7 +680,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bone.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bone")}
           to="/"
@@ -692,7 +692,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/skeleton.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Skeleton")}
           to="/"
@@ -790,7 +790,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blood.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Blood")}
           to="/"
@@ -847,7 +847,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hip.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hip")}
           to="/"
@@ -859,7 +859,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/butt.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Butt")}
           to="/"
@@ -871,7 +871,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/leg.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Leg")}
           to="/"
@@ -990,7 +990,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/foot.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Feet")}
           to="/"
@@ -1022,7 +1022,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brain.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Brain")}
           to="/"
@@ -1034,7 +1034,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/throat.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Throat")}
           to="/"
@@ -1046,7 +1046,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lungs.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lungs")}
           to="/"
@@ -1058,7 +1058,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/kidney.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kidney")}
           to="/"
@@ -1070,7 +1070,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heart.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Heart")}
           to="/"
@@ -1100,7 +1100,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ankle.jp'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ankle")}
           to="/"
@@ -1112,7 +1112,7 @@ function Body({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/Toe.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toe")}
           to="/"

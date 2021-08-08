@@ -590,7 +590,7 @@ function Thick({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thick.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thick")}
           to="/"

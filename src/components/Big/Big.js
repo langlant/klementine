@@ -224,7 +224,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("I Might")}
           to="/"
@@ -236,7 +236,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("You Might")}
           to="/"
@@ -349,7 +349,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("We Might")}
           to="/"
@@ -563,7 +563,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("It Might")}
           to="/"
@@ -575,7 +575,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("They Might")}
           to="/"
@@ -587,7 +587,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/elephant.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Big")}
           to="/"
@@ -599,7 +599,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bigger")}
           to="/"
@@ -611,7 +611,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Biggest")}
           to="/"
@@ -688,7 +688,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("She Might")}
           to="/"
@@ -700,7 +700,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("He Might")}
           to="/"
@@ -712,7 +712,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/strong.png'} />}
           component={RouterLink}
           to="/Big/Strong"
           >Strong
@@ -732,7 +732,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thick.jpg'} />}
           component={RouterLink}
           to="/Big/Thick"
           >Thick
@@ -752,7 +752,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heavy.png'} />}
           component={RouterLink}
           to="/Big/Heavy"
           >Heavy
@@ -792,7 +792,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lift.png'} />}
           component={RouterLink}
           to="/Big/Lift"
           >Lift
@@ -841,7 +841,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fat.j  pg'} />}
           component={RouterLink}
           to="/Big/Fat"
           >Fat
@@ -861,7 +861,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lightning.png'} />}
           component={RouterLink}
           to="/Big/Powerful"
           >Powerful
@@ -881,7 +881,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/drop.jpg'} />}
           component={RouterLink}
           to="/Big/Drop"
           >Drop
@@ -1052,7 +1052,7 @@ function Big({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Big/Nt"
           >N't

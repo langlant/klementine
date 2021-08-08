@@ -147,7 +147,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fishtank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Aquarium")}
           to="/"
@@ -168,7 +168,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cage.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cage")}
           to="/"
@@ -189,7 +189,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/doghouse.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Doghouse")}
           to="/"
@@ -210,7 +210,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/nest.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nest")}
           to="/"
@@ -231,7 +231,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/web.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Web")}
           to="/"
@@ -273,7 +273,7 @@ function Home({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -374,7 +374,7 @@ function Home({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -382,7 +382,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cave.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cave")}
           to="/"
@@ -403,7 +403,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cave.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Den")}
           to="/"
@@ -424,7 +424,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/burrow.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Burrow")}
           to="/"
@@ -445,7 +445,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fishbowl.png'} />}
           >Fishbowl
           </Button>
         </Grid>
@@ -463,7 +463,7 @@ function Home({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fishtank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tank")}
           to="/"

@@ -45,6 +45,12 @@ import Good from "./Good/Good"
 import Great from "./Good/Great"
 import Wonderful from "./Good/Wonderful"
 import Bad from "./Bad/Bad"
+import Awful from "./Bad/Awful"
+import Divorce from "./Bad/Divorce"
+import Fight from "./Bad/Fight"
+import Mistake from "./Bad/Mistake"
+import Terrible from "./Bad/Terrible"
+import Trouble from "./Bad/Trouble"
 import In from "./In/In"
 import Not from "./Not/Not"
 import Done from "./Done/Done"
@@ -339,6 +345,12 @@ function App() {
           <Route exact path="/Good/Great" component={Great}/>
           <Route exact path="/Good/Wonderful" component={Wonderful}/>
           <Route exact path="/Bad" component={Bad}/>
+          <Route exact path="/Bad/Awful" component={Awful}/>
+          <Route exact path="/Bad/Divorce" component={Divorce}/>
+          <Route exact path="/Bad/Fight" component={Fight}/>
+          <Route exact path="/Bad/Mistake" component={Mistake}/>
+          <Route exact path="/Bad/Terrible" component={Terrible}/>
+          <Route exact path="/Bad/Trouble" component={Trouble}/>
           <Route exact path="/Not" component={Not}/>
           <Route exact path="/Done" component={Done}/>
           <Route exact path="/End" component={End}/>

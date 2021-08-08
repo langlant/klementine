@@ -147,7 +147,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/goldfish.png'} />}
           >Goldfish
           </Button>
         </Grid>
@@ -165,7 +165,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dolphin.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dolphin")}
           to="/"
@@ -186,7 +186,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/octopus.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Octopus")}
           to="/"
@@ -207,7 +207,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/whale.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Whale")}
           to="/"
@@ -228,7 +228,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/alligator.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Alligator")}
           to="/"
@@ -379,7 +379,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/frog.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Frog")}
           to="/"
@@ -400,7 +400,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/turtle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Turtle")}
           to="/"
@@ -421,7 +421,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/starfish.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Starfish")}
           to="/"
@@ -442,7 +442,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lobster.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lobster")}
           to="/"
@@ -463,7 +463,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/crab.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Crab")}
           to="/"
@@ -487,7 +487,7 @@ function Water({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -496,16 +496,7 @@ function Water({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -523,7 +514,16 @@ function Water({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -541,7 +541,7 @@ function Water({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -614,7 +614,7 @@ function Water({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/water.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Water")}
           to="/"

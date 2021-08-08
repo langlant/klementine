@@ -590,7 +590,7 @@ function Trouble({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/trouble.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Trouble")}
           to="/"
@@ -602,7 +602,7 @@ function Trouble({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusES.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Troubles")}
           to="/"
@@ -614,7 +614,7 @@ function Trouble({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Troubling")}
           to="/"
@@ -626,7 +626,7 @@ function Trouble({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Troubled")}
           to="/"
@@ -638,7 +638,7 @@ function Trouble({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Trouble")}
           to="/"

@@ -147,7 +147,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mane.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mane")}
           to="/"
@@ -168,7 +168,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hoof.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hoof")}
           to="/"
@@ -189,7 +189,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tail.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tail")}
           to="/"
@@ -210,7 +210,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/paw.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Paw")}
           to="/"
@@ -231,7 +231,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/whisker.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Whisker")}
           to="/"
@@ -382,7 +382,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/claw.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Claw")}
           to="/"
@@ -403,7 +403,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/talon.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Talon")}
           to="/"
@@ -424,7 +424,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fang.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fang")}
           to="/"
@@ -445,7 +445,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/feather.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Feather")}
           to="/"
@@ -466,7 +466,7 @@ function Parts({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wing.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wing")}
           to="/"

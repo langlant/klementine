@@ -147,7 +147,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/squirrel.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Squirrel")}
           to="/"
@@ -168,7 +168,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/skunk.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Skunk")}
           to="/"
@@ -189,7 +189,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rabbit.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rabbit")}
           to="/"
@@ -210,7 +210,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/deer.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Deer")}
           to="/"
@@ -231,7 +231,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fox.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fox")}
           to="/"
@@ -382,7 +382,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wolf.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wolf")}
           to="/"
@@ -403,7 +403,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mountainlion.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mountain Lion")}
           to="/"
@@ -424,7 +424,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/snake.png'} />}
           >Snake
           </Button>
         </Grid>
@@ -442,7 +442,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/oppossum.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Opossum")}
           to="/"
@@ -463,7 +463,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/raccoon.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Raccoon")}
           to="/"
@@ -614,7 +614,7 @@ function Forest({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/forest.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Forest")}
           to="/"

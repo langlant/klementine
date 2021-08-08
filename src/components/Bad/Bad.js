@@ -132,7 +132,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/problem.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Problem")}
           to="/"
@@ -153,7 +153,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/accident.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Accident")}
           to="/"
@@ -174,7 +174,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/error.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Error")}
           to="/"
@@ -195,7 +195,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/negative.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Negative")}
           to="/"
@@ -207,7 +207,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Negatives")}
           to="/"
@@ -367,7 +367,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/divorce.png'} />}
           component={RouterLink}
           to="/Bad/Divorce"
           >Divorce
@@ -387,7 +387,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mistake.jpg'} />}
           component={RouterLink}
           to="/Bad/Mistake"
           >Mistake
@@ -407,7 +407,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/trouble.jpg'} />}
           component={RouterLink}
           to="/Bad/Trouble"
           >Trouble
@@ -427,7 +427,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fight.jpg'} />}
           component={RouterLink}
           to="/Bad/Fight"
           >Fight
@@ -447,7 +447,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/awful.png'} />}
           component={RouterLink}
           to="/Bad/Awful"
           >Awful
@@ -597,7 +597,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thumbsdown.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bad")}
           to="/"
@@ -609,7 +609,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Badly")}
           to="/"
@@ -630,7 +630,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/awful.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Worse")}
           to="/"
@@ -642,7 +642,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Worst")}
           to="/"
@@ -663,7 +663,7 @@ function Bad({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/awful.png'} />}
           component={RouterLink}
           to="/Terrible"
           >Terrible
