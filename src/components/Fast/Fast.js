@@ -191,7 +191,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Offense")}
           to="/"
-          >Offense
+          >OFFE
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -212,7 +212,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Defense")}
           to="/"
-          >Defense
+          >DEFE
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -384,7 +384,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Touchdown")}
           to="/"
-          >Touchdown
+          >Touch
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -426,7 +426,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Quick")}
           to="/"
-          >Quick
+          >Quik
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -438,7 +438,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Quicker")}
           to="/"
-          >Quicker
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -450,7 +450,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Quickest")}
           to="/"
-          >Quickest
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -462,7 +462,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Quickly")}
           to="/"
-          >Quickly
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -491,7 +491,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -500,16 +500,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -527,7 +518,16 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -536,7 +536,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >042
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -545,7 +545,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -554,7 +554,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >044
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -563,7 +563,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >045
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -572,7 +572,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >046
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -581,7 +581,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >047
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -590,7 +590,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >048
+          >
           </Button>
         </Grid>
       </Grid>
@@ -601,7 +601,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >049
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -610,7 +610,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >050
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -634,7 +634,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Faster")}
           to="/"
-          >Faster
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -646,7 +646,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Fastest")}
           to="/"
-          >Fastest
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -655,7 +655,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >054
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -679,7 +679,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Runs")}
           to="/"
-          >Runs
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -691,7 +691,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Running")}
           to="/"
-          >Running
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -703,7 +703,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("Ran")}
           to="/"
-          >Ran
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -715,7 +715,7 @@ function Fast({route}) {
           component={RouterLink}
           onClick={()=> buttonSpeak("To Run")}
           to="/"
-          >To Run
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -724,7 +724,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >060
+          >
           </Button>
         </Grid>
       </Grid>
@@ -735,7 +735,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >061
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -744,7 +744,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >062
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -753,7 +753,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >063
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -762,7 +762,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >064
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -771,7 +771,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >065
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -780,7 +780,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >066
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -789,7 +789,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >067
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -798,7 +798,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >068
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -807,7 +807,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >069
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -816,7 +816,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >070
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -825,7 +825,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >071
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -834,7 +834,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >072
+          >
           </Button>
         </Grid>
       </Grid>
@@ -845,7 +845,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >073
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -854,7 +854,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >074
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -875,7 +875,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >076
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -896,7 +896,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >078
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -917,7 +917,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >080
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -938,7 +938,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >082
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -959,7 +959,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >084
+          >
           </Button>
         </Grid>
       </Grid>
@@ -970,7 +970,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >085
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -979,7 +979,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >086
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -988,7 +988,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >087
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -997,7 +997,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >088
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1006,7 +1006,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >089
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1015,7 +1015,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >090
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1024,7 +1024,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >091
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1033,7 +1033,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >092
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1042,7 +1042,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >093
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1051,7 +1051,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >094
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1060,7 +1060,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >095
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1069,7 +1069,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >096
+          >
           </Button>
         </Grid>
       </Grid>
@@ -1092,7 +1092,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >098
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1113,7 +1113,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >100
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1134,7 +1134,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >102
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1152,7 +1152,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >104
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1170,7 +1170,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >106
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1191,7 +1191,7 @@ function Fast({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >108
+          >
           </Button>
         </Grid>
       </Grid>

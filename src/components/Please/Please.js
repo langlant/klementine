@@ -147,7 +147,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/go.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Let's")}
           to="/"
@@ -168,7 +168,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/oops.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Oops")}
           to="/"
@@ -189,7 +189,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("You're")}
           to="/"
@@ -210,7 +210,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/well.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Well")}
           to="/"
@@ -231,7 +231,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thumbsup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Okay")}
           to="/"
@@ -263,7 +263,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/yuck.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -276,7 +276,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+           >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -285,10 +285,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Fine")}
-          to="/"
-          >Fine
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -305,7 +303,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/eat.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Delicious")}
           to="/"
@@ -326,7 +324,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wave.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Goodbye")}
           to="/"
@@ -347,7 +345,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/up.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("What's Up")}
           to="/"
@@ -368,7 +366,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/calendar.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Of Course")}
           to="/"
@@ -383,10 +381,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Congratulations")}
-          to="/"
-          >Congratulations
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -403,11 +399,11 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/laugh.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ha Ha Ha")}
           to="/"
-          >Ha Ha Ha
+          >Ha
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -424,7 +420,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/scratch.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ouch")}
           to="/"
@@ -445,7 +441,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sad.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sorry")}
           to="/"
@@ -466,7 +462,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/check.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("All Done")}
           to="/"
@@ -487,7 +483,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cup.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("All Gone")}
           to="/"
@@ -511,7 +507,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -519,7 +515,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/surprise.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Surprise")}
           to="/"
@@ -549,7 +545,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thank You")}
           to="/"
@@ -562,7 +558,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >042
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -571,7 +567,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -580,7 +576,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >044
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -588,7 +584,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/turkey.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thankful")}
           to="/"
@@ -600,7 +596,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More Thankful")}
           to="/"
@@ -612,7 +608,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Thankful")}
           to="/"
@@ -624,7 +620,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thankfully")}
           to="/"
@@ -639,10 +635,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ah")}
-          to="/"
-          >Ah
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -651,7 +645,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >050
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -659,7 +653,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/please.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Please")}
           to="/"
@@ -672,7 +666,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >052
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -680,7 +674,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thank.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thank")}
           to="/"
@@ -692,7 +686,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thanks")}
           to="/"
@@ -704,7 +698,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thanking")}
           to="/"
@@ -716,7 +710,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thanked")}
           to="/"
@@ -728,7 +722,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Thank")}
           to="/"
@@ -741,7 +735,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >058
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -749,7 +743,7 @@ function Please({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/awesome.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Awesome")}
           to="/"
@@ -762,7 +756,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >060
+           >
           </Button>
         </Grid>
       </Grid>
@@ -773,7 +767,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >061
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -782,10 +776,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Excuse Me")}
-          to="/"
-          >Excuse Me
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -794,7 +786,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >063
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -803,10 +795,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Hello")}
-          to="/"
-          >Hello
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -815,7 +805,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >065
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -824,10 +814,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Bye")}
-          to="/"
-          >Bye
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -836,7 +824,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >067
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -845,10 +833,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Oh")}
-          to="/"
-          >Oh
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -857,7 +843,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >069
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -866,10 +852,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Yum")}
-          to="/"
-          >Yum
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -878,7 +862,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >071
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -887,10 +871,8 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Yikes")}
-          to="/"
-          >Yikes
+ 
+          >
           </Button>
         </Grid>
       </Grid>
@@ -901,7 +883,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >073
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -910,7 +892,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >074
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -919,7 +901,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >075
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -928,7 +910,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >076
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -937,7 +919,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >077
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -946,7 +928,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >078
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -955,7 +937,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >079
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -964,7 +946,7 @@ function Please({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >080
+           >
           </Button>
         </Grid>
         <Grid xs={1}>

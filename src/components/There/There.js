@@ -243,7 +243,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+           >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -445,7 +445,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -454,7 +454,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -472,10 +472,8 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Though")}
-          to="/"
-          >Though
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -484,7 +482,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -492,7 +490,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/all.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Almost")}
           to="/"
@@ -505,7 +503,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -514,10 +512,8 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Else")}
-          to="/"
-          >Else
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -526,7 +522,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >045
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -534,7 +530,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/recycle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Again")}
           to="/"
@@ -547,7 +543,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >047
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -556,10 +552,8 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Yet")}
-          to="/"
-          >Yet
+
+          >
           </Button>
         </Grid>
       </Grid>
@@ -570,7 +564,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >049
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -579,7 +573,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >050
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -587,7 +581,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/there.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("There")}
           to="/"
@@ -600,7 +594,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >052
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -609,9 +603,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ever")}
-          to="/">Ever
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -620,7 +612,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >054
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -629,10 +621,8 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("So")}
-          to="/"
-          >So
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -641,7 +631,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >056
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -649,7 +639,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/equals.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Even")}
           to="/"
@@ -662,7 +652,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >058
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -670,7 +660,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/2.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Too")}
           to="/"
@@ -683,7 +673,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >060
+           >
           </Button>
         </Grid>
       </Grid>
@@ -694,7 +684,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >061
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -703,7 +693,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >062
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -712,7 +702,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >063
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -721,10 +711,8 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("As")}
-          to="/"
-          >As
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -733,7 +721,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >065
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -741,7 +729,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/much,gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Much")}
           to="/"
@@ -754,7 +742,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >067
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -762,7 +750,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shrug.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Maybe")}
           to="/"
@@ -775,7 +763,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >069
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -783,7 +771,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/one.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Once")}
           to="/"
@@ -796,7 +784,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >071
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -804,7 +792,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/great.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Very")}
           to="/"
@@ -819,7 +807,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >073
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -828,7 +816,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >074
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -836,7 +824,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/justice.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Just")}
           to="/"
@@ -849,7 +837,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >076
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -857,7 +845,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Never")}
           to="/"
@@ -870,7 +858,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >078
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -878,7 +866,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hide.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Still")}
           to="/"
@@ -891,7 +879,7 @@ function There({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >080
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -899,7 +887,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/adopt.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Together")}
           to="/"
@@ -920,7 +908,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ready.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ready")}
           to="/"
@@ -970,7 +958,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/right.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Forward")}
           to="/"
@@ -991,7 +979,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/forest.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Outdoors")}
           to="/"
@@ -1012,7 +1000,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/quiet.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quite")}
           to="/"
@@ -1033,7 +1021,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/go.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Now")}
           to="/"
@@ -1054,7 +1042,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/all.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Always")}
           to="/"
@@ -1089,7 +1077,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wave.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Away")}
           to="/"
@@ -1110,7 +1098,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/check.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Often")}
           to="/"
@@ -1131,7 +1119,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/room.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Indoors")}
           to="/"
@@ -1152,7 +1140,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/clock.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Then")}
           to="/"
@@ -1173,7 +1161,7 @@ function There({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/left.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Backward")}
           to="/"

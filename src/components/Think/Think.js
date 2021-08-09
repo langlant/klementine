@@ -148,10 +148,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Interest")}
-          to="/"
-          >Interest
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +167,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Mean")}
-          to="/"
-          >Mean
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -190,10 +186,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Decide")}
-          to="/"
-          >Decide
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -211,10 +205,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Seem")}
-          to="/"
-          >Seem
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -232,10 +224,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Forget")}
-          to="/"
-          >Forget
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -254,7 +244,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do I Think")}
           to="/"
@@ -266,7 +256,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do You Think")}
           to="/"
@@ -279,7 +269,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+           >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -287,7 +277,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/imagine.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Imagine")}
           to="/"
@@ -308,7 +298,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thumbsup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Agree")}
           to="/"
@@ -329,7 +319,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thumbsdown.png'} />}
           >Disagree
           </Button>
         </Grid>
@@ -348,10 +338,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Consider")}
-          to="/"
-          >Consider
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -369,7 +357,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >Suppose
+          >
           </Button>
         </Grid>
       </Grid>
@@ -388,7 +376,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do We Think")}
           to="/"
@@ -400,7 +388,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/check.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Enable")}
           to="/"
@@ -421,7 +409,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brain.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mind")}
           to="/"
@@ -442,7 +430,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/please.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Believe")}
           to="/"
@@ -463,7 +451,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/question.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Guess")}
           to="/"
@@ -485,10 +473,8 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Choose")}
-          to="/"
-          >Choose
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -508,7 +494,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -517,16 +503,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -544,7 +521,16 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -553,7 +539,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >042
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -562,7 +548,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -571,7 +557,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >044
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -580,7 +566,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >045
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -589,7 +575,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >046
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -598,7 +584,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >047
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -607,7 +593,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >048
+           >
           </Button>
         </Grid>
       </Grid>
@@ -617,7 +603,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does It Think")}
           to="/"
@@ -629,7 +615,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do They Think")}
           to="/"
@@ -641,7 +627,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/idea.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Think")}
           to="/"
@@ -653,7 +639,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thinks")}
           to="/"
@@ -665,7 +651,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thinking")}
           to="/"
@@ -677,7 +663,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thought")}
           to="/"
@@ -689,7 +675,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Think")}
           to="/"
@@ -702,7 +688,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >056
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -710,7 +696,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/light.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bright")}
           to="/"
@@ -722,7 +708,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Brighter")}
           to="/"
@@ -734,7 +720,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Brightest")}
           to="/"
@@ -747,7 +733,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >060
+           >
           </Button>
         </Grid>
       </Grid>
@@ -757,7 +743,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does She Think")}
           to="/"
@@ -769,7 +755,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does He Think")}
           to="/"
@@ -782,7 +768,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >063
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -800,7 +786,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >065
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -809,7 +795,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >066
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -818,7 +804,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >067
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -827,7 +813,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >068
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -836,7 +822,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >069
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -845,7 +831,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >070
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -854,7 +840,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >071
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -863,7 +849,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >072
+           >
           </Button>
         </Grid>
       </Grid>
@@ -874,7 +860,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >073
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -883,7 +869,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >074
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -891,7 +877,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/idea.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Idea")}
           to="/"
@@ -903,7 +889,7 @@ function Think({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ideas")}
           to="/"
@@ -916,7 +902,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >077
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -925,7 +911,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >078
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -934,7 +920,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >079
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -943,7 +929,7 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >080
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1112,7 +1098,9 @@ function Think({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >098
+          component={RouterLink}
+          to="/Think/ThinkNt"
+          >Nt
           </Button>
         </Grid>
         <Grid xs={1}>

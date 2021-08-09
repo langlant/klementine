@@ -243,7 +243,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+           >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -352,7 +352,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/magic.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Magic")}
           to="/"
@@ -364,7 +364,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Magical")}
           to="/"
@@ -376,7 +376,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("These")}
           to="/"
@@ -397,7 +397,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("None")}
           to="/"
@@ -418,7 +418,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/adopt.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Each")}
           to="/"
@@ -460,7 +460,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -469,16 +469,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -496,7 +487,16 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -505,7 +505,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >042
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -514,7 +514,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -523,7 +523,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >044
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -532,7 +532,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >045
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -541,7 +541,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >046
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -550,7 +550,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >047
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -559,7 +559,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >048
+           >
           </Button>
         </Grid>
       </Grid>
@@ -570,7 +570,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >049
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -579,7 +579,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >050
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -587,7 +587,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/point.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("That")}
           to="/"
@@ -599,7 +599,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("That's")}
           to="/"
@@ -611,7 +611,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("That'll")}
           to="/"
@@ -623,7 +623,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("That'd")}
           to="/"
@@ -636,7 +636,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >055
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -645,7 +645,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >056
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -654,7 +654,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >057
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -663,7 +663,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >058
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -672,7 +672,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >059
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -681,7 +681,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >060
+           >
           </Button>
         </Grid>
       </Grid>
@@ -692,7 +692,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >061
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -701,7 +701,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >062
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -710,7 +710,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >063
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -728,7 +728,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >065
+           >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -737,7 +737,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >066
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -746,7 +746,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >067
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -755,7 +755,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >068
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -764,7 +764,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >069
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -773,7 +773,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >070
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -782,7 +782,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >071
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -791,7 +791,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >072
+           >
           </Button>
         </Grid>
       </Grid>
@@ -802,7 +802,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >073
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -811,7 +811,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >074
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -819,7 +819,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/point.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("This")}
           to="/"
@@ -832,7 +832,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >076
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -840,7 +840,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Those")}
           to="/"
@@ -853,7 +853,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >078
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -861,7 +861,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Every")}
           to="/"
@@ -874,7 +874,7 @@ function That({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >080
+           >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -882,7 +882,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Any")}
           to="/"
@@ -903,7 +903,7 @@ function That({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stop.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Enough")}
           to="/"
