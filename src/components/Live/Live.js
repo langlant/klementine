@@ -148,9 +148,8 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Live/LHome"
-          >Home
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -167,7 +166,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tv.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Living Room")}
           to="/"
@@ -188,7 +187,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dining.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dining Room")}
           to="/"
@@ -209,7 +208,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/oven.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kitchen")}
           to="/"
@@ -230,7 +229,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flush.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bathroom")}
           to="/"
@@ -262,7 +261,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sleep.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bedroom")}
           to="/"
@@ -275,7 +274,7 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -283,7 +282,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stapler.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Office")}
           to="/"
@@ -304,7 +303,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/desk.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Classroom")}
           to="/"
@@ -325,7 +324,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bite.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cafeteria")}
           to="/"
@@ -346,7 +345,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sports.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Gym")}
           to="/"
@@ -367,7 +366,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/room.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Room")}
           to="/"
@@ -381,7 +380,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/house.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("House")}
           to="/"
@@ -394,7 +393,7 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -402,7 +401,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/house.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Home")}
           to="/"
@@ -423,7 +422,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Homes")}
           to="/"
@@ -444,7 +443,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hardware.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Build")}
           to="/"
@@ -465,7 +464,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/key.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -486,7 +485,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Keys")}
           to="/"
@@ -510,7 +509,7 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -519,16 +518,7 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -546,7 +536,16 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -637,7 +636,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heart.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Live")}
           to="/"
@@ -649,7 +648,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lives")}
           to="/"
@@ -661,7 +660,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Living")}
           to="/"
@@ -673,7 +672,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lived")}
           to="/"
@@ -685,7 +684,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Live")}
           to="/"
@@ -697,7 +696,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lively")}
           to="/"
@@ -718,7 +717,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cozy.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cozy")}
           to="/"
@@ -730,7 +729,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cozier")}
           to="/"
@@ -742,7 +741,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Coziest")}
           to="/"
@@ -866,7 +865,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/wave.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Welcome")}
           to="/"
@@ -887,7 +886,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lock.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lock")}
           to="/"
@@ -908,7 +907,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flower.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Alive")}
           to="/"
@@ -929,7 +928,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/arrive.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Visit")}
           to="/"
@@ -950,7 +949,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/trash.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Trash")}
           to="/"
@@ -971,7 +970,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/laundry.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Laundry")}
           to="/"
@@ -1003,7 +1002,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/adopt.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Family Room")}
           to="/"
@@ -1024,7 +1023,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/nintendo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Game Room")}
           to="/"
@@ -1046,10 +1045,8 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lounge")}
-          to="/"
-          >Lounge
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1066,7 +1063,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/baby.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nursery")}
           to="/"
@@ -1088,10 +1085,8 @@ function Live({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Decorate")}
-          to="/"
-          >Decorate
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1108,7 +1103,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/garage.png'} />}
           >Garage
           </Button>
         </Grid>
@@ -1140,7 +1135,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cozy.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Comfortable")}
           to="/"
@@ -1161,7 +1156,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/grave.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Die")}
           to="/"
@@ -1173,7 +1168,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dies")}
           to="/"
@@ -1185,7 +1180,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dying")}
           to="/"
@@ -1197,7 +1192,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Died")}
           to="/"
@@ -1209,7 +1204,7 @@ function Live({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Die")}
           to="/"

@@ -392,7 +392,7 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>

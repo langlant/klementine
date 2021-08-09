@@ -362,7 +362,7 @@ function Skinny({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -590,7 +590,7 @@ function Skinny({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/skinny.png'} />}
           componet={RouterLink}
           onClick={()=> buttonSpeak("Skinny")}
           to="/"
@@ -602,7 +602,7 @@ function Skinny({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           componet={RouterLink}
           onClick={()=> buttonSpeak("Skinnier")}
           to="/"
@@ -614,7 +614,7 @@ function Skinny({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           componet={RouterLink}
           onClick={()=> buttonSpeak("Skinniest")}
           to="/"

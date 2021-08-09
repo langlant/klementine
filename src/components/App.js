@@ -271,7 +271,6 @@ import Weak from "./Little/Weak"
 import Skinny from "./Little/Skinny"
 import Thin from "./Little/Thin"
 import Live from "./Live/Live"
-import LHome from "./Live/LHome"
 
 function App() {
 
@@ -550,7 +549,6 @@ function App() {
           <Route exact path="/Follow/Baby" component={Baby}/>
           <Route exact path="/Follow/Strange" component={Strange}/>
           <Route exact path="/Live" component={Live}/>
-          <Route exact path="/Live/LHome" component={LHome}/>
         </Switch>
       </Router>
     </div>

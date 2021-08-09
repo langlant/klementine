@@ -344,7 +344,7 @@ function Little({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -572,7 +572,7 @@ function Little({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/small.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Little")}
           to="/"
@@ -584,7 +584,7 @@ function Little({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Littler")}
           to="/"
@@ -596,7 +596,7 @@ function Little({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Littlest")}
           to="/"
@@ -691,7 +691,7 @@ function Little({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/weak.png'} />}
           component={RouterLink}
           to="/Little/Weak"
           >Weak
@@ -711,7 +711,7 @@ function Little({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thin.jpg'} />}
           component={RouterLink}
           to="/Little/Thin"
           >Thin
@@ -731,7 +731,7 @@ function Little({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/skinny.png'} />}
           component={RouterLink}
           to="/Little/Skinny"
           >Skinny
