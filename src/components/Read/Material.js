@@ -147,7 +147,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/notebook.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -168,7 +168,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/journal.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Journal")}
           to="/"
@@ -189,7 +189,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/magazine.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Magazine")}
           to="/"
@@ -210,7 +210,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/newspaper.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Newspaper")}
           to="/"
@@ -231,7 +231,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/menu.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Menu")}
           to="/"
@@ -382,7 +382,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/homework.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Homework")}
           to="/"
@@ -403,7 +403,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/test.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Test")}
           to="/"
@@ -424,7 +424,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/comic.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Comic")}
           to="/"
@@ -445,7 +445,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/letter.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Letter")}
           to="/"
@@ -466,11 +466,11 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/novel.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Catalog")}
+          onClick={()=> buttonSpeak("Novel")}
           to="/"
-          >Catalog
+          >Novel
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -618,10 +618,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Material")}
-          to="/"
-          >Material
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -638,7 +636,7 @@ function Template({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dictionary")}
           to="/"
@@ -660,10 +658,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Encyclopedia")}
-          to="/"
-          >Encyclopedia
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -681,10 +677,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Novel")}
-          to="/"
-          >Novel
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -702,10 +696,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Atlas")}
-          to="/"
-          >Atlas
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -853,10 +845,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Bible")}
-          to="/"
-          >Bible
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -874,10 +864,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Torah")}
-          to="/"
-          >Torah
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -895,10 +883,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Quran")}
-          to="/"
-          >Quran
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -916,10 +902,8 @@ function Template({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Manual")}
-          to="/"
-          >Manual
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

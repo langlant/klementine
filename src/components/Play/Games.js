@@ -148,10 +148,8 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Angry Birds")}
-          to="/"
-          >Angry Birds
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -168,7 +166,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dice.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dice")}
           to="/"
@@ -189,7 +187,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tictac.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tic Tac Toe")}
           to="/"
@@ -210,7 +208,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/checkers.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Checkers")}
           to="/"
@@ -231,7 +229,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/chess.png'} />}
           >Chess
           </Button>
         </Grid>
@@ -260,7 +258,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/uno.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Uno")}
           to="/"
@@ -273,7 +271,7 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -282,10 +280,8 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Memory")}
-          to="/"
-          >Memory
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -302,7 +298,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bingo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bingo")}
           to="/"
@@ -323,7 +319,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cards.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Go Fish")}
           to="/"
@@ -344,7 +340,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/domino.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dominoes")}
           to="/"
@@ -366,10 +362,8 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Scrabble")}
-          to="/"
-          >Scrabble
+
+          >
           </Button>
         </Grid>
       </Grid>
@@ -380,10 +374,8 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Monopoly")}
-          to="/"
-          >Monopoly
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -400,7 +392,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/duckling.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lucky Ducks")}
           to="/"
@@ -496,7 +488,7 @@ function Games({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -623,7 +615,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dice.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Game")}
           to="/"
@@ -635,7 +627,7 @@ function Games({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Games")}
           to="/"

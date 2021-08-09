@@ -148,10 +148,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("MP3")}
-          to="/"
-          >Mp3
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +167,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ipod")}
-          to="/"
-          >Ipod
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -190,10 +186,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("CD Player")}
-          to="/"
-          >CD Player
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -211,10 +205,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("CD")}
-          to="/"
-          >CD
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -232,10 +224,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Radio")}
-          to="/"
-          >Radio
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -264,10 +254,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Album")}
-          to="/"
-          >Album
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -276,7 +264,7 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -285,10 +273,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Paino")}
-          to="/"
-          >Piano
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -306,10 +292,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Guitar")}
-          to="/"
-          >Guitar
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -327,10 +311,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Drum")}
-          to="/"
-          >Drum
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -348,10 +330,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Bell")}
-          to="/"
-          >Bell
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -369,10 +349,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("")}
-          to="/"
-          >Cymbal
+
+          >
           </Button>
         </Grid>
       </Grid>
@@ -383,10 +361,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tambourine")}
-          to="/"
-          >Tambourine
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -403,7 +379,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/musicnote.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Song")}
           to="/"
@@ -415,7 +391,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Songs")}
           to="/"
@@ -436,7 +412,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sing.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sing")}
           to="/"
@@ -448,7 +424,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sings")}
           to="/"
@@ -460,7 +436,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Singing")}
           to="/"
@@ -472,7 +448,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sang")}
           to="/"
@@ -484,7 +460,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sung")}
           to="/"
@@ -496,7 +472,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Sing")}
           to="/"
@@ -520,7 +496,7 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -529,16 +505,7 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -556,7 +523,16 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -647,7 +623,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/group.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Many")}
           to="/"
@@ -659,7 +635,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("More")}
           to="/"
@@ -671,7 +647,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most")}
           to="/"
@@ -692,7 +668,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/less.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Less")}
           to="/"
@@ -704,7 +680,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lesser")}
           to="/"
@@ -716,7 +692,7 @@ function More({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Least")}
           to="/"
@@ -868,10 +844,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Practice")}
-          to="/"
-          >Practice
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,10 +854,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Practices")}
-          to="/"
-          >Practices
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -892,10 +864,7 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Practicing")}
-          to="/"
-          >Practicing
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -904,10 +873,7 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Practiced")}
-          to="/"
-          >Practiced
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -916,10 +882,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Practice")}
-          to="/"
-          >To Practice
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -937,10 +901,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dance")}
-          to="/"
-          >Dance
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -949,10 +911,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dances")}
-          to="/"
-          >Dances
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -961,10 +921,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dancing")}
-          to="/"
-          >Dancing
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -973,10 +931,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Danced")}
-          to="/"
-          >Danced
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -985,10 +941,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Dance")}
-          to="/"
-          >To Dance
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1139,10 +1093,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Clap")}
-          to="/"
-          >Clap
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1151,10 +1103,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Claps")}
-          to="/"
-          >Claps
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1163,10 +1113,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Clapping")}
-          to="/"
-          >Clapping
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1175,10 +1123,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Clapped")}
-          to="/"
-          >Clapped
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1187,10 +1133,8 @@ function More({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Clap")}
-          to="/"
-          >To Clap
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

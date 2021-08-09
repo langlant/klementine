@@ -168,7 +168,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/square.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Square")}
           to="/"
@@ -189,7 +189,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/triangle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Triangle")}
           to="/"
@@ -231,7 +231,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/diamond.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Diamond")}
           to="/"
@@ -263,7 +263,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heart.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Heart")}
           to="/"
@@ -276,7 +276,7 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -284,7 +284,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/oval.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Oval")}
           to="/"
@@ -305,7 +305,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/star.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Star")}
           to="/"
@@ -327,10 +327,8 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Part")}
-          to="/"
-          >Part
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -348,10 +346,8 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Half")}
-          to="/"
-          >Half
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -369,10 +365,8 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Whole")}
-          to="/"
-          >Whole
+
+          >
           </Button>
         </Grid>
       </Grid>
@@ -382,7 +376,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/parrallelogram.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Parrallelogram")}
           to="/"
@@ -403,7 +397,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pentagon.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pentagon")}
           to="/"
@@ -424,7 +418,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hexagon.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hexagon")}
           to="/"
@@ -502,7 +496,7 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -511,16 +505,7 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -538,7 +523,16 @@ function Shape({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -629,7 +623,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/diamond.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shape")}
           to="/"
@@ -641,7 +635,7 @@ function Shape({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shapes")}
           to="/"

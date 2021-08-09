@@ -147,7 +147,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toy.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toy")}
           to="/"
@@ -159,7 +159,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toys")}
           to="/"
@@ -264,7 +264,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          > 
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -373,7 +373,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tramp.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Trampoline")}
           to="/"
@@ -394,7 +394,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ball.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ball Pit")}
           to="/"
@@ -415,7 +415,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/puzzle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Puzzle")}
           to="/"
@@ -436,7 +436,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/playdoh.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Play-Doh")}
           to="/"
@@ -457,7 +457,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/kite.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Kite")}
           to="/"
@@ -481,7 +481,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -490,16 +490,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -517,7 +508,16 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -526,7 +526,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >042
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -535,7 +535,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >043
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -608,7 +608,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ball.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ball")}
           to="/"
@@ -629,7 +629,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blocks.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Block")}
           to="/"
@@ -650,7 +650,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/doll.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Doll")}
           to="/"
@@ -671,7 +671,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/balloon.png'} />}
           >Balloon
           </Button>
         </Grid>
@@ -690,10 +690,8 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Lego")}
-          to="/"
-          >Legos
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -840,7 +838,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bubble.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bubbles")}
           to="/"
@@ -861,7 +859,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toybox.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toy Box")}
           to="/"
@@ -882,7 +880,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dressup.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dress Up")}
           to="/"
@@ -904,7 +902,7 @@ function Toy({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >Puppet
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -921,7 +919,7 @@ function Toy({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sandbox.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sandbox")}
           to="/"

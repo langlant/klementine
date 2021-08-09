@@ -147,7 +147,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wonderful.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("New Years Eve")}
           to="/"
@@ -168,7 +168,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wonderful.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("New Years")}
           to="/"
@@ -189,7 +189,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mlk.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("MLK Day")}
           to="/"
@@ -210,7 +210,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heart.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Valentine's Day")}
           to="/"
@@ -231,7 +231,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/clover.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("St. Patrick's Day")}
           to="/"
@@ -263,7 +263,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bunny.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Easter")}
           to="/"
@@ -276,7 +276,7 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -284,7 +284,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/passover.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Passover")}
           to="/"
@@ -305,7 +305,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mom.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mother's Day")}
           to="/"
@@ -326,7 +326,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flag.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Memorial Day")}
           to="/"
@@ -347,7 +347,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dad.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Father's Day")}
           to="/"
@@ -368,7 +368,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wonderful.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("4th of July")}
           to="/"
@@ -382,7 +382,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/labor.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Labor Day")}
           to="/"
@@ -403,7 +403,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/jackolantern.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Halloween")}
           to="/"
@@ -424,7 +424,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thanksgiving.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thanksgiving")}
           to="/"
@@ -445,7 +445,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cookie.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Christmas Eve")}
           to="/"
@@ -466,7 +466,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/gift.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("")}
           to="/"
@@ -487,7 +487,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/menorah.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hanukkah")}
           to="/"
@@ -511,7 +511,7 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -520,16 +520,7 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -547,7 +538,16 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -638,7 +638,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/calendar.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Holiday")}
           to="/"
@@ -659,7 +659,7 @@ function Holiday({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Holidays")}
           to="/"
@@ -865,10 +865,8 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Kwanza")}
-          to="/"
-          >Kwanza
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -886,10 +884,8 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Ramadan")}
-          to="/"
-          >Ramadan
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -907,10 +903,8 @@ function Holiday({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Eid")}
-          to="/"
-          >Eid
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

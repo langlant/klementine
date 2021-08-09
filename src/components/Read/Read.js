@@ -147,7 +147,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/paper.png'} />}
           component={RouterLink}
           to="/Read/Material"
           >Material
@@ -168,10 +168,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Word")}
-          to="/"
-          >Word
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -180,10 +178,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Words")}
-          to="/"
-          >Words
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -201,10 +197,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Page")}
-          to="/"
-          >Page
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -213,10 +207,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Pages")}
-          to="/"
-          >Pages
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -234,10 +226,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Story")}
-          to="/"
-          >Story
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -246,10 +236,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Stories")}
-          to="/"
-          >Stories
+
+          >
           </Button>
         </Grid>
       </Grid>
@@ -259,7 +247,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will I")}
           to="/"
@@ -271,7 +259,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will You")}
           to="/"
@@ -384,7 +372,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will You")}
           to="/"
@@ -418,10 +406,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sentence")}
-          to="/"
-          >Sentence
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -439,10 +425,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Paragraph")}
-          to="/"
-          >Paragraph
+  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -460,10 +444,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Chapter")}
-          to="/"
-          >Chapter
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -616,7 +598,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will It")}
           to="/"
@@ -628,7 +610,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will They")}
           to="/"
@@ -747,7 +729,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will She")}
           to="/"
@@ -759,7 +741,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Will He")}
           to="/"
@@ -882,10 +864,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Understand")}
-          to="/"
-          >Understand
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -894,10 +874,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Understands")}
-          to="/"
-          >Understands
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -906,10 +884,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Understanding")}
-          to="/"
-          >Understanding
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -918,10 +894,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Understood")}
-          to="/"
-          >Understood
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -930,10 +904,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("To Understand")}
-          to="/"
-          >To Understand
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -942,10 +914,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Understandable")}
-          to="/"
-          >Understandable
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -954,10 +924,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Understandably")}
-          to="/"
-          >Understandably
+  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1116,7 +1084,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Read/Nt"
           >Nt
@@ -1128,10 +1096,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Smart")}
-          to="/"
-          >Smart
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1140,10 +1106,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Smarter")}
-          to="/"
-          >Smarter
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1152,10 +1116,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Smartest")}
-          to="/"
-          >Smartest
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1164,10 +1126,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Smartly")}
-          to="/"
-          >Smartly
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1194,10 +1154,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dumb")}
-          to="/"
-          >Dumb
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1206,10 +1164,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dumber")}
-          to="/"
-          >Dumber
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1218,10 +1174,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dumbest")}
-          to="/"
-          >Dumbest
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1230,10 +1184,8 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Dumbly")}
-          to="/"
-          >Dumbly
+
+          >
           </Button>
         </Grid>
       </Grid>

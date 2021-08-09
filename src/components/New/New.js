@@ -148,10 +148,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Science")}
-          to="/"
-          >Science
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +167,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Language")}
-          to="/"
-          >Language
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -190,10 +186,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Social")}
-          to="/"
-          >Social
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -211,10 +205,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Drama")}
-          to="/"
-          >Drama
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -232,10 +224,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Geography")}
-          to="/"
-          >Geography
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -254,7 +244,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do I Know")}
           to="/"
@@ -266,7 +256,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do You Know")}
           to="/"
@@ -288,10 +278,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("History")}
-          to="/"
-          >History
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -309,10 +297,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Math")}
-          to="/"
-          >Math
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -330,10 +316,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("PE")}
-          to="/"
-          >PE
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -351,10 +335,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Music")}
-          to="/"
-          >Music
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -372,10 +354,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Art")}
-          to="/"
-          >Art
+
+          >
           </Button>
         </Grid>
       </Grid>
@@ -394,7 +374,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do We Know")}
           to="/"
@@ -424,7 +404,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/light.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Knowledge")}
           to="/"
@@ -446,10 +426,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Recess")}
-          to="/"
-          >Recess
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -467,10 +445,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Therapy")}
-          to="/"
-          >Therapy
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -508,7 +484,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -517,16 +493,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -544,7 +511,16 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -617,7 +593,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does It Know")}
           to="/"
@@ -629,7 +605,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do They Know")}
           to="/"
@@ -641,7 +617,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/new.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("New")}
           to="/"
@@ -653,7 +629,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Newer")}
           to="/"
@@ -665,7 +641,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Newest")}
           to="/"
@@ -686,7 +662,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/light.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Know")}
           to="/"
@@ -698,7 +674,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Knows")}
           to="/"
@@ -710,7 +686,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Knowing")}
           to="/"
@@ -722,7 +698,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Knew")}
           to="/"
@@ -734,7 +710,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Known")}
           to="/"
@@ -746,7 +722,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Know")}
           to="/"
@@ -760,7 +736,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does She Know")}
           to="/"
@@ -772,7 +748,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does He Know")}
           to="/"
@@ -886,9 +862,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/Cheat"
-          >Cheat
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -905,7 +880,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/book.png'} />}
           component={RouterLink}
           to="/New/Learn"
           >Learn
@@ -925,7 +900,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/study.png'} />}
           component={RouterLink}
           to="/New/Study"
           >Study
@@ -945,7 +920,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/teacher.png'} />}
           component={RouterLink}
           to="/New/Teach"
           >Teach
@@ -966,9 +941,7 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/Graduate"
-          >Graduate
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -985,7 +958,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           to="/New/Sure"
           >Sure
@@ -1120,7 +1093,7 @@ function New({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/New/NewNt"
           >Nt
@@ -1141,9 +1114,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/Certain"
-          >Certain
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1161,9 +1133,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/Grade"
-          >Grade
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1181,9 +1152,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/True"
-          >True
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1201,9 +1171,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/Try"
-          >Try
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1221,9 +1190,8 @@ function New({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/New/False"
-          >False
+
+          >
           </Button>
         </Grid>
       </Grid>

@@ -258,7 +258,7 @@ function Rainbow({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -367,7 +367,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/black.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Black")}
           to="/"
@@ -388,7 +388,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/white.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("White")}
           to="/"
@@ -409,7 +409,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/grey.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Grey")}
           to="/"
@@ -430,7 +430,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brown.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Brown")}
           to="/"
@@ -452,10 +452,8 @@ function Rainbow({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tan")}
-          to="/"
-          >Tan
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -475,7 +473,7 @@ function Rainbow({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -484,7 +482,7 @@ function Rainbow({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -602,7 +600,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heart.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Red")}
           to="/"
@@ -623,7 +621,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blue.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Blue")}
           to="/"
@@ -644,7 +642,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/yellow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Yellow")}
           to="/"
@@ -665,7 +663,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/green.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Green")}
           to="/"
@@ -686,7 +684,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/purple.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Purple")}
           to="/"
@@ -837,7 +835,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/orange.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Orange")}
           to="/"
@@ -858,7 +856,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pink.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pink")}
           to="/"
@@ -879,7 +877,7 @@ function Rainbow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/violet.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Violet")}
           to="/"

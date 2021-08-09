@@ -147,7 +147,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toy.png'} />}
           component={RouterLink}
           to="/Play/Toy"
           >Toy
@@ -167,7 +167,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dice.png'} />}
           component={RouterLink}
           to="/Play/Games"
           >Game
@@ -271,7 +271,7 @@ function Play({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -381,9 +381,8 @@ function Play({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Play/Match"
-          >Match
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -400,7 +399,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/win.png'} />}
           component={RouterLink}
           to="/Play/Win"
           >Win
@@ -421,9 +420,8 @@ function Play({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Play/Party"
-          >Party
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -440,7 +438,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lose.png'} />}
           component={RouterLink}
           to="/Play/Lose"
           >Lose
@@ -461,9 +459,7 @@ function Play({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Play/Difficult"
-          >Difficult
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -610,7 +606,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/play.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Play")}
           to="/"
@@ -622,7 +618,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Plays")}
           to="/"
@@ -634,7 +630,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Playing")}
           to="/"
@@ -646,7 +642,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Played")}
           to="/"
@@ -658,7 +654,7 @@ function Play({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Play")}
           to="/"
