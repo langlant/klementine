@@ -147,7 +147,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/help.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Assistance")}
           to="/"
@@ -168,11 +168,11 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/help.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Assistive Technology")}
           to="/"
-          >Assistive Tech
+          >Tech
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -189,7 +189,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wheelchair.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wheel Chair")}
           to="/"
@@ -210,7 +210,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/scooter.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Scooter")}
           to="/"
@@ -231,7 +231,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mountain.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mount")}
           to="/"
@@ -263,7 +263,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/belt.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Strap")}
           to="/"
@@ -284,7 +284,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/arm.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Armrest")}
           to="/"
@@ -305,7 +305,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brake.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Brake")}
           to="/"
@@ -326,7 +326,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/foot.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Footrest")}
           to="/"
@@ -347,7 +347,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/head.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Headrest")}
           to="/"
@@ -368,7 +368,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tray.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Laptray")}
           to="/"
@@ -382,7 +382,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/stand.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stander")}
           to="/"
@@ -403,7 +403,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/walker.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Walker")}
           to="/"
@@ -424,9 +424,9 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Walker")}
+          onClick={()=> buttonSpeak("Adapter")}
           to="/"
           >Adapter
           </Button>
@@ -445,7 +445,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brace.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Brace")}
           to="/"
@@ -466,7 +466,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/crutch.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Braille")}
           to="/"
@@ -487,7 +487,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hearingaid.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hearing Aid")}
           to="/"
@@ -620,7 +620,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Head Pointer")}
           to="/"
@@ -641,9 +641,9 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sit.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("")}
+          onClick={()=> buttonSpeak("sit")}
           to="/"
           >Sit
           </Button>
@@ -653,7 +653,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sits")}
           to="/"
@@ -665,7 +665,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sitting")}
           to="/"
@@ -677,7 +677,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sat")}
           to="/"
@@ -689,7 +689,7 @@ function Sit({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Sit")}
           to="/"

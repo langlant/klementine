@@ -147,10 +147,11 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/car.png'} />}
           component={RouterLink}
-          to="/Ride/Land"
-          >Land Vehicle
+          onClick={()=> buttonSpeak("Car")}
+          to="/"
+          >Car
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -167,10 +168,11 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/airplane.png'} />}
           component={RouterLink}
-          to="/Ride/Air"
-          >Air Vehicle
+          onClick={()=> buttonSpeak("Airplane")}
+          to="/"
+          >Airplane
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -187,10 +189,11 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/boat.png'} />}
           component={RouterLink}
-          to="/Ride/Water"
-          >Water Vehicle
+          onClick={()=> buttonSpeak("boat")}
+          to="/"
+          >Boat
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -207,11 +210,11 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/truck.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("")}
+          onClick={()=> buttonSpeak("Truck")}
           to="/"
-          >Transportation
+          >Truck
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -228,11 +231,11 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/helicopter.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("Vehicle")}
+          onClick={()=> buttonSpeak("Helicopter")}
           to="/"
-          >Vehicle
+          >Helicopter
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -251,7 +254,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could I")}
           to="/"
@@ -263,7 +266,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could You")}
           to="/"
@@ -276,7 +279,7 @@ function Ride({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -376,7 +379,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could We")}
           to="/"
@@ -389,9 +392,8 @@ function Ride({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Ride/Parts"
-          >Vehicle Parts
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -409,9 +411,8 @@ function Ride({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Ride/Road"
-          >Road
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -428,7 +429,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/drive.png'} />}
           component={RouterLink}
           to="/Ride/Drive"
           >Drive
@@ -448,7 +449,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fly.png'} />}
           component={RouterLink}
           to="/Ride/Fly"
           >Fly
@@ -468,7 +469,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/quick.png'} />}
           component={RouterLink}
           to="/Ride/Move"
           >Move
@@ -491,7 +492,7 @@ function Ride({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -500,16 +501,7 @@ function Ride({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -527,7 +519,16 @@ function Ride({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -600,7 +601,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could It")}
           to="/"
@@ -612,7 +613,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could They")}
           to="/"
@@ -624,7 +625,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ride.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ride")}
           to="/"
@@ -636,7 +637,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rides")}
           to="/"
@@ -648,7 +649,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Riding")}
           to="/"
@@ -660,7 +661,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rode")}
           to="/"
@@ -672,7 +673,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ridden")}
           to="/"
@@ -684,7 +685,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Ride")}
           to="/"
@@ -705,7 +706,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/clock.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Soon")}
           to="/"
@@ -717,7 +718,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sooner")}
           to="/"
@@ -729,7 +730,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Soonest")}
           to="/"
@@ -743,7 +744,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could She")}
           to="/"
@@ -755,7 +756,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Could He")}
           to="/"
@@ -877,7 +878,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/it.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Thing")}
           to="/"
@@ -889,7 +890,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Things")}
           to="/"
@@ -910,7 +911,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flat.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Flat")}
           to="/"
@@ -922,7 +923,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Flatter")}
           to="/"
@@ -934,7 +935,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Flattest")}
           to="/"
@@ -946,7 +947,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Flatly")}
           to="/"
@@ -1109,7 +1110,7 @@ function Ride({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Ride/Nt"
           >Nt

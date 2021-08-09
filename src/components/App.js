@@ -237,7 +237,6 @@ import Subtract from "./Count/Subtract"
 import Multiply from "./Count/Multiply"
 import Divide from "./Count/Divide"
 import Please from "./Please/Please"
-import Shapes from "./Shapes/Shapes"
 import Letters from "./Letters/Letters"
 import Weather from "./Weather/Weather"
 import Animal from "./Animal/Animal"
@@ -527,7 +526,6 @@ function App() {
           <Route exact path="/Count/Multiply" component={Multiply}/>
           <Route exact path="/Count/Divide" component={Divide}/>
           <Route exact path="/Please" component={Please}/>
-          <Route exact path="/Shapes" component={Shapes}/>
           <Route exact path="/Letters" component={Letters}/>
           <Route exact path="/Weather" component={Weather}/>
           <Route exact path="/Animal" component={Animal}/>

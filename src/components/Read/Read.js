@@ -272,7 +272,7 @@ function Read({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -384,7 +384,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Word")}
           to="/"
@@ -462,7 +462,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/book.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Book")}
           to="/"
@@ -474,7 +474,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Books")}
           to="/"
@@ -622,7 +622,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/read.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Read")}
           to="/"
@@ -634,7 +634,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Reads")}
           to="/"
@@ -646,7 +646,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Reading")}
           to="/"
@@ -658,7 +658,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Read")}
           to="/"
@@ -679,7 +679,7 @@ function Read({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/star.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Favorite")}
           to="/"

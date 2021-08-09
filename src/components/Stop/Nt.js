@@ -239,7 +239,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't I")}
           to="/"
@@ -251,7 +251,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't You")}
           to="/"
@@ -264,7 +264,7 @@ function Nt({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -364,7 +364,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't We")}
           to="/"
@@ -578,7 +578,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't It")}
           to="/"
@@ -590,7 +590,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't They")}
           to="/"
@@ -694,7 +694,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't She")}
           to="/"
@@ -706,7 +706,7 @@ function Nt({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shouldn't He")}
           to="/"

@@ -239,7 +239,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall I")}
           to="/"
@@ -251,7 +251,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall You")}
           to="/"
@@ -264,7 +264,7 @@ function Slow({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -364,7 +364,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall We")}
           to="/"
@@ -376,7 +376,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/take.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Take")}
           to="/"
@@ -388,7 +388,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Takes")}
           to="/"
@@ -400,7 +400,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Taking")}
           to="/"
@@ -412,7 +412,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Took")}
           to="/"
@@ -424,7 +424,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Taken")}
           to="/"
@@ -436,7 +436,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Take")}
           to="/"
@@ -596,7 +596,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall It")}
           to="/"
@@ -608,7 +608,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall They")}
           to="/"
@@ -620,7 +620,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/turtle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Slow")}
           to="/"
@@ -632,7 +632,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Slower")}
           to="/"
@@ -644,7 +644,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Slowest")}
           to="/"
@@ -656,7 +656,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Slowly")}
           to="/"
@@ -724,7 +724,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall She")}
           to="/"
@@ -736,7 +736,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shall He")}
           to="/"
@@ -858,7 +858,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/relax.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Relax")}
           to="/"
@@ -870,7 +870,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Relaxes")}
           to="/"
@@ -882,7 +882,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Relaxing")}
           to="/"
@@ -894,7 +894,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Relaxed")}
           to="/"
@@ -906,7 +906,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Relax")}
           to="/"
@@ -918,7 +918,7 @@ function Slow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Relaxation")}
           to="/"

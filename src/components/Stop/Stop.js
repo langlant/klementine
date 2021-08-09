@@ -148,11 +148,11 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("ly")}
           to="/"
-          >-ly
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -160,11 +160,11 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("ing")}
           to="/"
-          >+ing
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -172,11 +172,11 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("ed")}
           to="/"
-          >+ed
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -184,11 +184,11 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("er")}
           to="/"
-          >+er
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -196,11 +196,11 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("est")}
           to="/"
-          >+est
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -229,7 +229,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("'s")}
           to="/"
@@ -241,7 +241,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/question.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeakL("?")}
           to="/"
@@ -264,7 +264,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should I")}
           to="/"
@@ -276,7 +276,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should You")}
           to="/"
@@ -289,7 +289,7 @@ function Stop({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -389,7 +389,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should We")}
           to="/"
@@ -401,7 +401,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wait.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wait")}
           to="/"
@@ -413,7 +413,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Waits")}
           to="/"
@@ -425,7 +425,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Waiting")}
           to="/"
@@ -437,7 +437,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Waited")}
           to="/"
@@ -449,7 +449,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Wait")}
           to="/"
@@ -618,7 +618,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should It")}
           to="/"
@@ -630,7 +630,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should They")}
           to="/"
@@ -642,9 +642,9 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stop.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("")}
+          onClick={()=> buttonSpeak("Stop")}
           to="/"
           >Stop
           </Button>
@@ -654,7 +654,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stops")}
           to="/"
@@ -666,7 +666,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stopping")}
           to="/"
@@ -678,7 +678,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stopped")}
           to="/"
@@ -690,7 +690,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO .png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Stop")}
           to="/"
@@ -749,7 +749,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should She")}
           to="/"
@@ -761,7 +761,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Should He")}
           to="/"
@@ -883,7 +883,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/run.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quit")}
           to="/"
@@ -895,7 +895,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quits")}
           to="/"
@@ -907,7 +907,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quitting")}
           to="/"
@@ -919,7 +919,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Quit")}
           to="/"
@@ -1115,7 +1115,7 @@ function Stop({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Stop/Nt"
           >Nt

@@ -148,10 +148,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Iphone")}
-          to="/"
-          >Iphone
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -169,10 +167,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Android")}
-          to="/"
-          >Android
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -189,7 +185,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cellphone.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Cellphone")}
           to="/"
@@ -210,7 +206,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/phone.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Phone")}
           to="/"
@@ -231,7 +227,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Phones")}
           to="/"
@@ -273,7 +269,7 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -364,7 +360,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/call.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Call")}
           to="/"
@@ -385,7 +381,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hang.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hang")}
           to="/"
@@ -406,7 +402,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/say.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("State")}
           to="/"
@@ -427,7 +423,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/interview.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Interview")}
           to="/"
@@ -448,7 +444,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/laugh.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Joke")}
           to="/"
@@ -469,7 +465,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/angry.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Yell")}
           to="/"
@@ -623,7 +619,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/say.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Say")}
           to="/"
@@ -635,7 +631,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Says")}
           to="/"
@@ -647,7 +643,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Saying")}
           to="/"
@@ -659,7 +655,7 @@ function Said({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Say")}
           to="/"
@@ -838,10 +834,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tease")}
-          to="/"
-          >Tease
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -859,10 +853,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Apologize")}
-          to="/"
-          >Apologize
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -880,10 +872,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Discuss")}
-          to="/"
-          >Discuss
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -901,10 +891,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Describe")}
-          to="/"
-          >Describe
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -922,10 +910,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Communicate")}
-          to="/"
-          >Communicate
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -943,10 +929,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Speak")}
-          to="/"
-          >Speak
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1097,10 +1081,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Pray")}
-          to="/"
-          >Pray
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1118,10 +1100,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Argue")}
-          to="/"
-          >Argue
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -1139,10 +1119,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Answer")}
-          to="/"
-          >Answer
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1160,10 +1138,8 @@ function Said({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Text")}
-          to="/"
-          >Text
+ 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

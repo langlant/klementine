@@ -239,7 +239,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May I")}
           to="/"
@@ -251,7 +251,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May You")}
           to="/"
@@ -364,7 +364,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May We")}
           to="/"
@@ -578,7 +578,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May It")}
           to="/"
@@ -590,7 +590,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May They")}
           to="/"
@@ -602,7 +602,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/right.png'} />}
           component={RouterLink}
           onSpeak={()=> buttonSpeak("Right")}
           to="/"
@@ -614,7 +614,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onSpeak={()=> buttonSpeak("Rightfully")}
           to="/"
@@ -635,7 +635,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/up.png'} />}
           component={RouterLink}
           onSpeak={()=> buttonSpeak("Way")}
           to="/"
@@ -647,7 +647,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onSpeak={()=> buttonSpeak("Ways")}
           to="/"
@@ -706,7 +706,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May She")}
           to="/"
@@ -718,7 +718,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May He")}
           to="/"
@@ -1043,7 +1043,10 @@ function Right({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >097
+          component={RouterLink}
+          onClick={()=> setTextString("")}
+          to="/"
+          >CLEAR
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -1051,7 +1054,7 @@ function Right({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Right/Nt"
           >Nt
