@@ -587,8 +587,11 @@ function Strange({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >051
+          startIcon={<Avatar src={'/Assets/question.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Strange")}
+          to="/"
+          >Strange
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -596,8 +599,11 @@ function Strange({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >052
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Stranger")}
+          to="/"
+          >Stranger
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -605,8 +611,11 @@ function Strange({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >053
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Strangest")}
+          to="/"
+          >Strangest
           </Button>
         </Grid>
         <Grid xs={1}> 

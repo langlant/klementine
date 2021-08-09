@@ -147,7 +147,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/keyboard.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Keyboard")}
           to="/"
@@ -168,7 +168,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/disk.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Disk")}
           to="/"
@@ -189,7 +189,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/printer.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Printer")}
           to="/"
@@ -210,7 +210,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/internet.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Internet")}
           to="/"
@@ -231,7 +231,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/email.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Email")}
           to="/"
@@ -382,7 +382,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/program.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Program")}
           to="/"
@@ -403,7 +403,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/www.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("WWW")}
           to="/"
@@ -424,7 +424,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/computer.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Computer")}
           to="/"
@@ -445,7 +445,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Computers")}
           to="/"
@@ -466,7 +466,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ipad.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ipad")}
           to="/"
@@ -617,7 +617,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/find.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Find")}
           to="/"
@@ -629,7 +629,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Finds")}
           to="/"
@@ -641,7 +641,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Finding")}
           to="/"
@@ -653,7 +653,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Found")}
           to="/"
@@ -665,7 +665,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Find")}
           to="/"
@@ -852,7 +852,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/store.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Store")}
           to="/"
@@ -864,7 +864,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stores")}
           to="/"
@@ -876,7 +876,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Storing")}
           to="/"
@@ -888,7 +888,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stored")}
           to="/"
@@ -900,7 +900,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Store")}
           to="/"
@@ -1090,7 +1090,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/nintendo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nintendo")}
           to="/"
@@ -1111,7 +1111,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/xbox.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Xbox")}
           to="/"
@@ -1132,7 +1132,7 @@ function Find({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/playstation.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Playstation")}
           to="/"

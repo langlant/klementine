@@ -147,7 +147,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toiletries.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toiletry")}
           to="/"
@@ -168,7 +168,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/soap.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Soap")}
           to="/"
@@ -189,7 +189,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shampoo.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shampoo")}
           to="/"
@@ -210,7 +210,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shower.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shower")}
           to="/"
@@ -231,7 +231,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flush.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toilet")}
           to="/"
@@ -273,7 +273,7 @@ function Toiletries({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -374,7 +374,7 @@ function Toiletries({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -382,7 +382,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toothbrush.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toothbrush")}
           to="/"
@@ -403,7 +403,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toothpaste.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Toothpaste")}
           to="/"
@@ -424,7 +424,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/deodorant.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Deodorant")}
           to="/"
@@ -445,7 +445,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shavingcream.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shaving Cream")}
           to="/"
@@ -466,7 +466,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/razor.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Razor")}
           to="/"
@@ -617,7 +617,7 @@ function Toiletries({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sunscreen.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sunscreen")}
           to="/"
@@ -639,10 +639,8 @@ function Toiletries({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Aftershave")}
-          to="/"
-          >Aftershave
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -660,10 +658,8 @@ function Toiletries({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sponge")}
-          to="/"
-          >Sponge
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -681,10 +677,8 @@ function Toiletries({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Tampon")}
-          to="/"
-          >Tampon
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -702,10 +696,8 @@ function Toiletries({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Sanitary")}
-          to="/"
-          >Sanitary
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

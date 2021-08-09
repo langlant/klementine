@@ -587,7 +587,7 @@ function Inexpensive({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cheap.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Inexpensive")}
           to="/"
@@ -599,7 +599,7 @@ function Inexpensive({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Less Expensive")}
           to="/"
@@ -611,7 +611,7 @@ function Inexpensive({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Least Expensive")}
           to="/"

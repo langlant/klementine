@@ -841,10 +841,8 @@ function People({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Boy Scout")}
-          to="/"
-          >Boy Scout
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -862,10 +860,8 @@ function People({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Girl Scout")}
-          to="/"
-          >Girl Scout
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -883,10 +879,7 @@ function People({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Cub Scout")}
-          to="/"
-          >Cub Scout
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -904,10 +897,7 @@ function People({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Brownie")}
-          to="/"
-          >Brownie
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -925,10 +915,7 @@ function People({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Eagle Scout")}
-          to="/"
-          >Eagle Scout
+          >
           </Button>
         </Grid>
         <Grid xs={1}>

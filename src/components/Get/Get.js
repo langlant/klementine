@@ -147,7 +147,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flower.png'} />}
           component={RouterLink}
           to="/Get/Flower"
           >Flower
@@ -167,7 +167,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tree.png'} />}
           component={RouterLink}
           to="/Get/Trees"
           >Trees
@@ -187,7 +187,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/water.png'} />}
           component={RouterLink}
           to="/Get/GWater"
           >Water
@@ -207,7 +207,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/terrain.jpg'} />}
           component={RouterLink}
           to="/Get/Terrain"
           >Terrain
@@ -227,7 +227,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sky.png'} />}
           component={RouterLink}
           to="/Get/Sky"
           >Sky
@@ -268,7 +268,7 @@ function Get({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >  
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -377,7 +377,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/space.png'} />}
           component={RouterLink}
           to="/Get/Space"
           >Space
@@ -397,7 +397,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fire.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fire")}
           to="/"
@@ -418,7 +418,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/earthquake.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Earthquake")}
           to="/"
@@ -439,7 +439,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/shadow.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Shadow")}
           to="/"
@@ -460,7 +460,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fall.png'} />}
           component={RouterLink}
           to="/Get/Fall"
           >Fall
@@ -610,7 +610,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/get.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Get")}
           to="/"
@@ -622,7 +622,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Gets")}
           to="/"
@@ -634,7 +634,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Getting")}
           to="/"
@@ -646,7 +646,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Got")}
           to="/"
@@ -658,7 +658,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Get")}
           to="/"
@@ -670,7 +670,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED .png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Gotten")}
           to="/"
@@ -857,7 +857,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/light.png'} />}
           component={RouterLink}
           to="/Get/Light"
           >Light
@@ -877,7 +877,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dark.jpg'} />}
           component={RouterLink}
           to="/Get/Dark"
           >Dark
@@ -897,7 +897,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/forest.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nature")}
           to="/"
@@ -918,7 +918,7 @@ function Get({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Natures")}
           to="/"

@@ -75,7 +75,6 @@ import WorkNt from "./Work/WorkNt"
 import And from "./And/And"
 import That from "./That/That"
 import There from "./There/There"
-import Spell from "./Spell/Spell"
 import Am from "./Am/Am"
 import AmNt from "./Am/Nt"
 import Watch from "./Watch/Watch"
@@ -190,6 +189,7 @@ import Inexpensive from "./Have/Inexpensive"
 import Cost from "./Have/Cost"
 import Change from "./Have/Change"
 import Feel from "./Feel/Feel"
+import FeelNt from "./Feel/FeelNt"
 import All from "./All/All"
 import AllNt from "./All/AllNt"
 import Adopt from "./All/Adopt"
@@ -205,7 +205,6 @@ import RightNt from "./Right/Nt"
 import Said from "./Said/Said"
 import Follow from "./Follow/Follow"
 import Baby from "./Follow/Baby"
-import People from "./Follow/People"
 import Strange from "./Follow/Strange"
 import Ride from "./Ride/Ride"
 import RideNt from "./Ride/Nt"
@@ -232,11 +231,6 @@ import Zip from "./Wear/Zip"
 import Sit from "./Sit/Sit"
 import Body from "./Body/Body"
 import Left from "./Left/Left"
-import Who from "./Who/Who"
-import What from "./What/What"
-import When from "./When/When"
-import Where from "./Where/Where"
-import Why from "./Why/Why"
 import Count from "./Count/Count"
 import Add from "./Count/Add"
 import Subtract from "./Count/Subtract"
@@ -375,7 +369,6 @@ function App() {
           <Route exact path="/And" component={And}/>
           <Route exact path="/That" component={That}/>
           <Route exact path="/There" component={There}/>
-          <Route exact path="/Spell" component={Spell}/>
           <Route exact path="/Am" component={Am}/>
           <Route exact path="/Am/Nt" component={AmNt}/>
           <Route exact path="/Watch" component={Watch}/>
@@ -416,7 +409,7 @@ function App() {
           <Route exact path="/Get/Light" component={Light}/>
           <Route exact path="/Get/Sky" component={Sky}/>
           <Route exact path="/Get/Space" component={Space}/>
-          <Route exact path="/Get/Terrain" component={Trees}/>
+          <Route exact path="/Get/Terrain" component={Terrain}/>
           <Route exact path="/Get/Trees" component={Trees}/>
           <Route exact path="/Help" component={Help}/>
           <Route exact path="/Help/Ache" component={Ache}/>
@@ -464,6 +457,7 @@ function App() {
           <Route exact path="/Love" component={Love}/>
           <Route exact path="/Love/LoveNt" component={LoveNt}/>
           <Route exact path="/Feel" component={Feel}/>
+          <Route exact path="/Feel/FeelNt" component={FeelNt}/>
           <Route exact path="/More" component={More}/>
           <Route exact path="/New" component={New}/>
           <Route exact path="/New/Cheat" component={Cheat}/>
@@ -528,11 +522,6 @@ function App() {
           <Route exact path="/Wear/Zip" component={Zip}/>
           <Route exact path="/Body" component={Body}/>
           <Route exact path="/Left" component={Left}/>
-          <Route exact path="/Who" component={Who}/>
-          <Route exact path="/What" component={What}/>
-          <Route exact path="/When" component={When}/>
-          <Route exact path="/Where" component={Where}/>
-          <Route exact path="/Why" component={Why}/>
           <Route exact path="/Count" component={Count}/>
           <Route exact path="/Count/Add" component={Add}/>
           <Route exact path="/Count/Subtract" component={Subtract}/>
@@ -559,7 +548,6 @@ function App() {
           <Route exact path="/Animal/Zoo" component={Zoo}/>
           <Route exact path="/Follow" component={Follow}/>
           <Route exact path="/Follow/Baby" component={Baby}/>
-          <Route exact path="/Follow/People" component={People}/>
           <Route exact path="/Follow/Strange" component={Strange}/>
           <Route exact path="/Live" component={Live}/>
           <Route exact path="/Live/LHome" component={LHome}/>

@@ -147,7 +147,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flower.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Flower")}
           to="/"
@@ -168,7 +168,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/daffodil.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Daffodil")}
           to="/"
@@ -189,7 +189,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/daisy.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Daisy")}
           to="/"
@@ -210,7 +210,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rose.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rose")}
           to="/"
@@ -231,7 +231,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tulip.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tulip")}
           to="/"
@@ -263,7 +263,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/grow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Plant")}
           to="/"
@@ -284,7 +284,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/seed.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Seed")}
           to="/"
@@ -305,7 +305,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stem.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stem")}
           to="/"
@@ -326,7 +326,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/petal.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Petal")}
           to="/"
@@ -347,7 +347,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sunflower.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sunflower")}
           to="/"
@@ -368,7 +368,7 @@ function Flower({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/orchid.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Orchid")}
           to="/"

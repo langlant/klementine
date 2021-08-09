@@ -587,7 +587,7 @@ function Dry({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/desert.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dry")}
           to="/"

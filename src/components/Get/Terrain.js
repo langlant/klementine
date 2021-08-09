@@ -147,7 +147,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/desert.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Desert")}
           to="/"
@@ -168,11 +168,9 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          onClick={()=> buttonSpeak("Woods")}
-          to="/"
-          >Woods
+          startIcon={<Avatar src={'/Assets/wild.png'} />}
+
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -189,7 +187,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/forest.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Forest")}
           to="/"
@@ -210,7 +208,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/jungle.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Jungle")}
           to="/"
@@ -231,7 +229,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/island.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Island")}
           to="/"
@@ -273,7 +271,7 @@ function Terrain({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -382,7 +380,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mountain.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mountain")}
           to="/"
@@ -403,7 +401,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hill.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hill")}
           to="/"
@@ -424,7 +422,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/grass.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Grass")}
           to="/"
@@ -445,7 +443,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dirt.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dirt")}
           to="/"
@@ -466,7 +464,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ground.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ground")}
           to="/"
@@ -617,7 +615,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rough.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rock")}
           to="/"
@@ -638,7 +636,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flower.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Garden")}
           to="/"
@@ -659,7 +657,7 @@ function Terrain({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sand.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sand")}
           to="/"

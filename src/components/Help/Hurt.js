@@ -587,7 +587,7 @@ function Burn({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hurt.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Hurt")}
           to="/"

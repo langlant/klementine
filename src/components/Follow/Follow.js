@@ -147,10 +147,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          component={RouterLink}
-          to="/Follow/People"
-          >People
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -167,7 +164,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/friend.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Friend")}
           to="/"
@@ -188,7 +185,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/man.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Man")}
           to="/"
@@ -200,7 +197,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Men")}
           to="/"
@@ -212,7 +209,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Boy")}
           to="/"
@@ -233,7 +230,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/person.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Person")}
           to="/"
@@ -278,7 +275,7 @@ function Follow({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -313,7 +310,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/woman.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Woman")}
           to="/"
@@ -325,7 +322,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Women")}
           to="/"
@@ -337,7 +334,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Girl")}
           to="/"
@@ -358,7 +355,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/child.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Child")}
           to="/"
@@ -370,7 +367,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Children")}
           to="/"
@@ -622,7 +619,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/follow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Follow")}
           to="/"
@@ -634,7 +631,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Follows")}
           to="/"
@@ -646,7 +643,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Following")}
           to="/"
@@ -658,7 +655,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Followed")}
           to="/"
@@ -670,7 +667,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Follow")}
           to="/"
@@ -857,7 +854,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/few.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Few")}
           to="/"
@@ -869,7 +866,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fewer")}
           to="/"
@@ -881,7 +878,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fewest")}
           to="/"
@@ -902,7 +899,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/people.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Group")}
           to="/"
@@ -914,7 +911,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Groups")}
           to="/"
@@ -1113,7 +1110,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/question.png'} />}
           component={RouterLink}
           to="/Follow/Strange"
           >Strange
@@ -1133,7 +1130,7 @@ function Follow({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/baby.png'} />}
           component={RouterLink}
           to="/Follow/Baby"
           >Baby

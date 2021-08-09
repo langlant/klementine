@@ -147,7 +147,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/space.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Space")}
           to="/"
@@ -168,7 +168,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sun.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sun")}
           to="/"
@@ -189,7 +189,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/moon.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Moon")}
           to="/"
@@ -210,7 +210,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/planet.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Planet")}
           to="/"
@@ -270,7 +270,7 @@ function Space({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -371,7 +371,7 @@ function Space({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -379,7 +379,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/asteroid.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Asteroid")}
           to="/"
@@ -400,7 +400,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/comet.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Comet")}
           to="/"
@@ -421,7 +421,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/star.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Star")}
           to="/"
@@ -442,7 +442,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sattelite.png'} />}
           >Satellite
           </Button>
         </Grid>
@@ -608,7 +608,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mercury.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mercury")}
           to="/"
@@ -620,7 +620,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/venus.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Venus")}
           to="/"
@@ -632,7 +632,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/earth.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Earth")}
           to="/"
@@ -644,7 +644,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mars.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mars")}
           to="/"
@@ -656,7 +656,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/jupiter.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Jupiter")}
           to="/"
@@ -668,7 +668,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/saturn.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Saturn")}
           to="/"
@@ -680,7 +680,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/uranus.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Uranus")}
           to="/"
@@ -692,7 +692,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/neptune.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Neptune")}
           to="/"
@@ -713,7 +713,7 @@ function Space({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pluto.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pluto")}
           to="/"

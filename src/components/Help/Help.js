@@ -147,7 +147,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/toiletries.png'} />}
           component={RouterLink}
           to="/Help/Toiletries"
           >Toiletries
@@ -167,7 +167,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/aspirin.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Aspirin")}
           to="/"
@@ -188,7 +188,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bandage.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Band-aid")}
           to="/"
@@ -209,7 +209,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/coughdrop.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Throat Lozenge")}
           to="/"
@@ -230,7 +230,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/suck.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Suction")}
           to="/"
@@ -272,7 +272,7 @@ function Help({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -373,7 +373,7 @@ function Help({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >26
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -381,7 +381,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/vomit.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Vomit")}
           to="/"
@@ -402,7 +402,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tissue.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tissue")}
           to="/"
@@ -423,7 +423,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/medicine.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Medicine")}
           to="/"
@@ -444,7 +444,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/heart.png'} />}
           component={RouterLink}
           to="/Get/Health"
           >Health
@@ -464,7 +464,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/flush.png'} />}
           component={RouterLink}
           to="/Help/Flush"
           >Flush
@@ -487,7 +487,7 @@ function Help({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
-          >37
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -496,16 +496,7 @@ function Help({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >38
-          </Button>
-        </Grid>
-        <Grid xs={1}>
-          <Button 
-          className={classes.buttonStyles} 
-          variant="outlined" 
-          color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          > 
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -523,7 +514,16 @@ function Help({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >41
+          > 
+          </Button>
+        </Grid>
+        <Grid xs={1}>
+          <Button 
+          className={classes.buttonStyles} 
+          variant="outlined" 
+          color="primary"
+          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          >
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -614,7 +614,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/help.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Help")}
           to="/"
@@ -626,7 +626,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Helps")}
           to="/"
@@ -638,7 +638,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Helping")}
           to="/"
@@ -650,7 +650,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Helped")}
           to="/"
@@ -662,7 +662,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To Help")}
           to="/"
@@ -683,7 +683,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/puddle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wet")}
           to="/"
@@ -695,7 +695,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wetter")}
           to="/"
@@ -707,7 +707,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Wettest")}
           to="/"
@@ -739,7 +739,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cough.gif  '} />}
           component={RouterLink}
           to="/Help/Cough"
           >Cough
@@ -759,7 +759,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/drool.png'} />}
           component={RouterLink}
           to="/Help/Drool"
           >Drool
@@ -779,7 +779,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dirt.png'} />}
           component={RouterLink}
           to="/Help/Dirty"
           >Dirty
@@ -799,7 +799,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wash.jpg'} />}
           component={RouterLink}
           to="/Help/Wash"
           >Wash
@@ -819,7 +819,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fart.jpg'} />}
           component={RouterLink}
           to="/Help/Fart"
           >Fart
@@ -868,7 +868,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fire.png'} />}
           component={RouterLink}
           to="/Help/Burn"
           >Burn
@@ -888,7 +888,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/hurt.jpg'} />}
           component={RouterLink}
           to="/Help/Hurt"
           >Hurt
@@ -908,7 +908,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/blood.png'} />}
           component={RouterLink}
           to="/Help/Bleed"
           >Bleed
@@ -928,7 +928,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/desert.jpg'} />}
           component={RouterLink}
           to="/Help/Dry"
           >Dry
@@ -948,7 +948,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/scratch.jpg'} />}
           component={RouterLink}
           to="/Help/Scratch"
           >Scratch
@@ -979,7 +979,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/breathe.png'} />}
           component={RouterLink}
           to="/Help/Breathe"
           >Breathe
@@ -999,7 +999,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sneeze.png'} />}
           component={RouterLink}
           to="/Help/Sneeze"
           >Sneeze
@@ -1019,7 +1019,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/poop.png'} />}
           component={RouterLink}
           to="/Help/Poop"
           >Poop
@@ -1039,7 +1039,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pee.png'} />}
           component={RouterLink}
           to="/Help/Pee"
           >Pee
@@ -1059,7 +1059,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ache.png'} />}
           component={RouterLink}
           to="/Help/Ache"
           >Ache
@@ -1079,7 +1079,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/scratch.jpg'} />}
           component={RouterLink}
           to="/Help/Itch"
           >Itch
@@ -1113,7 +1113,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/comb.jpg'} />}
           component={RouterLink}
           to="/Help/Comb"
           >Comb
@@ -1133,7 +1133,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/clean.jpg'} />}
           component={RouterLink}
           to="/Help/Clean"
           >Clean
@@ -1153,7 +1153,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dirt.png'} />}
           component={RouterLink}
           to="/Help/Mess"
           >Mess
@@ -1173,7 +1173,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brush.png'} />}
           component={RouterLink}
           to="/Help/Brush"
           >Brush
@@ -1193,7 +1193,7 @@ function Help({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wipe.png'} />}
           component={RouterLink}
           to="/Help/Wipe"
           >Wipe

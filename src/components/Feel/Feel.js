@@ -147,7 +147,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/happy.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Happy")}
           to="/"
@@ -168,7 +168,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sad.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sad")}
           to="/"
@@ -189,7 +189,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/mad.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Mad")}
           to="/"
@@ -210,7 +210,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/excited.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Excited")}
           to="/"
@@ -231,7 +231,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/scared.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Scared")}
           to="/"
@@ -254,7 +254,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do I Feel")}
           to="/"
@@ -266,7 +266,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do You Feel")}
           to="/"
@@ -287,7 +287,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/angry.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Angry")}
           to="/"
@@ -308,7 +308,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/bored.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Bored")}
           to="/"
@@ -329,7 +329,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/grouchy.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Grouchy")}
           to="/"
@@ -350,7 +350,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lonely.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lonely")}
           to="/"
@@ -391,7 +391,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do We Feel")}
           to="/"
@@ -605,7 +605,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does It Feel")}
           to="/"
@@ -617,7 +617,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Do They Feel")}
           to="/"
@@ -629,8 +629,11 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >051
+          startIcon={<Avatar src={'/Assets/happy.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Feel")}
+          to="/"
+          >Feel
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -638,8 +641,11 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >052
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Feels")}
+          to="/"
+          >Feels
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -647,8 +653,11 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >053
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Feeling")}
+          to="/"
+          >Feeling
           </Button>
         </Grid>
         <Grid xs={1}> 
@@ -656,8 +665,11 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >054
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("Felt")}
+          to="/"
+          >Felt
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -665,8 +677,11 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >055
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
+          component={RouterLink}
+          onClick={()=> buttonSpeak("To Feel")}
+          to="/"
+          >To Feel
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -721,7 +736,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does She Feel")}
           to="/"
@@ -733,7 +748,7 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Does He Feel")}
           to="/"
@@ -1069,8 +1084,10 @@ function Feel({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >098
+          startIcon={<Avatar src={'/Assets/not.png'} />}
+          component={RouterLink}
+          to="/Feel/FeelNt"
+          >Nt
           </Button>
         </Grid>
         <Grid xs={1}>

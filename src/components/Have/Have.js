@@ -147,7 +147,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/penny.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Penny")}
           to="/"
@@ -159,7 +159,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/nickel.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Nickel")}
           to="/"
@@ -171,7 +171,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dime.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dime")}
           to="/"
@@ -183,7 +183,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/quarter.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Quarter")}
           to="/"
@@ -195,7 +195,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/halfdollar.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Half Dollar")}
           to="/"
@@ -207,7 +207,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dollar.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Dollar")}
           to="/"
@@ -228,7 +228,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/credit.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Credit Card")}
           to="/"
@@ -260,7 +260,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/i.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Have I")}
           to="/"
@@ -272,7 +272,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/you.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Have You")}
           to="/"
@@ -285,7 +285,7 @@ function Have({route}) {
           variant="outlined" 
           color="primary"
           startIcon={<Avatar src={'/Assets/blank.png'} />}
-          >0  
+          >
           </Button>
         </Grid>
         <Grid xs={1}>
@@ -385,7 +385,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/we.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Have We")}
           to="/"
@@ -397,7 +397,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/offering.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Offering")}
           to="/"
@@ -418,7 +418,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/money.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Money")}
           to="/"
@@ -430,7 +430,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Monies")}
           to="/"
@@ -451,7 +451,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/change.png'} />}
           component={RouterLink}
           to="/Have/Change"
           >Change
@@ -610,7 +610,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/it.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Has It")}
           to="/"
@@ -622,7 +622,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/they.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Have They")}
           to="/"
@@ -634,7 +634,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/have.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Have")}
           to="/"
@@ -646,7 +646,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Has")}
           to="/"
@@ -658,7 +658,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Having")}
           to="/"
@@ -670,7 +670,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Had")}
           to="/"
@@ -703,7 +703,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Real")}
           to="/"
@@ -715,7 +715,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           >More Real
           </Button>
         </Grid>
@@ -724,7 +724,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Most Real")}
           to="/"
@@ -736,7 +736,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusLY.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Really")}
           to="/"
@@ -750,7 +750,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} onClick={click} />}
+          startIcon={<Avatar src={'/Assets/sister.png'} onClick={click} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Has She")}
           to="/"
@@ -762,7 +762,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/brother.jpeg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("May He Not")}
           to="/"
@@ -884,7 +884,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pay.gif'} />}
           component={RouterLink}
           to="/Have/Pay"
           >Pay
@@ -904,7 +904,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           to="/Have/Actual"
           >Actual
@@ -924,7 +924,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/check.jpg'} />}
           component={RouterLink}
           to="/Have/Check"
           >Check
@@ -944,7 +944,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cheap.jpg'} />}
           component={RouterLink}
           to="/Have/Cheap"
           >Cheap
@@ -964,7 +964,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/expensive.jpg'} />}
           component={RouterLink}
           to="/Have/Expensive"
           >Expensive
@@ -1108,7 +1108,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/not.png'} />}
           component={RouterLink}
           to="/Have/Nt"
           >Nt
@@ -1119,7 +1119,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           to="/Have/Own"
           >Own
@@ -1139,7 +1139,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pay.gif'} />}
           component={RouterLink}
           to="/Have/Buy"
           >Buy
@@ -1159,7 +1159,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/store.png'} />}
           component={RouterLink}
           to="/Have/Shop"
           >Shop
@@ -1179,7 +1179,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/expensive.jpg'} />}
           component={RouterLink}
           to="/Have/Cost"
           >Cost
@@ -1199,7 +1199,7 @@ function Have({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/cheap.jpg'} />}
           component={RouterLink}
           to="/Have/Inexpensive"
           >Inexpensive

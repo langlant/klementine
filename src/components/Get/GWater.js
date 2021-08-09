@@ -147,7 +147,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/water.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Water")}
           to="/"
@@ -168,7 +168,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/ocean.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ocean")}
           to="/"
@@ -189,7 +189,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sea.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sea")}
           to="/"
@@ -210,7 +210,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/lake.gif'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Lake")}
           to="/"
@@ -231,7 +231,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stream.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stream")}
           to="/"
@@ -263,7 +263,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/river.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("River")}
           to="/"
@@ -284,7 +284,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/waterfall.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Waterfall")}
           to="/"
@@ -305,7 +305,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/pond.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Pond")}
           to="/"
@@ -326,7 +326,7 @@ function GWater({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/puddle.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Puddle")}
           to="/"

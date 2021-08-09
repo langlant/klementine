@@ -614,7 +614,7 @@ function Equipment({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/equipment.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Equipment")}
           to="/"

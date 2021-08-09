@@ -139,7 +139,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/park.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Park")}
           to="/"
@@ -160,7 +160,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/playground.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Playground")}
           to="/"
@@ -181,7 +181,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/city.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("City")}
           to="/"
@@ -202,7 +202,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/town.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Town")}
           to="/"
@@ -223,7 +223,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/country.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Country")}
           to="/"
@@ -237,7 +237,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/zoo.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Zoo")}
           to="/"
@@ -258,7 +258,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/farm.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Farm")}
           to="/"
@@ -279,7 +279,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/fair.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Fair")}
           to="/"
@@ -300,7 +300,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Where")}
           to="/"
@@ -321,7 +321,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Place")}
           to="/"
@@ -333,7 +333,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Places")}
           to="/"
@@ -374,7 +374,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Other")}
           to="/"
@@ -395,7 +395,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/dictionary.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Another")}
           to="/"
@@ -416,7 +416,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/arrow.jpg'} />}
           component={RouterLink}
           to="/End/Direct"
           >Direct
@@ -611,7 +611,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/end.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("End")}
           to="/"
@@ -623,7 +623,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusS.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ends")}
           to="/"
@@ -635,7 +635,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusING.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Ending")}
           to="/"
@@ -647,9 +647,9 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusED.png'} />}
           component={RouterLink}
-          onClick={()=> buttonSpeak("End")}
+          onClick={()=> buttonSpeak("Ended")}
           to="/"
           >Ended
           </Button>
@@ -659,7 +659,7 @@ function End({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusTO.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("To End")}
           to="/"

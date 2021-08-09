@@ -587,7 +587,7 @@ function Sky({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sky.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sky")}
           to="/"
@@ -608,7 +608,7 @@ function Sky({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/air.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Air")}
           to="/"
@@ -629,7 +629,7 @@ function Sky({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sunrise.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sunrise")}
           to="/"
@@ -650,7 +650,7 @@ function Sky({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/sunset.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Sunset")}
           to="/"
@@ -671,7 +671,7 @@ function Sky({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/rainbow.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Rainbow")}
           to="/"

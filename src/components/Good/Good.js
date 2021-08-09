@@ -278,7 +278,7 @@ function Good({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/great.jpg'} />}
           component={RouterLink}
           to="/Good/Great"
           >Great
@@ -289,7 +289,7 @@ function Good({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/wonderful.jpg'} />}
           component={RouterLink}
           to="/Good/Wonderful"
           >Wonderful
@@ -502,7 +502,7 @@ function Good({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/thumbsup.png'} />}
           component={RouterLink} 
           to="/"
           onClick={()=> buttonSpeak("Good")}
@@ -514,7 +514,7 @@ function Good({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusER.png'} />}
           component={RouterLink} 
           to="/"
           onClick={()=> buttonSpeak("Better")}
@@ -526,7 +526,7 @@ function Good({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/plusEST.png'} />}
           component={RouterLink} 
           to="/"
           onClick={()=> buttonSpeak("Best")}

@@ -590,7 +590,7 @@ function Trees({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/tree.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Tree")}
           to="/"
@@ -611,7 +611,7 @@ function Trees({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/leaf.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Leaf")}
           to="/"
@@ -632,7 +632,7 @@ function Trees({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/root.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Root")}
           to="/"
@@ -653,7 +653,7 @@ function Trees({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/branch.png'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Branch")}
           to="/"
@@ -674,7 +674,7 @@ function Trees({route}) {
           className={classes.buttonStyles} 
           variant="outlined" 
           color="primary"
-          startIcon={<Avatar src={'/Assets/blank.png'} />}
+          startIcon={<Avatar src={'/Assets/stick.jpg'} />}
           component={RouterLink}
           onClick={()=> buttonSpeak("Stick")}
           to="/"
